@@ -33,7 +33,18 @@
       "accroche": "Tras un escaparate azul, un taller de reparación esconde un museo de la luz de antes de la electricidad.",
       "texte_long": "En la rue Flatters, a dos pasos del boulevard de Port-Royal, nada anuncia un museo. Se ve una pequeña tienda de fachada azul, Lumière de l’Œil, donde se reparan y venden lámparas antiguas. Sin embargo, basta con empujar la puerta y pedir ver la colección para cambiar de época.\n\nEl lugar lo lleva Ara Kebapçioğlu, a quien aquí llaman Monsieur Ara. Nacido en Turquía, este coleccionista apasionado se instaló en la rue Flatters hace más de cuarenta años. Ha dedicado un libro a su pasión, L’Autre siècle des lumières. Su idea: mostrar cómo se alumbraba la gente antes de que la electricidad lo invadiera todo.\n\nEn la pequeña sala del museo, decenas de lámparas cuentan esa historia, desde finales del siglo XVIII hasta principios del XX. Funcionaban con aceite, queroseno, gas o alcohol. Fíjate en los globos de opalina, las pantallas con flecos de cuentas y los pies de metal o de porcelana. Se aprecia el camino recorrido, desde la simple llama de aceite hasta las lámparas de gas.\n\nAlgunas piezas tienen su propia historia. Monsieur Ara montó él mismo una lámpara cuya pantalla, restaurada hace poco, muestra una vista que recuerda a Constantinopla. Un modelo de aspecto casi moderno sería una de las primeras lámparas de mesilla de aceite. El coleccionista también ha donado varios objetos al museo Carnavalet, el museo de historia de París.\n\nAl fondo de la tienda, el taller sirve para las reparaciones y para conversar con los visitantes. Ese es el encanto del lugar: no solo se miran vitrinas, se conoce a quien las reunió y sabe devolver la vida a cada mecanismo.\n\nLa entrada es gratuita. El museo abre de martes a viernes de 14 h a 19 h, y los sábados de 11 h a 17 h. Como la tienda la atiende una sola persona, conviene reservar antes de ir y no molestar si Monsieur Ara está en plena reparación.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg/960px-Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "titre": "Plaque Rue Flatters - Paris V (FR75) - 2021-07-27 - 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Gratuito. De martes a viernes de 14 h a 19 h, sábados de 11 h a 17 h. Se recomienda reservar en el +33 1 47 07 63 47.",
       "lien_officiel": "https://www.lumieredeloeil.com",
@@ -472,7 +483,18 @@
       "texte_court": "Último vestigio de una poderosa abadía fundada en el siglo VI, la iglesia dio nombre al barrio. Su campanario, levantado hacia el año 1000, es uno de los más antiguos de Francia. A su alrededor, los cafés literarios hicieron famoso a Saint-Germain-des-Prés.",
       "etape_voisine": "cour-du-commerce",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg/960px-Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "titre": "Paris Abbaye Saint-Germain-des-Prés 3",
+          "auteur": "Zairon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Entrada gratuita.",
       "lien_officiel": "https://www.eglise-saintgermaindespres.fr",

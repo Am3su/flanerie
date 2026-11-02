@@ -30,7 +30,18 @@
       "accroche": "Un pasaje empedrado y lleno de flores, escondido entre dos calles muy concurridas.",
       "texte_long": "Un discreto portón en la rue Saint-Martin se abre a un estrecho pasaje empedrado. Fachadas bajas, contraventanas de colores vivos, plantas en macetas: en pocos pasos, el ruido de la ciudad se desvanece.\n\nSu nombre vendría del letrero de un antiguo albergue. Ocupado durante mucho tiempo por artesanos, conserva una escala casi de pueblo. Es un lugar habitado: recórrelo en silencio.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+          "titre": "Paris passage de l ancre2",
+          "auteur": "Ralf.treinen",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Abierto durante el día, horario variable",
       "lien_officiel": null,
@@ -59,7 +70,18 @@
       "accroche": "Una de las casas más antiguas de París, ligada a un célebre «alquimista».",
       "texte_long": "Construida en 1407, esta casa pasa por ser una de las más antiguas de París. La levantó Nicolas Flamel, escribano y librero, que alojaba en ella a personas pobres. A cambio, les pedía que rezaran por los difuntos.\n\nLevanta la vista: la fachada aún conserva una larga inscripción grabada y figuras esculpidas. Tras su muerte, la leyenda convirtió a Flamel en un alquimista que habría encontrado la piedra filosofal. Esa fama ha atravesado los siglos, hasta las novelas de hoy.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg/960px-Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "titre": "Maison de Nicolas Flamel après restauration, 51 rue de Montmorency",
+          "auteur": "Eugène Atget (Paris Musées, musée Carnavalet)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Fachada visible desde la calle; restaurante en la planta baja",
       "lien_officiel": null,
@@ -88,7 +110,28 @@
       "accroche": "Un reloj gigante donde un guerrero se enfrenta a un dragón, un pájaro y un cangrejo.",
       "texte_long": "A dos pasos del Centro Pompidou, un guerrero de latón blande su espada frente a tres criaturas: un dragón, un pájaro y un cangrejo. Representan la tierra, el aire y el agua.\n\nEste reloj autómata, obra de Jacques Monestier, se inauguró en 1979. Cada hora, el guerrero se enfrentaba a una de las bestias. Está parado desde 2003 por falta de mantenimiento. Inmóvil, sigue siendo una de las curiosidades más extrañas del barrio.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Horloge_Murale_Paris.jpg/960px-Horloge_Murale_Paris.jpg",
+          "titre": "Horloge Murale Paris",
+          "auteur": "Danielbaise",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horloge_Murale_Paris.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg/960px-Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "titre": "Quartier de lHorloge 10, Paris 30 July 2010",
+          "auteur": "zoetnet",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible desde la calle, acceso libre",
       "lien_officiel": null,
@@ -117,7 +160,18 @@
       "accroche": "Dos fachadas de entramado de madera, supervivientes del París medieval.",
       "texte_long": "Estrechas y algo inclinadas, estas dos casas muestran su entramado de madera, como en una ciudad de provincias. Son casas de origen medieval, hoy muy escasas en París.\n\nA partir del siglo XVII, la normativa obligó a cubrir la madera con yeso para limitar los incendios. El entramado permaneció oculto hasta la restauración de las fachadas, en 1967.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg/960px-11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "titre": "11-13 rue François Miron, Paris 4e 2-1",
+          "auteur": "Polymagou",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Fachadas visibles desde la calle",
       "lien_officiel": null,
@@ -146,7 +200,18 @@
       "accroche": "El tramo más largo que aún se ve de la muralla medieval de París.",
       "texte_long": "Junto a un campo de deportes escolar se alza un alto muro de piedra flanqueado por torres redondas. Es el tramo visible más largo de la muralla de Felipe Augusto.\n\nEl rey la mandó construir a partir de 1190, antes de partir a la cruzada, para proteger París. Con los siglos, la muralla fue derribada o absorbida por los edificios. Otros fragmentos se esconden aún en patios, sótanos y aparcamientos.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg/960px-P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "titre": "P1200049 Paris IV enceinte de Philippe-Auguste rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible desde la calle, acceso libre",
       "lien_officiel": null,
@@ -175,7 +240,18 @@
       "accroche": "Una mansión medieval que conserva una bala de cañón incrustada en su fachada.",
       "texte_long": "Torrecillas, tejados puntiagudos, pórtico gótico: el Hôtel de Sens es una de las pocas grandes residencias medievales que siguen en pie en París. Se construyó a finales del siglo XV para los arzobispos de Sens, de quienes dependía entonces el obispado de París.\n\nBusca en la fachada una bala de cañón incrustada en la piedra, con la fecha del 28 de julio de 1830: un recuerdo de la Revolución de Julio. Hoy alberga la biblioteca Forney, dedicada a las artes decorativas.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+          "titre": "Hotel-de-Sens-DSC 8075",
+          "auteur": "Pline",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Exterior de acceso libre; jardín y biblioteca en horario de apertura",
       "lien_officiel": null,

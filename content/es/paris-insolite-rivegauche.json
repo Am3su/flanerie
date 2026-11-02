@@ -30,7 +30,28 @@
       "accroche": "Un anfiteatro romano escondido detrás de los edificios.",
       "texte_long": "Tras las fachadas de la rue Monge se esconde un anfiteatro galorromano. Construido hacia finales del siglo I, acogía combates y espectáculos ante varios miles de personas.\n\nEnterrado y olvidado durante siglos, se redescubrió en 1869, durante la apertura de la rue Monge. Varias personalidades, entre ellas Victor Hugo, lucharon entonces por salvarlo. Hoy se juega a la petanca y los niños corren por la arena.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Jardín público, abierto durante el día, gratuito",
       "lien_officiel": null,
@@ -59,7 +80,18 @@
       "accroche": "Un árbol de más de cuatro siglos, sostenido por muletas.",
       "texte_long": "Apoyada en puntales de hormigón, esta falsa acacia sigue en pie desde principios del siglo XVII. La habría plantado hacia 1601 Jean Robin, botánico del rey, que dio nombre a la especie, llegada de América del Norte.\n\nSe la considera el árbol más antiguo de París y todavía florece en primavera. Desde la plaza, la vista de Notre-Dame es una de las más bellas de la orilla izquierda.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Jardín público, abierto durante el día",
       "lien_officiel": null,
@@ -88,7 +120,18 @@
       "accroche": "La calle más estrecha de París: menos de dos metros en algunos tramos.",
       "texte_long": "Unos 1,80 metros de ancho: es la calle más estrecha de París. Une la rue de la Huchette con el quai Saint-Michel, a dos pasos del bullicio del Barrio Latino.\n\nSu nombre, «calle del gato que pesca», vendría de un antiguo letrero que mostraba un gato atrapando peces. Abre los brazos: casi tocarás las dos paredes.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Calle peatonal, acceso libre",
       "lien_officiel": null,
@@ -117,7 +160,18 @@
       "accroche": "Una regla de mármol colocada en 1796 para enseñar el metro a los parisinos.",
       "texte_long": "En un muro frente al jardín de Luxemburgo, una placa de mármol lleva grabada una regla de un metro. Forma parte de los metros patrón instalados en París en 1796 y 1797 para acostumbrar a los habitantes al nuevo sistema métrico.\n\nEs uno de los dos que aún se ven, y el único que sigue en su emplazamiento original. Puedes comprobar en él la longitud de tu paso.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible desde la calle, acceso libre",
       "lien_officiel": null,
