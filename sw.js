@@ -1,7 +1,7 @@
 /* Flânerie — service worker : le parcours fonctionne hors ligne après une première visite. */
-const CACHE = "flanerie-v3";
+const CACHE = "flanerie-v4";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon.svg", "content/catalog.json",
-  ...["fr", "en", "es"].flatMap(l => ["paris-insolite-5e-6e", "paris-insolite-marais", "paris-insolite-rivegauche", "paris-insolite-journee"].map(p => `content/${l}/${p}.json`))];
+  ...["fr", "en", "es", "it", "de", "pt", "zh", "ar"].flatMap(l => ["paris-insolite-5e-6e", "paris-insolite-marais", "paris-insolite-rivegauche", "paris-insolite-journee"].map(p => `content/${l}/${p}.json`))];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", e => {

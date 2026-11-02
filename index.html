@@ -131,7 +131,7 @@ em.g{font-style:italic;color:var(--gold)}
 .perks li{display:flex;align-items:center;gap:7px}
 .perks li::before{content:"";width:5px;height:5px;border-radius:50%;background:#E3C88F}
 .picker{margin-top:24px;background:rgba(246,242,234,.97);color:#14202F;border-radius:22px;padding:4px 16px 16px;box-shadow:0 18px 44px rgba(0,0,0,.35);max-width:460px}
-.pick{display:grid;grid-template-columns:84px minmax(0,1fr) 18px;align-items:center;gap:8px;width:100%;border:0;border-bottom:1px solid #E0D8C8;background:none;padding:13px 0;text-align:left;cursor:pointer;color:#14202F}
+.pick{display:grid;grid-template-columns:84px minmax(0,1fr) 18px;align-items:center;gap:8px;width:100%;border:0;border-bottom:1px solid #E0D8C8;background:none;padding:13px 0;text-align:start;cursor:pointer;color:#14202F}
 .pk{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#8A7550}
 .pv{font-family:var(--display);font-size:22px;line-height:1.15;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pv.muted{color:#767A83;font-style:italic}
@@ -139,7 +139,7 @@ em.g{font-style:italic;color:var(--gold)}
 .pick .chev{width:18px;height:18px;color:#9C978D}
 .picker .btn{margin-top:14px;background:#14202F;color:#F6F2EA}
 [hidden]{display:none!important}
-.feature-img{display:block;width:100%;border:0;padding:0;cursor:pointer;text-align:left}
+.feature-img{display:block;width:100%;border:0;padding:0;cursor:pointer;text-align:start}
 .feature-img .zone{display:block;font-size:14px;color:rgba(246,242,234,.85);margin-top:6px}
 .hero .credit-line{font-family:var(--sans);position:relative;z-index:2;font-size:10.5px;line-height:1.4;color:rgba(246,242,234,.55);padding:0 var(--gut) calc(10px + env(safe-area-inset-bottom,0px));max-width:640px;margin:0 auto;width:100%}
 .credit-line a{color:inherit}
@@ -169,7 +169,7 @@ em.g{font-style:italic;color:var(--gold)}
 .strip figure{flex:0 0 132px;margin:0;scroll-snap-align:start}
 .strip img{width:132px;height:96px;object-fit:cover;border-radius:12px;display:block;background:var(--paper-2)}
 .strip figcaption{font-size:13px;line-height:1.3;margin-top:7px;color:var(--ink-2)}
-.strip figcaption b{color:var(--red);font-weight:500;margin-right:4px}
+.strip figcaption b{color:var(--red);font-weight:500;margin-inline-end:4px}
 .how{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:4px}
 .how li{display:grid;grid-template-columns:54px 1fr;gap:6px;padding:16px 0;border-top:1px solid var(--line)}
 .how li:last-child{border-bottom:1px solid var(--line)}
@@ -183,7 +183,7 @@ em.g{font-style:italic;color:var(--gold)}
 
 /* ---------- Composer ma visite (ville → langue → parcours) ---------- */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0 0}
-.steps button{border:0;background:none;padding:10px 0 0;text-align:left;cursor:pointer;position:relative;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.steps button{border:0;background:none;padding:10px 0 0;text-align:start;cursor:pointer;position:relative;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .steps button::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;border-radius:2px;background:var(--line)}
 .steps button.past::before,.steps button.on::before{background:var(--gold)}
 .steps button.on{color:var(--ink)}
@@ -194,7 +194,7 @@ em.g{font-style:italic;color:var(--gold)}
 .q .lede{margin-top:8px;font-size:17px}
 .step-body{margin-top:24px;animation:in .45s cubic-bezier(.2,.7,.2,1)}
 
-.city-main{position:relative;display:block;width:100%;border:0;padding:0;border-radius:22px;overflow:hidden;cursor:pointer;text-align:left;color:#F6F2EA;aspect-ratio:4/3.1;background:#14202F center/cover no-repeat;box-shadow:var(--shadow)}
+.city-main{position:relative;display:block;width:100%;border:0;padding:0;border-radius:22px;overflow:hidden;cursor:pointer;text-align:start;color:#F6F2EA;aspect-ratio:4/3.1;background:#14202F center/cover no-repeat;box-shadow:var(--shadow)}
 .city-main::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,20,.05) 35%,rgba(10,14,20,.82))}
 .city-main .in{position:absolute;z-index:2;left:20px;right:20px;bottom:18px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
 .city-main .name{font-family:var(--display);font-size:54px;line-height:.9;font-weight:500}
@@ -209,7 +209,7 @@ em.g{font-style:italic;color:var(--gold)}
 .city-soon small{display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;margin-top:5px;color:rgba(246,242,234,.8)}
 
 .langs{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.langs button{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;width:100%;border:0;border-bottom:1px solid var(--line);background:none;padding:15px 2px;text-align:left;cursor:pointer}
+.langs button{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;width:100%;border:0;border-bottom:1px solid var(--line);background:none;padding:15px 2px;text-align:start;cursor:pointer}
 .langs .n{font-family:var(--display);font-size:27px;line-height:1.1;font-weight:500}
 .langs .s{display:block;font-size:13px;color:var(--muted);margin-top:2px}
 .langs .tag{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
@@ -220,7 +220,7 @@ em.g{font-style:italic;color:var(--gold)}
 .langs button[aria-checked="true"] .n{color:var(--ink)}
 .langs button[disabled]{cursor:default}
 .langs button[disabled] .n{color:var(--muted)}
-.dev{display:inline-block;font-size:10.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);border-radius:999px;padding:2px 8px;margin-left:8px;vertical-align:4px;font-family:var(--sans)}
+.dev{display:inline-block;font-size:10.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);border-radius:999px;padding:2px 8px;margin-inline-start:8px;vertical-align:4px;font-family:var(--sans)}
 .notice{font-size:14px;line-height:1.5;color:var(--ink-2);background:var(--paper-2);border-radius:14px;padding:12px 14px;margin:0 0 16px}
 .sticky-cta{position:sticky;bottom:0;z-index:20;padding:16px 0 calc(16px + env(safe-area-inset-bottom,0px));margin-top:22px;background:linear-gradient(180deg,transparent,var(--paper) 30%)}
 
@@ -230,10 +230,10 @@ em.g{font-style:italic;color:var(--gold)}
 .chip{flex:none;border:1px solid var(--line);background:transparent;border-radius:999px;padding:8px 15px;font-size:14px;cursor:pointer;white-space:nowrap}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .chip[disabled]{cursor:default;color:var(--muted)}
-.chip small{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;margin-left:6px;color:var(--gold)}
+.chip small{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;margin-inline-start:6px;color:var(--gold)}
 .facet{font-size:11.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
 
-.rcard{display:block;width:100%;border:0;padding:0;margin:0 0 16px;background:var(--card);border-radius:22px;overflow:hidden;text-align:left;cursor:pointer;box-shadow:var(--shadow);transition:transform .2s ease}
+.rcard{display:block;width:100%;border:0;padding:0;margin:0 0 16px;background:var(--card);border-radius:22px;overflow:hidden;text-align:start;cursor:pointer;box-shadow:var(--shadow);transition:transform .2s ease}
 .rcard:active{transform:scale(.99)}
 .rcard .img{display:block;position:relative;aspect-ratio:16/10;background:var(--paper-2) center/cover no-repeat}
 .rcard .img .tags{position:absolute;left:12px;top:12px;display:flex;gap:6px;flex-wrap:wrap}
@@ -296,7 +296,7 @@ ol.timeline{list-style:none;margin:8px 0 0;padding:0}
 .num.sm{width:24px;height:24px;font-size:12px;display:inline-grid;vertical-align:middle}
 .dot{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--grey);flex:none}
 .tl .rail .line{flex:1;width:1px;background:repeating-linear-gradient(180deg,var(--line) 0 4px,transparent 4px 8px);min-height:18px;margin:6px 0}
-.tl-btn{display:grid;grid-template-columns:76px 1fr;gap:14px;align-items:center;width:100%;border:0;background:none;padding:0 0 4px;text-align:left;cursor:pointer}
+.tl-btn{display:grid;grid-template-columns:76px 1fr;gap:14px;align-items:center;width:100%;border:0;background:none;padding:0 0 4px;text-align:start;cursor:pointer}
 .tl-btn img,.tl-btn .ph{width:76px;height:76px;border-radius:14px;object-fit:cover;display:block;background:var(--paper-2)}
 .tl-btn .t{font-family:var(--display);font-size:22px;line-height:1.1;font-weight:500}
 .tl-btn .h{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:var(--serif);font-size:14.5px;line-height:1.45;color:var(--ink-2);margin-top:4px}
@@ -349,7 +349,7 @@ mark.verif{background:color-mix(in srgb,#E0A100 22%,transparent);color:inherit;f
 .panel .addr span{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .actions .btn{color:var(--ink)}
-.near{display:grid;grid-template-columns:64px 1fr 20px;align-items:center;gap:14px;width:100%;border:0;background:var(--card);box-shadow:var(--shadow);border-radius:18px;padding:10px 14px 10px 10px;text-align:left;cursor:pointer;margin-top:14px}
+.near{display:grid;grid-template-columns:64px 1fr 20px;align-items:center;gap:14px;width:100%;border:0;background:var(--card);box-shadow:var(--shadow);border-radius:18px;padding:10px 14px 10px 10px;text-align:start;cursor:pointer;margin-top:14px}
 .near img,.near .ph{width:64px;height:64px;border-radius:12px;object-fit:cover;display:block;background:var(--paper-2)}
 .near .k{display:flex;align-items:center;gap:8px;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .near .t{display:block;font-family:var(--display);font-size:21px;line-height:1.15;margin-top:3px}
@@ -357,7 +357,7 @@ mark.verif{background:color-mix(in srgb,#E0A100 22%,transparent);color:inherit;f
 .sources{font-size:13.5px;line-height:1.55;color:var(--muted);margin:22px 0 0}
 .pager{display:grid;grid-template-columns:auto 1fr;gap:10px;margin-top:28px}
 .pager .btn.ghost{padding:16px 20px}
-.next-leg{font-size:13px;color:var(--muted);text-align:right;margin:10px 4px 0}
+.next-leg{font-size:13px;color:var(--muted);text-align:end;margin:10px 4px 0}
 
 /* ---------- Lecteur audio ---------- */
 .player{position:fixed;left:0;right:0;bottom:0;z-index:40;padding:0 12px calc(12px + env(safe-area-inset-bottom,0px));pointer-events:none}
@@ -371,7 +371,7 @@ mark.verif{background:color-mix(in srgb,#E0A100 22%,transparent);color:inherit;f
 .ptext b{display:block;font-weight:500;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ptext span{display:block;font-size:12.5px;color:rgba(246,242,234,.7);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .speed{flex:none;border:1px solid rgba(246,242,234,.3);background:transparent;color:#F6F2EA;border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
-.wave{display:inline-flex;gap:2px;align-items:flex-end;height:12px;margin-right:6px;vertical-align:-1px}
+.wave{display:inline-flex;gap:2px;align-items:flex-end;height:12px;margin-inline-end:6px;vertical-align:-1px}
 .wave i{width:2px;background:#E3C88F;border-radius:1px;animation:wave 1s ease-in-out infinite}
 .wave i:nth-child(2){animation-delay:.15s}.wave i:nth-child(3){animation-delay:.3s}.wave i:nth-child(4){animation-delay:.45s}
 @keyframes wave{0%,100%{height:3px}50%{height:12px}}
@@ -433,6 +433,26 @@ mark.verif{background:color-mix(in srgb,#E0A100 22%,transparent);color:inherit;f
   .hero .credit-line{max-width:1080px}
   .feature-img{aspect-ratio:21/9}
 }
+
+/* ---------- Arabe (de droite à gauche) et chinois ---------- */
+svg{direction:ltr}
+:root[lang="ar"]{--display:"Noto Naskh Arabic","Geeza Pro","Times New Roman",serif;--serif:"Noto Naskh Arabic","Geeza Pro",serif;--sans:"Noto Sans Arabic","Geeza Pro",system-ui,sans-serif}
+:root[lang="zh"]{--display:"Noto Serif SC","Songti SC","STSong",serif;--serif:"Noto Serif SC","Songti SC",serif;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+:root[lang="ar"] *{letter-spacing:0!important}
+:root[lang="zh"] .kicker,:root[lang="zh"] .facet,:root[lang="zh"] .steps button,:root[lang="zh"] .tagi,:root[lang="zh"] .badge,:root[lang="zh"] .pk,:root[lang="zh"] .step-k{letter-spacing:.06em}
+:root[lang="ar"] em,:root[lang="ar"] .hook,:root[lang="ar"] .pv.muted,:root[lang="ar"] blockquote,:root[lang="ar"] .tasl .cand,:root[lang="zh"] em,:root[lang="zh"] .hook,:root[lang="zh"] .pv.muted,:root[lang="zh"] blockquote,:root[lang="zh"] .tasl .cand{font-style:normal}
+:root[lang="ar"] .intro::first-letter,:root[lang="ar"] .body p:first-child::first-letter,:root[lang="zh"] .intro::first-letter,:root[lang="zh"] .body p:first-child::first-letter{float:none;font:inherit;padding:0;color:inherit;line-height:inherit}
+:root[lang="ar"] h1,:root[lang="zh"] h1{line-height:1.3}
+:root[lang="ar"] h2,:root[lang="ar"] h3,:root[lang="zh"] h2,:root[lang="zh"] h3{line-height:1.35}
+:root[lang="ar"] .hero h1,:root[lang="zh"] .hero h1{font-size:clamp(34px,9vw,60px);line-height:1.25}
+:root[lang="ar"] .q h1,:root[lang="zh"] .q h1{font-size:36px}
+:root[lang="ar"] .place h1,:root[lang="zh"] .place h1{font-size:34px}
+:root[lang="ar"] .cover h1,:root[lang="zh"] .cover h1{font-size:clamp(30px,8vw,46px)}
+:root[lang="ar"] .body,:root[lang="ar"] .intro{line-height:1.95}
+:root[lang="zh"] .body,:root[lang="zh"] .intro{line-height:1.9;text-align:justify}
+:root[lang="ar"] .langs .n,:root[lang="zh"] .langs .n,:root[lang="ar"] .pv,:root[lang="zh"] .pv{font-size:21px}
+[dir="rtl"] .btn svg,[dir="rtl"] .icon-btn svg,[dir="rtl"] .chev,[dir="rtl"] .city-main .go svg{transform:scaleX(-1)}
+[dir="rtl"] .cover .credit{right:auto;left:10px;text-align:left}
 </style>
 </head>
 <body>
@@ -696,6 +716,200 @@ const LANG_IN={fr:{fr:"français",en:"anglais",es:"espagnol",it:"italien",de:"al
   en:{fr:"French",en:"English",es:"Spanish",it:"Italian",de:"German",pt:"Portuguese",zh:"Mandarin",ar:"Arabic"},
   es:{fr:"francés",en:"inglés",es:"español",it:"italiano",de:"alemán",pt:"portugués",zh:"mandarín",ar:"árabe"}};
 
+/* ---------- Cinq langues supplémentaires : italien, allemand, portugais (Brésil), chinois simplifié, arabe ---------- */
+const DAYS={fr:"Une journée",en:"Full day",es:"Un día",it:"Una giornata",de:"Ganzer Tag",pt:"Um dia",zh:"一整天",ar:"يوم كامل"};
+function fmtH(min,lang){const h=Math.floor(min/60),m=min%60;if(min>=360)return DAYS[lang]||DAYS.en;
+  if(lang==="zh")return `${h}小时${m?m+"分":""}`;if(lang==="ar")return m?`${h} س ${m} د`:`${h} س`;
+  return m?`${h} h ${String(m).padStart(2,"0")}`:`${h} h`}
+const NUMLOC=()=>state.lang==="ar"?"ar-u-nu-latn":state.lang==="zh"?"zh-CN":state.lang;
+const arMin=m=>m===1?"دقيقة واحدة":m===2?"دقيقتان":m<=10?`${m} دقائق`:`${m} دقيقة`;
+const RANGE=l=>(a,b)=>a===b?fmtH(a,l):`${fmtH(a,l)}–${fmtH(b,l)}`;
+Object.assign(LOCALES,{it:"it-IT",de:"de-DE",pt:"pt-BR",zh:"zh-CN",ar:"ar-SA"});
+Object.assign(LANG_IN,{
+  it:{fr:"francese",en:"inglese",es:"spagnolo",it:"italiano",de:"tedesco",pt:"portoghese",zh:"cinese",ar:"arabo"},
+  de:{fr:"Französisch",en:"Englisch",es:"Spanisch",it:"Italienisch",de:"Deutsch",pt:"Portugiesisch",zh:"Chinesisch",ar:"Arabisch"},
+  pt:{fr:"francês",en:"inglês",es:"espanhol",it:"italiano",de:"alemão",pt:"português",zh:"chinês",ar:"árabe"},
+  zh:{fr:"法语",en:"英语",es:"西班牙语",it:"意大利语",de:"德语",pt:"葡萄牙语",zh:"中文",ar:"阿拉伯语"},
+  ar:{fr:"الفرنسية",en:"الإنجليزية",es:"الإسبانية",it:"الإيطالية",de:"الألمانية",pt:"البرتغالية",zh:"الصينية",ar:"العربية"}});
+
+Object.assign(NAV,{
+ it:{m:n=>`${n} metri`,km:x=>`${x} chilometri`,in:d=>`tra ${d}`,then:"poi",onto:n=>` in ${n}`,
+  mods:{straight:"prosegui dritto","slight right":"tieni la destra",right:"gira a destra","sharp right":"gira decisamente a destra",uturn:"fai inversione","sharp left":"gira decisamente a sinistra",left:"gira a sinistra","slight left":"tieni la sinistra"},
+  depart:(d,n)=>`dirigiti verso ${d}${n?` in ${n}`:""}`,round:n=>`alla rotonda prendi la ${["prima","seconda","terza","quarta"][n-1]||n+"ª"} uscita`,
+  dirs:["nord","nord-est","est","sud-est","sud","sud-ovest","ovest","nord-ovest"],arriveSoon:"arriverai a destinazione",crow:(d,dir)=>`il luogo è a ${d} in linea d’aria, verso ${dir}`},
+ de:{m:n=>`${n} Meter`,km:x=>`${x} Kilometer`,in:d=>`in ${d.replace(/Meter$/,"Metern").replace(/Kilometer$/,"Kilometern")}`,then:"dann",onto:n=>` in die ${n}`,
+  mods:{straight:"gehen Sie geradeaus","slight right":"halten Sie sich rechts",right:"biegen Sie rechts ab","sharp right":"biegen Sie scharf rechts ab",uturn:"kehren Sie um","sharp left":"biegen Sie scharf links ab",left:"biegen Sie links ab","slight left":"halten Sie sich links"},
+  depart:(d,n)=>`gehen Sie Richtung ${d}${n?` auf ${n}`:""}`,round:n=>`nehmen Sie im Kreisverkehr die ${["erste","zweite","dritte","vierte"][n-1]||n+"."} Ausfahrt`,
+  dirs:["Norden","Nordosten","Osten","Südosten","Süden","Südwesten","Westen","Nordwesten"],arriveSoon:"erreichen Sie Ihr Ziel",crow:(d,dir)=>`der Ort liegt ${d} Luftlinie entfernt, Richtung ${dir}`},
+ pt:{m:n=>`${n} metros`,km:x=>`${x} quilômetros`,in:d=>`em ${d}`,then:"depois",onto:n=>` em ${n}`,
+  mods:{straight:"siga em frente","slight right":"mantenha-se à direita",right:"vire à direita","sharp right":"vire acentuadamente à direita",uturn:"faça meia-volta","sharp left":"vire acentuadamente à esquerda",left:"vire à esquerda","slight left":"mantenha-se à esquerda"},
+  depart:(d,n)=>`siga em direção ao ${d}${n?`, ${n}`:""}`,round:n=>`na rotatória, pegue a ${["primeira","segunda","terceira","quarta"][n-1]||n+"ª"} saída`,
+  dirs:["norte","nordeste","leste","sudeste","sul","sudoeste","oeste","noroeste"],arriveSoon:"você chegará ao destino",crow:(d,dir)=>`o lugar fica a ${d} em linha reta, em direção ao ${dir}`},
+ zh:{m:n=>`${n}米`,km:x=>`${x}公里`,in:d=>`${d}后`,then:"然后",onto:n=>`，进入${n}`,
+  mods:{straight:"直行","slight right":"稍向右转",right:"右转","sharp right":"向右急转",uturn:"掉头","sharp left":"向左急转",left:"左转","slight left":"稍向左转"},
+  depart:(d,n)=>`向${d}出发${n?`，沿${n}`:""}`,round:n=>`在环岛走第${n}个出口`,
+  dirs:["北","东北","东","东南","南","西南","西","西北"],arriveSoon:"即将到达目的地",crow:(d,dir)=>`目的地位于${dir}方，直线距离${d}`},
+ ar:{m:n=>`${n} متر`,km:x=>`${x} كيلومتر`,in:d=>`بعد ${d}`,then:"ثم",onto:n=>` إلى ${n}`,
+  mods:{straight:"تابِع السير مستقيمًا","slight right":"انحرف قليلًا إلى اليمين",right:"انعطف يمينًا","sharp right":"انعطف يمينًا بحدّة",uturn:"استدر إلى الخلف","sharp left":"انعطف يسارًا بحدّة",left:"انعطف يسارًا","slight left":"انحرف قليلًا إلى اليسار"},
+  depart:(d,n)=>`انطلق نحو ${d}${n?`، عبر ${n}`:""}`,round:n=>`عند الدوّار، اسلك المخرج ${["الأول","الثاني","الثالث","الرابع"][n-1]||n}`,
+  dirs:["الشمال","الشمال الشرقي","الشرق","الجنوب الشرقي","الجنوب","الجنوب الغربي","الغرب","الشمال الغربي"],arriveSoon:"ستصل إلى وجهتك",crow:(d,dir)=>`المكان على بُعد ${d} في خط مستقيم، باتجاه ${dir}`}
+});
+
+I18N.it={soon:"Presto",places:n=>`${n} luoghi`,step:(i,n)=>`Tappa ${i} di ${n}`,listen:"Ascolta l’audio",playing:"In riproduzione",paused:"In pausa",noSpeech:"Audio non disponibile su questo dispositivo",
+ address:"Indirizzo",sources:"Fonti",prev:"Precedente",next:"Tappa successiva",finish:"Fine",back:"Indietro",walkMin:m=>`${m} min a piedi`,others:"Vedi gli altri percorsi",
+ duration:"Durata",distance:"A piedi",count:"Tappe",guideStart:"Avvia la guida vocale",readOnly:"Leggi le tappe senza guida",guideNote:"Guida vocale, via per via, nella lingua scelta.",
+ nextGuided:"Guidami al luogo successivo",guideTo:(i,n)=>`Verso la tappa ${i} di ${n}`,locating:"Ricerca della tua posizione…",computing:"Calcolo del percorso…",rerouting:"Nuovo percorso.",
+ farShort:"Percorso troppo lontano",noLoc:"Posizione non disponibile",far:"Sei lontano da questo percorso. Per provare la guida da casa, avvia la simulazione.",
+ gpsDenied:"L’accesso alla posizione è negato. Consentilo nelle impostazioni del browser oppure avvia la simulazione.",gpsNone:"La tua posizione non è ancora disponibile. Verifica che la localizzazione sia attiva.",
+ offline:"Percorso dettagliato non disponibile (connessione?): guida in linea d’aria.",weak:"Segnale GPS debole: le distanze sono approssimative.",keepOn:"Tieni lo schermo acceso mentre cammini.",
+ simOn:"Modalità demo: la camminata è simulata, quattro volte più veloce del reale.",simulate:"Simula la camminata (demo)",useGps:"Usa la mia posizione reale",voiceOn:"Voce attiva",voiceOff:"Voce disattivata",
+ repeat:"Ripeti",here:"Sono arrivato",remaining:"Rimanente",walkTime:"A piedi",destination:"Destinazione",arrivedShort:"Sei arrivato",thenLine:x=>`Poi: ${x}`,
+ metroTitle:"Prendi la metro",stationTitle:n=>`Verso la metro ${n}`,stationSpoken:n=>`stazione della metro ${n}`,line:"Linea",direction:"Direzione",
+ alightAt:(n,c)=>`Scendi a ${n}, ${c} fermate dopo`,metroSay:(l,d,n,c)=>`Prendi la linea ${l}, direzione ${d}. Scendi a ${n}, ${c} fermate dopo.`,metroExit:n=>`Sono uscito a ${n}`,
+ routeIntro:(x,d,m)=>`Direzione ${x}: ${d}, circa ${m} minut${m>1?"i":"o"} a piedi.`,arrived:x=>`Sei arrivato: ${x}.`,mapAria:"Mappa del percorso",
+ privacy:"Percorsi calcolati dal servizio OpenStreetMap di FOSSGIS, che riceve la tua posizione. Dati © collaboratori di OpenStreetMap.",
+ start:"Inizia",soonTitle:"Presto",free:"Gratuito",paid:"A pagamento",sample:"Esempio",insCount:n=>`${n} tappe insolite`,durRange:RANGE("it"),kmAbout:d=>`${d} km a piedi`,
+ legendIns:"Tappa insolita",legendStd:"Monumento simbolo",nearby:"Da vedere qui vicino",tarif:"Informati sulle tariffe",copyAddr:"Copia l’indirizzo",copied:"Indirizzo copiato",
+ ttsNote:"Voce sintetica, in attesa dell’audio registrato",noPhoto:"Foto in arrivo",credit:"Credito",verifNote:"I passaggi segnati «da verificare» attendono il verificatore dei fatti.",verif:"da verificare",
+ nearStop:(n,x)=>`Vicino alla tappa ${n}: ${x}`,trNote:"Traduzione di prova dalla bozza francese, da rivedere quando il testo francese sarà convalidato.",landmark:"Monumento simbolo",onTheWay:"Monumento lungo il percorso",
+ photoCandidate:"Foto candidata, da convalidare (fase D)",
+ heroKicker:"Parigi · Visite insolite",heroT1:"Vedere ciò che tutti guardano.",heroT2:"Scoprire ciò che nessuno vede.",heroText:"Luoghi poco conosciuti, raccontati all’orecchio e guidati dalla voce, via per via.",
+ compose:"Componi la mia visita",photo:"Foto",perks:["Gratuito","Senza registrazione","Offline","Guida vocale"],
+ dualK:"La doppia lettura",dualT:"Due Parigi a ogni angolo di strada",dualText:"In grigio sulla mappa, i monumenti che vi aspettate. In rosso, quelli che nessuno vi racconta: un anfiteatro romano dove si gioca a bocce, un museo nascosto in una bottega, delle arnie a due passi dal Senato.",
+ rulesK:"Il nostro rigore",rulesT:"Quattro regole per ogni luogo",rules:[["Accessibile","Visitabile liberamente: niente prenotazioni, niente aperture eccezionali."],["Poco noto","Assente dalle liste «top 10» dei siti per il grande pubblico."],["Inatteso","Uno scarto tra ciò che si vede e ciò che si scopre."],["Documentato","Archivi, pubblicazioni ufficiali, stampa specializzata. Nessuna leggenda metropolitana."]],
+ featK:"Il percorso del momento",howK:"Istruzioni",howT:"Tre gesti, e Parigi cambia volto",how:[["Scegli","Una città, la tua lingua, un percorso: due ore, mezza giornata o una giornata con la metro."],["Lasciati guidare","Una voce ti indica la strada, via per via, fino al luogo successivo."],["Ascolta","Ogni tappa si racconta, con foto e fonti."]],
+ closingT:"Ci siete passati davanti mille volte.",closingT2:"Questa volta saprete.",soonCities:x=>`Presto: ${x}.`,footNote:"Prototipo del MLP. Testi in fase di verifica, foto con licenza libera (Wikimedia Commons), voce sintetica in attesa dell’audio registrato.",
+ stepCity:"Città",stepLang:"Lingua",stepRoute:"Percorso",cityQ:"Dove volete passeggiare?",cityText:"Una città, e tutto ciò che nasconde.",toursN:n=>`${n} percorsi`,
+ langQ:"In quale lingua?",langText:"Abbiamo preselezionato quella del vostro telefono.",device:"Il tuo dispositivo",continueIn:x=>`Continua in ${x}`,
+ routeQ:"Quale percorso?",routeText:"Due ore, mezza giornata a piedi o un’intera giornata con la metro.",theme:"Tema",format:"Formato",fAll:"Tutti",f2h:"2 ore",fHalf:"Mezza giornata",fDay:"Giornata + metro",
+ signature:"Percorso di punta",noRoute:"Nessun percorso in questo formato per ora.",stopsT:"Le tappe",planT:"La mappa",offlineOk:"Disponibile offline",departure:x=>`Partenza: ${x}`,
+ practical:"Informazioni pratiche",directions:"Indicazioni",appLang:"Lingua dell’app",close:"Chiudi",doneK:"Percorso concluso",doneQuote:"«Ci sono passato davanti mille volte e non l’avevo mai notato.»",
+ doneText:"Se l’avete pensato almeno una volta, ci siamo riusciti. Vi aspettano altri percorsi.",share:"Condividi Flânerie",shareText:"La Parigi che nessuno racconta, con la guida vocale via per via:",linkCopied:"Link copiato"};
+
+I18N.de={soon:"Bald",places:n=>`${n} Orte`,step:(i,n)=>`Station ${i} von ${n}`,listen:"Audio anhören",playing:"Wird abgespielt",paused:"Pausiert",noSpeech:"Audio auf diesem Gerät nicht verfügbar",
+ address:"Adresse",sources:"Quellen",prev:"Zurück",next:"Nächste Station",finish:"Beenden",back:"Zurück",walkMin:m=>`${m} Min. zu Fuß`,others:"Weitere Rundgänge ansehen",
+ duration:"Dauer",distance:"Zu Fuß",count:"Stationen",guideStart:"Sprachführung starten",readOnly:"Stationen ohne Führung lesen",guideNote:"Sprachführung Straße für Straße, in der gewählten Sprache.",
+ nextGuided:"Zum nächsten Ort führen",guideTo:(i,n)=>`Zu Station ${i} von ${n}`,locating:"Ihr Standort wird gesucht…",computing:"Route wird berechnet…",rerouting:"Neue Route.",
+ farShort:"Rundgang zu weit entfernt",noLoc:"Standort nicht verfügbar",far:"Sie sind weit von diesem Rundgang entfernt. Um die Führung von zu Hause auszuprobieren, starten Sie die Simulation.",
+ gpsDenied:"Der Zugriff auf Ihren Standort wurde verweigert. Erlauben Sie ihn in den Browsereinstellungen oder starten Sie die Simulation.",gpsNone:"Ihr Standort ist derzeit nicht auffindbar. Prüfen Sie, ob die Ortung aktiviert ist.",
+ offline:"Detaillierte Route nicht verfügbar (Verbindung?): Führung in Luftlinie.",weak:"Schwaches GPS-Signal: Entfernungen sind ungefähr.",keepOn:"Lassen Sie den Bildschirm beim Gehen eingeschaltet.",
+ simOn:"Demomodus: Der Spaziergang wird simuliert, viermal schneller als in Wirklichkeit.",simulate:"Spaziergang simulieren (Demo)",useGps:"Meinen echten Standort verwenden",voiceOn:"Stimme an",voiceOff:"Stimme aus",
+ repeat:"Wiederholen",here:"Ich bin da",remaining:"Verbleibend",walkTime:"Zu Fuß",destination:"Ziel",arrivedShort:"Sie sind angekommen",thenLine:x=>`Danach: ${x}`,
+ metroTitle:"Nehmen Sie die Metro",stationTitle:n=>`Zur Metrostation ${n}`,stationSpoken:n=>`Metrostation ${n}`,line:"Linie",direction:"Richtung",
+ alightAt:(n,c)=>`Steigen Sie in ${n} aus, ${c} Stationen weiter`,metroSay:(l,d,n,c)=>`Nehmen Sie die Linie ${l}, Richtung ${d}. Steigen Sie in ${n} aus, ${c} Stationen weiter.`,metroExit:n=>`Ich bin in ${n} ausgestiegen`,
+ routeIntro:(x,d,m)=>`Richtung ${x}: ${d}, etwa ${m} Minute${m>1?"n":""} zu Fuß.`,arrived:x=>`Sie sind angekommen: ${x}.`,mapAria:"Routenkarte",
+ privacy:"Routen werden vom OpenStreetMap-Dienst der FOSSGIS berechnet, der Ihren Standort erhält. Daten © OpenStreetMap-Mitwirkende.",
+ start:"Los geht’s",soonTitle:"Demnächst",free:"Kostenlos",paid:"Kostenpflichtig",sample:"Beispiel",insCount:n=>`${n} ungewöhnliche Stationen`,durRange:RANGE("de"),kmAbout:d=>`${d} km zu Fuß`,
+ legendIns:"Ungewöhnliche Station",legendStd:"Wahrzeichen",nearby:"In der Nähe",tarif:"Preise und Zeiten prüfen",copyAddr:"Adresse kopieren",copied:"Adresse kopiert",
+ ttsNote:"Synthetische Stimme, bis die Aufnahme fertig ist",noPhoto:"Foto folgt",credit:"Bildnachweis",verifNote:"Mit „zu prüfen“ markierte Passagen warten auf den Faktencheck.",verif:"zu prüfen",
+ nearStop:(n,x)=>`Nahe Station ${n}: ${x}`,trNote:"Testübersetzung des französischen Entwurfs, die nach Freigabe des französischen Textes überarbeitet wird.",landmark:"Wahrzeichen",onTheWay:"Wahrzeichen am Weg",
+ photoCandidate:"Fotovorschlag, noch zu bestätigen (Schritt D)",
+ heroKicker:"Paris · Ungewöhnliche Rundgänge",heroT1:"Sehen, was alle anschauen.",heroT2:"Entdecken, was niemand sieht.",heroText:"Wenig bekannte Orte, ins Ohr erzählt und per Stimme geführt, Straße für Straße.",
+ compose:"Meinen Rundgang planen",photo:"Foto",perks:["Kostenlos","Ohne Anmeldung","Offline nutzbar","Sprachführung"],
+ dualK:"Zwei Ebenen",dualT:"Zwei Paris an jeder Straßenecke",dualText:"Grau auf der Karte die Wahrzeichen, die Sie erwarten. Rot jene, von denen Ihnen niemand erzählt: ein römisches Amphitheater, in dem Boule gespielt wird, ein Museum in einem Laden, Bienenstöcke nur ein paar Schritte vom Senat entfernt.",
+ rulesK:"Unser Anspruch",rulesT:"Vier Regeln für jeden Ort",rules:[["Zugänglich","Frei zu besichtigen: ohne Anmeldung, ohne Ausnahmeöffnung."],["Wenig bekannt","Fehlt in den „Top 10“-Listen der großen Websites."],["Unerwartet","Ein Kontrast zwischen dem, was man sieht, und dem, was man erfährt."],["Belegt","Archive, amtliche Veröffentlichungen, Fachpresse. Keine Großstadtlegenden."]],
+ featK:"Rundgang der Saison",howK:"So funktioniert’s",howT:"Drei Schritte, und Paris zeigt ein anderes Gesicht",how:[["Wählen","Eine Stadt, Ihre Sprache, ein Rundgang: zwei Stunden, ein halber Tag oder ein ganzer Tag mit der Metro."],["Führen lassen","Eine Stimme zeigt Ihnen den Weg, Straße für Straße, bis zum nächsten Ort."],["Zuhören","Jede Station erzählt ihre Geschichte, mit Fotos und Quellen."]],
+ closingT:"Sie sind tausendmal daran vorbeigegangen.",closingT2:"Diesmal wissen Sie Bescheid.",soonCities:x=>`Demnächst: ${x}.`,footNote:"MLP-Prototyp. Texte im Faktencheck, frei lizenzierte Fotos (Wikimedia Commons), synthetische Stimme bis zur Aufnahme.",
+ stepCity:"Stadt",stepLang:"Sprache",stepRoute:"Rundgang",cityQ:"Wo möchten Sie flanieren?",cityText:"Eine Stadt und alles, was sie verbirgt.",toursN:n=>`${n} Rundgänge`,
+ langQ:"In welcher Sprache?",langText:"Wir haben die Sprache Ihres Telefons vorausgewählt.",device:"Ihr Gerät",continueIn:x=>`Weiter auf ${x}`,
+ routeQ:"Welcher Rundgang?",routeText:"Zwei Stunden, ein halber Tag zu Fuß oder ein ganzer Tag mit der Metro.",theme:"Thema",format:"Format",fAll:"Alle",f2h:"2 Stunden",fHalf:"Halber Tag",fDay:"Tag + Metro",
+ signature:"Signature-Rundgang",noRoute:"Noch kein Rundgang in diesem Format.",stopsT:"Die Stationen",planT:"Die Karte",offlineOk:"Offline verfügbar",departure:x=>`Start: ${x}`,
+ practical:"Praktische Infos",directions:"Route",appLang:"Sprache der App",close:"Schließen",doneK:"Rundgang beendet",doneQuote:"„Ich bin tausendmal daran vorbeigegangen und habe es nie bemerkt.“",
+ doneText:"Wenn Sie das auch nur einmal gedacht haben, haben wir unser Ziel erreicht. Weitere Rundgänge warten auf Sie.",share:"Flânerie teilen",shareText:"Das Paris, von dem niemand erzählt, mit Sprachführung Straße für Straße:",linkCopied:"Link kopiert"};
+
+I18N.pt={soon:"Em breve",places:n=>`${n} lugares`,step:(i,n)=>`Parada ${i} de ${n}`,listen:"Ouvir o áudio",playing:"Reproduzindo",paused:"Em pausa",noSpeech:"Áudio indisponível neste aparelho",
+ address:"Endereço",sources:"Fontes",prev:"Anterior",next:"Próxima parada",finish:"Concluir",back:"Voltar",walkMin:m=>`${m} min a pé`,others:"Ver os outros percursos",
+ duration:"Duração",distance:"A pé",count:"Paradas",guideStart:"Iniciar o guia de voz",readOnly:"Ler as paradas sem guia",guideNote:"Orientação por voz, rua por rua, no idioma escolhido.",
+ nextGuided:"Guie-me até o próximo lugar",guideTo:(i,n)=>`Rumo à parada ${i} de ${n}`,locating:"Buscando sua localização…",computing:"Calculando o trajeto…",rerouting:"Novo trajeto.",
+ farShort:"Percurso muito distante",noLoc:"Localização indisponível",far:"Você está longe deste percurso. Para testar o guia de casa, inicie a simulação.",
+ gpsDenied:"O acesso à sua localização foi negado. Permita-o nas configurações do navegador ou inicie a simulação.",gpsNone:"Sua localização não foi encontrada por enquanto. Verifique se a localização está ativada.",
+ offline:"Trajeto detalhado indisponível (conexão?): orientação em linha reta.",weak:"Sinal de GPS fraco: as distâncias são aproximadas.",keepOn:"Mantenha a tela ligada durante a caminhada.",
+ simOn:"Modo demonstração: a caminhada é simulada, quatro vezes mais rápida que na realidade.",simulate:"Simular a caminhada (demo)",useGps:"Usar minha localização real",voiceOn:"Voz ativada",voiceOff:"Voz desativada",
+ repeat:"Repetir",here:"Cheguei",remaining:"Restante",walkTime:"A pé",destination:"Destino",arrivedShort:"Você chegou",thenLine:x=>`Depois: ${x}`,
+ metroTitle:"Pegue o metrô",stationTitle:n=>`Rumo ao metrô ${n}`,stationSpoken:n=>`estação de metrô ${n}`,line:"Linha",direction:"Direção",
+ alightAt:(n,c)=>`Desça em ${n}, ${c} estações depois`,metroSay:(l,d,n,c)=>`Pegue a linha ${l}, direção ${d}. Desça em ${n}, ${c} estações depois.`,metroExit:n=>`Saí em ${n}`,
+ routeIntro:(x,d,m)=>`Próximo destino, ${x}: ${d}, cerca de ${m} minuto${m>1?"s":""} a pé.`,arrived:x=>`Você chegou: ${x}.`,mapAria:"Mapa do trajeto",
+ privacy:"Trajetos calculados pelo serviço OpenStreetMap da FOSSGIS, que recebe sua localização. Dados © colaboradores do OpenStreetMap.",
+ start:"Começar",soonTitle:"Em breve",free:"Grátis",paid:"Pago",sample:"Exemplo",insCount:n=>`${n} paradas insólitas`,durRange:RANGE("pt"),kmAbout:d=>`${d} km a pé`,
+ legendIns:"Parada insólita",legendStd:"Monumento emblemático",nearby:"Para ver aqui perto",tarif:"Consultar preços e horários",copyAddr:"Copiar o endereço",copied:"Endereço copiado",
+ ttsNote:"Voz sintética, enquanto o áudio gravado não fica pronto",noPhoto:"Foto em breve",credit:"Crédito",verifNote:"Os trechos marcados como “a verificar” aguardam o verificador de fatos.",verif:"a verificar",
+ nearStop:(n,x)=>`Perto da parada ${n}: ${x}`,trNote:"Tradução de teste a partir do rascunho em francês, a ser revisada quando o francês for validado.",landmark:"Monumento emblemático",onTheWay:"Monumento no caminho",
+ photoCandidate:"Foto candidata, a validar (etapa D)",
+ heroKicker:"Paris · Visitas insólitas",heroT1:"Ver o que todo mundo olha.",heroT2:"Descobrir o que ninguém vê.",heroText:"Lugares pouco conhecidos, contados ao pé do ouvido e guiados por voz, rua por rua.",
+ compose:"Montar minha visita",photo:"Foto",perks:["Grátis","Sem cadastro","Funciona offline","Guia de voz"],
+ dualK:"A dupla leitura",dualT:"Duas Paris em cada esquina",dualText:"Em cinza no mapa, os monumentos que você espera. Em vermelho, aqueles que ninguém conta: um anfiteatro romano onde se joga bocha, um museu escondido numa loja, colmeias a dois passos do Senado.",
+ rulesK:"Nosso critério",rulesT:"Quatro regras para cada lugar",rules:[["Acessível","Visitável livremente: sem inscrição nem abertura excepcional."],["Pouco conhecido","Ausente das listas de “top 10” dos sites populares."],["Inesperado","Um contraste entre o que se vê e o que se descobre."],["Com fontes","Arquivos, publicações oficiais, imprensa especializada. Nada de lendas urbanas."]],
+ featK:"O percurso do momento",howK:"Como funciona",howT:"Três gestos, e Paris muda de cara",how:[["Escolha","Uma cidade, seu idioma, um percurso: duas horas, meio dia ou um dia inteiro com o metrô."],["Deixe-se guiar","Uma voz indica o caminho, rua por rua, até o próximo lugar."],["Ouça","Cada parada conta sua história, com fotos e fontes."]],
+ closingT:"Você já passou por ali mil vezes.",closingT2:"Desta vez, você vai saber.",soonCities:x=>`Em breve: ${x}.`,footNote:"Protótipo do MLP. Textos em verificação, fotos com licença livre (Wikimedia Commons), voz sintética enquanto o áudio gravado não fica pronto.",
+ stepCity:"Cidade",stepLang:"Idioma",stepRoute:"Percurso",cityQ:"Onde você vai passear?",cityText:"Uma cidade e tudo o que ela esconde.",toursN:n=>`${n} percursos`,
+ langQ:"Em qual idioma?",langText:"Pré-selecionamos o idioma do seu celular.",device:"Seu aparelho",continueIn:x=>`Continuar em ${x}`,
+ routeQ:"Qual percurso?",routeText:"Duas horas, meio dia a pé ou um dia inteiro com o metrô.",theme:"Tema",format:"Formato",fAll:"Todos",f2h:"2 horas",fHalf:"Meio dia",fDay:"Dia + metrô",
+ signature:"Percurso em destaque",noRoute:"Ainda não há percurso neste formato.",stopsT:"As paradas",planT:"O mapa",offlineOk:"Disponível offline",departure:x=>`Partida: ${x}`,
+ practical:"Informações práticas",directions:"Como chegar",appLang:"Idioma do aplicativo",close:"Fechar",doneK:"Percurso concluído",doneQuote:"“Passei por aqui mil vezes e nunca tinha reparado.”",
+ doneText:"Se você pensou isso pelo menos uma vez, conseguimos. Outros percursos esperam por você.",share:"Compartilhar Flânerie",shareText:"A Paris que ninguém conta, com guia de voz rua por rua:",linkCopied:"Link copiado"};
+
+I18N.zh={soon:"即将推出",places:n=>`${n}个地点`,step:(i,n)=>`第${i}站，共${n}站`,listen:"收听语音",playing:"正在播放",paused:"已暂停",noSpeech:"此设备无法播放语音",
+ address:"地址",sources:"资料来源",prev:"上一站",next:"下一站",finish:"完成",back:"返回",walkMin:m=>`步行${m}分钟`,others:"查看其他路线",
+ duration:"时长",distance:"步行",count:"站点",guideStart:"开始语音导览",readOnly:"不导航，直接阅读各站",guideNote:"按所选语言，逐街语音导航。",
+ nextGuided:"带我去下一站",guideTo:(i,n)=>`前往第${i}站（共${n}站）`,locating:"正在获取您的位置…",computing:"正在计算路线…",rerouting:"已重新规划路线。",
+ farShort:"距离路线太远",noLoc:"无法获取位置",far:"您离这条路线很远。想在家里体验导航，请启动模拟。",
+ gpsDenied:"位置访问被拒绝。请在浏览器设置中允许，或启动模拟。",gpsNone:"暂时无法找到您的位置。请确认定位功能已开启。",
+ offline:"无法获取详细路线（网络问题？）：改为直线方向引导。",weak:"GPS信号弱：距离仅供参考。",keepOn:"步行时请保持屏幕常亮。",
+ simOn:"演示模式：模拟步行，速度为实际的四倍。",simulate:"模拟步行（演示）",useGps:"使用我的真实位置",voiceOn:"语音已开启",voiceOff:"语音已关闭",
+ repeat:"重复",here:"我到了",remaining:"剩余",walkTime:"步行",destination:"目的地",arrivedShort:"您已到达",thenLine:x=>`然后：${x}`,
+ metroTitle:"乘坐地铁",stationTitle:n=>`前往地铁 ${n} 站`,stationSpoken:n=>`地铁 ${n} 站`,line:"线路",direction:"方向",
+ alightAt:(n,c)=>`在 ${n} 站下车，${c}站后`,metroSay:(l,d,n,c)=>`乘坐${l}号线，开往 ${d} 方向。${c}站后在 ${n} 站下车。`,metroExit:n=>`我已在 ${n} 站出站`,
+ routeIntro:(x,d,m)=>`前往${x}：${d}，步行约${m}分钟。`,arrived:x=>`您已到达：${x}。`,mapAria:"路线图",
+ privacy:"路线由 FOSSGIS 的 OpenStreetMap 服务计算，该服务会收到您的位置。数据 © OpenStreetMap 贡献者。",
+ start:"开始",soonTitle:"即将推出",free:"免费",paid:"收费",sample:"示例",insCount:n=>`${n}个小众站点`,durRange:RANGE("zh"),kmAbout:d=>`步行${d}公里`,
+ legendIns:"小众站点",legendStd:"标志性名胜",nearby:"附近值得一看",tarif:"查询票价和开放时间",copyAddr:"复制地址",copied:"地址已复制",
+ ttsNote:"合成语音，录音版即将推出",noPhoto:"照片即将上线",credit:"图片来源",verifNote:"标注“待核实”的段落正在等待事实核查。",verif:"待核实",
+ nearStop:(n,x)=>`靠近第${n}站：${x}`,trNote:"根据法语初稿完成的试译，法语文本定稿后将再次审校。",landmark:"标志性名胜",onTheWay:"途经名胜",
+ photoCandidate:"候选照片，待审核（D阶段）",
+ heroKicker:"巴黎 · 小众漫游",heroT1:"看见人人都在看的。",heroT2:"发现无人留意的。",heroText:"鲜为人知的地方，在您耳边娓娓道来，语音逐街引路。",
+ compose:"定制我的行程",photo:"图片",perks:["免费","无需注册","离线可用","语音导览"],
+ dualK:"双重视角",dualT:"每个街角都有两个巴黎",dualText:"地图上的灰色，是您早已期待的名胜；红色，是从来没人告诉您的地方：一座人们在里面玩滚球的罗马圆形剧场、一家藏着博物馆的小店、离参议院只有几步路的蜂箱。",
+ rulesK:"我们的标准",rulesT:"每个地点的四条规则",rules:[["可自由参观","随时可去：无需报名，也不是一年只开几天。"],["鲜为人知","不在大众网站的“十大”榜单上。"],["出人意料","眼前所见与背后故事之间的反差。"],["有据可查","档案、官方出版物、专业媒体。没有都市传说。"]],
+ featK:"本期推荐路线",howK:"使用方法",howT:"三个步骤，巴黎换了一副面孔",how:[["选择","一座城市、您的语言、一条路线：两小时、半天，或搭配地铁的一整天。"],["跟着走","语音一条街一条街地为您指路，直到下一站。"],["聆听","每一站都有自己的故事，配有照片和资料来源。"]],
+ closingT:"您已经从这里经过了一千次。",closingT2:"这一次，您会知道。",soonCities:x=>`即将推出：${x}。`,footNote:"MLP 原型。文本正在核实，图片均为自由授权（Wikimedia Commons），录音完成前使用合成语音。",
+ stepCity:"城市",stepLang:"语言",stepRoute:"路线",cityQ:"想去哪里漫步？",cityText:"一座城市，以及它隐藏的一切。",toursN:n=>`${n}条路线`,
+ langQ:"选择哪种语言？",langText:"我们已为您预选了手机的语言。",device:"您的设备",continueIn:x=>`继续使用${x}`,
+ routeQ:"选择哪条路线？",routeText:"两小时、步行半天，或搭配地铁的一整天。",theme:"主题",format:"形式",fAll:"全部",f2h:"2小时",fHalf:"半天",fDay:"一天 + 地铁",
+ signature:"招牌路线",noRoute:"暂时没有这种形式的路线。",stopsT:"各站",planT:"地图",offlineOk:"可离线使用",departure:x=>`出发：${x}`,
+ practical:"实用信息",directions:"导航",appLang:"应用语言",close:"关闭",doneK:"路线完成",doneQuote:"“我从这里经过了一千次，却从来没有注意到。”",
+ doneText:"只要您有一次这样想过，我们就成功了。更多路线等着您。",share:"分享 Flânerie",shareText:"没人讲过的巴黎，语音逐街导览：",linkCopied:"链接已复制"};
+
+I18N.ar={soon:"قريبًا",places:n=>`${n} أماكن`,step:(i,n)=>`المحطة ${i} من ${n}`,listen:"استمع إلى الصوت",playing:"قيد التشغيل",paused:"متوقف مؤقتًا",noSpeech:"الصوت غير متاح على هذا الجهاز",
+ address:"العنوان",sources:"المصادر",prev:"السابق",next:"المحطة التالية",finish:"إنهاء",back:"رجوع",walkMin:m=>`${arMin(m)} سيرًا`,others:"عرض الجولات الأخرى",
+ duration:"المدة",distance:"سيرًا",count:"المحطات",guideStart:"ابدأ الدليل الصوتي",readOnly:"اقرأ المحطات دون إرشاد",guideNote:"إرشاد صوتي شارعًا شارعًا باللغة التي اخترتها.",
+ nextGuided:"أرشدني إلى المكان التالي",guideTo:(i,n)=>`نحو المحطة ${i} من ${n}`,locating:"جارٍ تحديد موقعك…",computing:"جارٍ حساب المسار…",rerouting:"مسار جديد.",
+ farShort:"الجولة بعيدة جدًا",noLoc:"الموقع غير متاح",far:"أنت بعيد عن هذه الجولة. لتجربة الإرشاد من منزلك، شغّل المحاكاة.",
+ gpsDenied:"تم رفض الوصول إلى موقعك. اسمح به في إعدادات المتصفح أو شغّل المحاكاة.",gpsNone:"تعذّر العثور على موقعك حاليًا. تأكد من تفعيل خدمة تحديد الموقع.",
+ offline:"المسار التفصيلي غير متاح (الاتصال؟): إرشاد في خط مستقيم.",weak:"إشارة GPS ضعيفة: المسافات تقريبية.",keepOn:"أبقِ الشاشة مضاءة أثناء المشي.",
+ simOn:"وضع العرض: المشي محاكًى بسرعة أربعة أضعاف الواقع.",simulate:"محاكاة المشي (عرض)",useGps:"استخدم موقعي الحقيقي",voiceOn:"الصوت مفعّل",voiceOff:"الصوت مكتوم",
+ repeat:"إعادة",here:"وصلت",remaining:"المتبقي",walkTime:"سيرًا",destination:"الوجهة",arrivedShort:"لقد وصلت",thenLine:x=>`بعد ذلك: ${x}`,
+ metroTitle:"اركب المترو",stationTitle:n=>`نحو محطة مترو ${n}`,stationSpoken:n=>`محطة مترو ${n}`,line:"الخط",direction:"الاتجاه",
+ alightAt:(n,c)=>`انزل في ${n}، بعد ${c} محطات`,metroSay:(l,d,n,c)=>`اركب الخط ${l} باتجاه ${d}. انزل في ${n}، بعد ${c} محطات.`,metroExit:n=>`خرجت في ${n}`,
+ routeIntro:(x,d,m)=>`باتجاه ${x}: ${d}، نحو ${arMin(m)} سيرًا.`,arrived:x=>`لقد وصلت: ${x}.`,mapAria:"خريطة المسار",
+ privacy:"تحسب خدمة OpenStreetMap التابعة لـ FOSSGIS المسارات، وتتلقى موقعك. البيانات © مساهمو OpenStreetMap.",
+ start:"ابدأ",soonTitle:"قريبًا",free:"مجاني",paid:"مدفوع",sample:"مثال",insCount:n=>`${n} محطات غير مألوفة`,durRange:RANGE("ar"),kmAbout:d=>`${d} كم سيرًا`,
+ legendIns:"محطة غير مألوفة",legendStd:"معلم شهير",nearby:"يستحق الزيارة بالقرب",tarif:"الاستعلام عن الأسعار والمواعيد",copyAddr:"نسخ العنوان",copied:"تم نسخ العنوان",
+ ttsNote:"صوت اصطناعي، بانتظار التسجيل الصوتي",noPhoto:"الصورة قريبًا",credit:"حقوق الصورة",verifNote:"المقاطع المعلّمة بعبارة «قيد التحقق» بانتظار مدقّق الحقائق.",verif:"قيد التحقق",
+ nearStop:(n,x)=>`بالقرب من المحطة ${n}: ${x}`,trNote:"ترجمة تجريبية من المسودة الفرنسية، ستُراجَع بعد اعتماد النص الفرنسي.",landmark:"معلم شهير",onTheWay:"معلم على الطريق",
+ photoCandidate:"صورة مرشّحة، بانتظار الاعتماد (المرحلة D)",
+ heroKicker:"باريس · جولات غير مألوفة",heroT1:"أن ترى ما ينظر إليه الجميع.",heroT2:"وأن تكتشف ما لا يراه أحد.",heroText:"أماكن غير معروفة، تُروى في أذنك ويرشدك إليها صوت، شارعًا شارعًا.",
+ compose:"صمّم زيارتي",photo:"صورة",perks:["مجاني","بدون تسجيل","يعمل دون اتصال","دليل صوتي"],
+ dualK:"القراءة المزدوجة",dualT:"باريسان في كل زاوية",dualText:"بالرمادي على الخريطة، المعالم التي تتوقعها. وبالأحمر، تلك التي لا يحدّثك عنها أحد: مدرّج روماني يُلعب فيه البيتانك، ومتحف مختبئ في متجر، وخلايا نحل على بعد خطوات من مجلس الشيوخ.",
+ rulesK:"معاييرنا",rulesT:"أربع قواعد لكل مكان",rules:[["متاح","يمكن زيارته بحرية: بلا تسجيل ولا فتح استثنائي."],["غير معروف","غائب عن قوائم «أفضل 10» في المواقع العامة."],["غير متوقع","مفارقة بين ما تراه وما تتعلّمه."],["موثّق","أرشيفات ومنشورات رسمية وصحافة متخصصة. لا أساطير مدنية."]],
+ featK:"جولة الموسم",howK:"طريقة الاستخدام",howT:"ثلاث خطوات، وتتبدّل ملامح باريس",how:[["اختر","مدينة، ولغتك، وجولة: ساعتان، أو نصف يوم، أو يوم كامل مع المترو."],["دع الصوت يرشدك","صوت يدلّك على الطريق، شارعًا شارعًا، حتى المكان التالي."],["استمع","كل محطة تروي حكايتها، مع الصور والمصادر."]],
+ closingT:"مررتَ من هنا ألف مرة.",closingT2:"هذه المرة، ستعرف.",soonCities:x=>`قريبًا: ${x}.`,footNote:"نموذج أولي (MLP). النصوص قيد التحقق، والصور بتراخيص حرة (Wikimedia Commons)، وصوت اصطناعي بانتظار التسجيل.",
+ stepCity:"المدينة",stepLang:"اللغة",stepRoute:"الجولة",cityQ:"أين تريد أن تتجوّل؟",cityText:"مدينة، وكل ما تخفيه.",toursN:n=>`${n} جولات`,
+ langQ:"بأي لغة؟",langText:"اخترنا مسبقًا لغة هاتفك.",device:"جهازك",continueIn:x=>`المتابعة بـ${x}`,
+ routeQ:"أي جولة؟",routeText:"ساعتان، أو نصف يوم سيرًا، أو يوم كامل مع المترو.",theme:"الموضوع",format:"الصيغة",fAll:"الكل",f2h:"ساعتان",fHalf:"نصف يوم",fDay:"يوم + مترو",
+ signature:"الجولة المميّزة",noRoute:"لا توجد جولة بهذه الصيغة حاليًا.",stopsT:"المحطات",planT:"الخريطة",offlineOk:"متاح دون اتصال",departure:x=>`الانطلاق: ${x}`,
+ practical:"معلومات عملية",directions:"الاتجاهات",appLang:"لغة التطبيق",close:"إغلاق",doneK:"انتهت الجولة",doneQuote:"«مررتُ من هنا ألف مرة ولم ألاحظ ذلك قط.»",
+ doneText:"إن خطرت لك هذه الفكرة ولو مرة واحدة، فقد نجحنا. جولات أخرى بانتظارك.",share:"شارك Flânerie",shareText:"باريس التي لا يرويها أحد، بدليل صوتي شارعًا شارعًا:",linkCopied:"تم نسخ الرابط"};
+
 /* ---------- Contenu : catalogue + un fichier JSON par parcours et par langue (format du CDC) ---------- */
 const DB={catalog:null,content:{}};
 async function loadJSON(u){const r=await fetch(u,{cache:"no-cache"});if(!r.ok)throw new Error(u+" "+r.status);return r.json()}
@@ -750,7 +964,7 @@ function dist(a,b){const R=6371000,r=Math.PI/180,dLa=(b.lat-a.lat)*r,dLo=(b.lng-
   const h=Math.sin(dLa/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dLo/2)**2;return 2*R*Math.asin(Math.sqrt(h))}
 const legOf=(r,a,b)=>(r.trajets||[]).find(l=>l.de===a&&l.vers===b);
 const walkMinutes=(a,b)=>Math.max(2,Math.round(dist(ll(a),ll(b))*1.3/75));
-const kmTxt=r=>(r.distance_km||0).toLocaleString(state.lang);
+const kmTxt=r=>(r.distance_km||0).toLocaleString(NUMLOC());
 const isApple=/iPad|iPhone|iPod/.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&"ontouchend" in document);
 const mapsURL=e=>{const c=ll(e);return isApple?`https://maps.apple.com/?q=${encodeURIComponent(e.titre)}&ll=${c.lat},${c.lng}`:`https://www.google.com/maps/search/?api=1&query=${c.lat}%2C${c.lng}`};
 
@@ -773,7 +987,7 @@ function mapSVG(r,o={}){
   /* étiquettes des monuments : on choisit la position qui chevauche le moins les pastilles et les autres étiquettes */
   const boxes=pos.map(([x,y])=>[x-15,y-15,x+15,y+15]);
   const ov=(a,b)=>Math.max(0,Math.min(a[2],b[2])-Math.max(a[0],b[0]))*Math.max(0,Math.min(a[3],b[3])-Math.max(a[1],b[1]));
-  const grey=r.std.map(e=>{const [x,y]=P(ll(e)),name=shortName(e.titre),tw=name.length*5.6;let lab="";
+  const grey=r.std.map(e=>{const [x,y]=P(ll(e)),name=shortName(e.titre),tw=[...name].reduce((s,ch)=>s+(/[\u2e80-\u9fff\u0600-\u06ff]/.test(ch)?(/[\u0600-\u06ff]/.test(ch)?6.4:13):5.6),0);let lab="";
     if(o.labels){const cand=[[x+10,y+4,"start"],[x-10,y+4,"end"],[x+8,y-9,"start"],[x+8,y+17,"start"],[x-8,y-9,"end"],[x-8,y+17,"end"]].map(([tx,ty,an])=>{
         const bx=an==="start"?[tx,ty-11,tx+tw,ty+3]:[tx-tw,ty-11,tx,ty+3];
         const out=(bx[0]<4||bx[2]>w-4||bx[1]<4||bx[3]>h-4)?5000:0;
@@ -787,7 +1001,7 @@ function mapSVG(r,o={}){
     <text x="${w-16}" y="${h-14}" text-anchor="end" font-family="Cormorant Garamond,Georgia,serif" font-style="italic" font-size="15" fill="var(--muted)">la Seine</text>
     ${lines}${grey}${red}</svg>`;
 }
-function shortName(s){return cap(String(s).replace(/^(Le |La |Les |L’|L'|The |El |Los |Las |La )/,"").replace(/ et le pont des Arts| and the Pont des Arts| y el puente de las Artes/,""))}
+function shortName(s){return cap(String(s).replace(/^(Le |La |Les |L’|L'|The |El |Los |Las |Il |Lo |I |Gli |Das |Der |Die |O |A |Os |As )/,"").replace(/ et le pont des Arts| and the Pont des Arts| y el puente de las Artes| e il pont des Arts| und der Pont des Arts| e o pont des Arts|和艺术桥| وجسر الفنون/,""))}
 
 /* ---------- Icônes ---------- */
 const SV=`viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"`;
@@ -836,7 +1050,7 @@ function galleryHTML(e){
     <p class="tasl" id="tasl">${t("credit")}${colon()}${tasl(ps[0])}${ps[0].statut_validation==="candidate"?` · <span class="cand">${t("photoCandidate")}</span>`:""}</p>`}
 function bindGallery(e){
   const tr=document.getElementById("track");if(!tr||!e.photos||e.photos.length<2)return;
-  let k0=0;tr.addEventListener("scroll",()=>{const k=Math.round(tr.scrollLeft/tr.clientWidth);if(k===k0)return;k0=k;
+  let k0=0;tr.addEventListener("scroll",()=>{const k=Math.round(Math.abs(tr.scrollLeft)/tr.clientWidth);if(k===k0)return;k0=k;
     document.querySelectorAll("#gdots i").forEach((d,j)=>d.classList.toggle("on",j===k));
     const p=e.photos[k];if(p)document.getElementById("tasl").innerHTML=`${t("credit")}${colon()}${tasl(p)}${p.statut_validation==="candidate"?` · <span class="cand">${t("photoCandidate")}</span>`:""}`},{passive:true})}
 const panelHTML=e=>`<section class="panel"><h3>${t("practical")}</h3>
@@ -912,8 +1126,7 @@ const SCREENS={
      body=`<div class="q"><h1>${t("langQ")}</h1><p class="lede">${t("langText")}</p></div>
       <div class="step-body">${devOff&&!state.langChosen?`<p class="notice">${esc(t("langFallback",(LANG_IN[state.lang]||LANG_IN.en)[dev]||dev))}</p>`:""}
        ${langList("lang-pick")}
-       <div class="sticky-cta"><button class="btn primary block" data-action="lang-continue">${t("continueIn",langName(state.lang))} ${I.arrowR}</button>
-       <p class="small" style="text-align:center;margin:10px 0 0">${t("langsSoon")}</p></div></div>`;
+       <div class="sticky-cta"><button class="btn primary block" data-action="lang-continue">${t("continueIn",langName(state.lang))} ${I.arrowR}</button></div></div>`;
    }else{
      const all=routesOf(state.city,state.theme),list=state.filter==="all"?all:all.filter(r=>fmtOf(r)===state.filter);
      const F=[["all",t("fAll")],["2h",t("f2h")],["half",t("fHalf")],["day",t("fDay")]];
@@ -949,7 +1162,7 @@ const SCREENS={
    <div class="wrap">
     <div class="facts">
       <div><b>${durShort(r)}</b><span>${t("duration")}</span></div>
-      <div><b>${kmTxt(r)} km</b><span>${t("distance")}</span></div>
+      <div><b>${kmTxt(r)}${kmU()}</b><span>${t("distance")}</span></div>
       <div><b>${r.ins.length}${r.std.length?` + ${r.std.length}`:""}</b><span>${t("count")}</span></div>
     </div>
     <p class="intro">${esc(r.introduction)}</p>
@@ -1045,6 +1258,9 @@ function sub(c,n){const loc=(LANG_IN[state.lang]||LANG_IN.fr)[c]||"";return loc&
 const durShort=r=>r.duree.min===r.duree.max?fmtH(r.duree.min,state.lang):`${fmtH(r.duree.min,state.lang)}–${fmtH(r.duree.max,state.lang)}`;
 
 const colon=()=>state.lang==="fr"?"\u00a0: ":": ";
+
+const kmU=()=>state.lang==="ar"?" كم":state.lang==="zh"?"公里":" km";
+const minTxt=m=>state.lang==="ar"?arMin(m):state.lang==="zh"?`${m}分钟`:`${m} min`;
 /* ---------- Voix (synthèse vocale de l’appareil : coût nul, hors ligne) ---------- */
 const hasSpeech="speechSynthesis" in window;
 function voiceFor(lang){if(!hasSpeech)return null;const vs=speechSynthesis.getVoices()||[],norm=s=>(s||"").toLowerCase().replace("_","-"),want=norm(LOCALES[lang]);
@@ -1071,7 +1287,7 @@ function togglePlay(){
   if(audio.status==="playing"){speechSynthesis.pause();audio.status="paused"}
   else if(audio.status==="paused"){speechSynthesis.resume();audio.status="playing"}
   else{const txt=(e.texte_long||e.texte_court||"").replace(VERIF,"");
-    audio.parts=[e.titre+".",...(e.accroche?[e.accroche]:[]),...paras(txt).join(" ").split(/(?<=[.!?])\s+/)];speakFrom(0);return}
+    audio.parts=[e.titre+".",...(e.accroche?[e.accroche]:[]),...paras(txt).join(" ").split(/(?<=[.!?؟])\s+|(?<=[。！？])/)];speakFrom(0);return}
   renderPlayer();
 }
 function cycleRate(){const rates=[0.9,1,1.15];state.rate=rates[(rates.indexOf(state.rate)+1)%rates.length];
@@ -1087,7 +1303,7 @@ function renderPlayer(){
   slot.innerHTML=`<div class="player"><div class="player-in">
     <button class="play" data-action="play" aria-label="${audio.status==="playing"?t("paused"):t("listen")}"${canPlay?"":" disabled"}>${audio.status==="playing"?I.pause:I.play}</button>
     <div class="ptext"><b>${audio.status==="playing"?`<span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i></span>`:""}${esc(e.titre)}</b><span>${st}</span></div>
-    <button class="speed" data-action="rate" aria-label="Vitesse">${state.rate.toLocaleString(state.lang)}×</button>
+    <button class="speed" data-action="rate" aria-label="Vitesse">${state.rate.toLocaleString(NUMLOC())}×</button>
   </div></div>`;
 }
 function toast(msg){const el=document.createElement("div");el.className="toast";el.setAttribute("role","status");el.textContent=msg;document.body.appendChild(el);setTimeout(()=>el.remove(),1800)}
@@ -1107,8 +1323,8 @@ function modFromTurn(before,after){const d=((after-before+540)%360)-180,a=Math.a
   if(a<20)return "straight";if(a<60)return "slight "+s;if(a<135)return s;if(a<170)return "sharp "+s;return "uturn"}
 const dirOf=b=>nav().dirs[Math.round((((b||0)%360)+360)%360/45)%8];
 const roundSay=m=>m<100?Math.max(10,Math.round(m/10)*10):Math.round(m/50)*50;
-function sayDist(m){const N=nav();return m<1000?N.m(roundSay(m)):N.km((Math.round(m/100)/10).toLocaleString(state.lang))}
-function fmtDist(m){return m<1000?`${m<100?Math.max(5,Math.round(m/5)*5):Math.round(m/10)*10} m`:`${(Math.round(m/100)/10).toLocaleString(state.lang)} km`}
+function sayDist(m){const N=nav();return m<1000?N.m(roundSay(m)):N.km((Math.round(m/100)/10).toLocaleString(NUMLOC()))}
+function fmtDist(m){return m<1000?`${m<100?Math.max(5,Math.round(m/5)*5):Math.round(m/10)*10} m`:`${(Math.round(m/100)/10).toLocaleString(NUMLOC())} km`}
 
 /* Nettoyage des étapes OSRM : on retire les « tout droit » inutiles et on fusionne les virages collés */
 function buildSteps(raw){
@@ -1266,7 +1482,7 @@ function updateGuideUI(){if(state.screen!=="guide")return;const $=id=>document.g
     if(s.type==="arrive"){instr=G.kind==="station"?G.leg.montee.nom:targetTitle();name=t("destination")}
     else{instr=cap(stepAct(s));name=s.name}
     const n2=R.steps[G.info.k+1];if(n2&&n2.type!=="arrive")then=t("thenLine",stepAct(n2)+(n2.name?` · ${n2.name}`:""));
-    remain=fmtDist(G.info.remain);time=`${Math.max(1,Math.round(G.info.remain/75))} min`}
+    remain=fmtDist(G.info.remain);time=minTxt(Math.max(1,Math.round(G.info.remain/75)))}
   else instr=G.status==="far"?t("farShort"):(G.status==="denied"||G.status==="nogps")?t("noLoc"):G.status==="computing"?t("computing"):t("locating");
   ico.innerHTML=icon;$("g-dist").textContent=d;$("g-instr").textContent=instr;$("g-name").textContent=name;$("g-then").textContent=then;
   if($("g-remain")){$("g-remain").textContent=remain;$("g-time").textContent=time}
@@ -1297,13 +1513,13 @@ function updateDot(){const me=document.getElementById("g-me");if(!me||!G.proj||!
 
 
 /* ---------- Rendu, historique (bouton retour du téléphone) et événements ---------- */
-const CACHE_NAME="flanerie-v3";
+const CACHE_NAME="flanerie-v4";
 function navSnap(d){return {screen:state.screen==="guide"?"route":state.screen,route:state.route,idx:state.idx,mon:state.mon,step:state.step,back:state.back,depth:d}}
 function push(){const d=((history.state&&history.state.depth)||0)+1;try{history.pushState(navSnap(d),"")}catch(e){}}
 function replace(){try{history.replaceState(navSnap((history.state&&history.state.depth)||0),"")}catch(e){}}
 function render(o={}){
   stopAudio();
-  document.documentElement.lang=state.lang;
+  document.documentElement.lang=state.lang;document.documentElement.dir=state.lang==="ar"?"rtl":"ltr";ensureFonts(state.lang);
   const y=window.scrollY,app=document.getElementById("app");
   app.innerHTML=`<div class="screen">${SCREENS[state.screen]()}</div>`;
   renderPlayer();window.scrollTo(0,o.keepScroll?y:0);
@@ -1324,6 +1540,12 @@ window.addEventListener("popstate",e=>{const s=e.state;if(!s||!DB.catalog)return
   render()});
 function goBack(to){if(history.state&&history.state.depth>0)history.back();else go(to||"intro")}
 
+/* Polices pour l'arabe et le chinois, chargées seulement si besoin */
+const FONTS={ar:"family=Noto+Naskh+Arabic:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500",zh:"family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500"},fontsDone={};
+function ensureFonts(l){if(!FONTS[l]||fontsDone[l])return;fontsDone[l]=true;const k=document.createElement("link");k.rel="stylesheet";k.href=`https://fonts.googleapis.com/css2?${FONTS[l]}&display=swap`;document.head.appendChild(k)}
+/* Unités localisées pour le guide (redéfinit la version du moteur de guidage) */
+function fmtDist(m){const u=state.lang==="ar"?["م","كم"]:state.lang==="zh"?["米","公里"]:["m","km"],sp=state.lang==="zh"?"":" ";
+  return m<1000?`${m<100?Math.max(5,Math.round(m/5)*5):Math.round(m/10)*10}${sp}${u[0]}`:`${(Math.round(m/100)/10).toLocaleString(NUMLOC())}${sp}${u[1]}`}
 async function setLang(l){try{await loadLang(l)}catch(e){}if(!DB.content[l])return;state.lang=l;state.langChosen=true;store.set("flanerie-lang",l)}
 function openSheet(){document.getElementById("sheet-slot").innerHTML=`<div class="sheet-bg" data-action="sheet-close"></div>
   <div class="sheet" role="dialog" aria-modal="true" aria-label="${esc(t("appLang"))}"><div class="grab"></div><h2>${t("appLang")}</h2>${langList("sheet-lang")}

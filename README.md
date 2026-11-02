@@ -9,11 +9,11 @@ Prototype web du MLP de l’application de visites thématiques géolocalisées.
 1. **Accueil** : la promesse (« Voir ce que tout le monde regarde. Découvrir ce que personne ne voit. ») et, tout de suite, le choix **Ville · Langue · Parcours**.
 2. **Composer ma visite**, en trois étapes :
    - **Ville** : Paris (Rome, Madrid et Londres arrivent bientôt) ;
-   - **Langue** : celle du téléphone est présélectionnée. Français, anglais et espagnol sont actifs ; les cinq autres langues cibles sont affichées « Bientôt » ;
+   - **Langue** : celle du téléphone est présélectionnée. Huit langues : français, anglais, espagnol, italien, allemand, portugais (Brésil), chinois simplifié et arabe (affichage de droite à gauche) ;
    - **Parcours** : thème et format (2 heures, demi-journée à pied, journée à pied et en métro).
 3. **Parcours** : plan avec les étapes insolites en rouge numérotées et les monuments en gris, liste des étapes, bouton « Démarrer le guide vocal ».
 4. **Fiche lieu** : photos avec crédit TASL, texte, lecture audio, infos pratiques, « Se renseigner sur le tarif », itinéraire, copie de l’adresse, étape suivante.
-5. **Guide vocal rue par rue** (GPS ou marche simulée), itinéraires piétons OpenStreetMap.
+5. **Guide vocal rue par rue** dans les huit langues (GPS ou marche simulée), itinéraires piétons OpenStreetMap.
 
 ## Structure
 
@@ -34,5 +34,5 @@ Toutes les photos viennent de Wikimedia Commons, sous licences compatibles avec 
 ## Limites du prototype
 
 - Les textes sont en attente du vérificateur factuel (mentions « à vérifier »).
-- Les traductions anglaise et espagnole sont des versions de test, à reprendre une fois le français verrouillé.
+- Les sept traductions (anglais, espagnol, italien, allemand, portugais, chinois, arabe) sont des versions de test, à reprendre une fois le français verrouillé, conformément au CDC.
 - L’audio utilise la voix de synthèse du téléphone, en attendant les fichiers ElevenLabs.
