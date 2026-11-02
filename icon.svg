@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#14202F"/>
+  <rect x="78" y="78" width="356" height="356" rx="40" fill="none" stroke="#C9A86A" stroke-width="10"/>
+  <rect x="98" y="98" width="316" height="316" rx="26" fill="none" stroke="#F6F2EA" stroke-width="4" opacity=".85"/>
+  <text x="256" y="338" text-anchor="middle" font-family="'Cormorant Garamond','GFS Baskerville',Garamond,Georgia,serif" font-size="250" font-weight="500" fill="#F6F2EA">F</text>
+  <circle cx="352" cy="166" r="17" fill="#C0392B"/>
+  <circle cx="160" cy="346" r="11" fill="#9C978D"/>
+</svg>
