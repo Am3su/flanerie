@@ -1,0 +1,159 @@
+{
+  "version": 2,
+  "langue_reference": "fr",
+  "langues_disponibles": [
+    "fr",
+    "en",
+    "es"
+  ],
+  "langues_cibles": [
+    "fr",
+    "en",
+    "es",
+    "it",
+    "de",
+    "pt",
+    "zh",
+    "ar"
+  ],
+  "villes": [
+    {
+      "id": "paris",
+      "nom": {
+        "fr": "Paris",
+        "en": "Paris",
+        "es": "París"
+      },
+      "statut": "actif"
+    },
+    {
+      "id": "lyon",
+      "nom": {
+        "fr": "Lyon",
+        "en": "Lyon",
+        "es": "Lyon"
+      },
+      "statut": "bientot"
+    },
+    {
+      "id": "bordeaux",
+      "nom": {
+        "fr": "Bordeaux",
+        "en": "Bordeaux",
+        "es": "Burdeos"
+      },
+      "statut": "bientot"
+    },
+    {
+      "id": "rome",
+      "nom": {
+        "fr": "Rome",
+        "en": "Rome",
+        "es": "Roma"
+      },
+      "statut": "bientot"
+    }
+  ],
+  "thematiques": [
+    {
+      "id": "insolite",
+      "nom": {
+        "fr": "Paris insolite",
+        "en": "Unusual Paris",
+        "es": "París insólito"
+      },
+      "description": {
+        "fr": "Lieux méconnus, détails cachés, histoires étonnantes.",
+        "en": "Little-known places, hidden details, surprising stories.",
+        "es": "Lugares poco conocidos, detalles ocultos, historias sorprendentes."
+      },
+      "statut": "actif"
+    },
+    {
+      "id": "litteraire",
+      "nom": {
+        "fr": "Paris littéraire",
+        "en": "Literary Paris",
+        "es": "París literario"
+      },
+      "description": {
+        "fr": "Sur les pas des écrivains.",
+        "en": "In the footsteps of writers.",
+        "es": "Tras los pasos de los escritores."
+      },
+      "statut": "bientot"
+    },
+    {
+      "id": "femmes",
+      "nom": {
+        "fr": "Paris des femmes illustres",
+        "en": "Paris of remarkable women",
+        "es": "París de mujeres ilustres"
+      },
+      "description": {
+        "fr": "Leurs adresses, leurs combats.",
+        "en": "Their addresses, their struggles.",
+        "es": "Sus direcciones, sus luchas."
+      },
+      "statut": "bientot"
+    }
+  ],
+  "parcours": [
+    {
+      "parcours_id": "paris-insolite-5e-6e",
+      "ville": "paris",
+      "thematique": "insolite",
+      "statut": "gratuit",
+      "mlp": true,
+      "exemple": false,
+      "langues": [
+        "fr",
+        "en",
+        "es"
+      ],
+      "fichier": "content/{langue}/paris-insolite-5e-6e.json"
+    },
+    {
+      "parcours_id": "paris-insolite-marais",
+      "ville": "paris",
+      "thematique": "insolite",
+      "statut": "gratuit",
+      "mlp": false,
+      "exemple": true,
+      "langues": [
+        "fr",
+        "en",
+        "es"
+      ],
+      "fichier": "content/{langue}/paris-insolite-marais.json"
+    },
+    {
+      "parcours_id": "paris-insolite-rivegauche",
+      "ville": "paris",
+      "thematique": "insolite",
+      "statut": "gratuit",
+      "mlp": false,
+      "exemple": true,
+      "langues": [
+        "fr",
+        "en",
+        "es"
+      ],
+      "fichier": "content/{langue}/paris-insolite-rivegauche.json"
+    },
+    {
+      "parcours_id": "paris-insolite-journee",
+      "ville": "paris",
+      "thematique": "insolite",
+      "statut": "gratuit",
+      "mlp": false,
+      "exemple": true,
+      "langues": [
+        "fr",
+        "en",
+        "es"
+      ],
+      "fichier": "content/{langue}/paris-insolite-journee.json"
+    }
+  ]
+}
