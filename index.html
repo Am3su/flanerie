@@ -137,6 +137,24 @@ dl.practical dd{margin:0}
 
 .done{text-align:center;padding-top:60px}
 .done .lede{margin-left:auto;margin-right:auto}
+
+/* guide vocal */
+:root{--gline:#1F3A5F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--gline:#7FA3D6}}
+:root[data-theme="dark"]{--gline:#7FA3D6}
+.gcard{display:grid;grid-template-columns:52px 1fr;column-gap:16px;align-items:center;background:var(--plaque);color:#fff;border-radius:16px;padding:18px 20px;margin-top:20px;min-height:100px}
+.g-ico{grid-row:1/span 3;width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.14);display:grid;place-items:center}
+.g-ico svg{width:28px;height:28px}
+.g-dist{font-size:28px;font-weight:400;line-height:1.1}
+.g-dist:empty,.g-name:empty{display:none}
+.g-instr{font-size:18px;font-weight:500;line-height:1.3}
+.g-name{font-size:15px;opacity:.86;line-height:1.35}
+.g-then{font-size:14px;color:var(--muted);margin:10px 2px 0;min-height:1.45em}
+.g-status{font-size:14px;line-height:1.45;background:var(--surface);border-radius:10px;padding:10px 14px;margin:14px 0 0}
+.g-status:empty{display:none}
+.g-map:empty{display:none}
+.g-map{margin-top:16px}
+.g-tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
 </style>
 </head>
 <body>
@@ -146,79 +164,112 @@ dl.practical dd{margin:0}
 <script>
 /* ---------- Contenu de démonstration (sera produit par le pipeline d’agents) ---------- */
 const PLACES = {
-  ancre:{title:"Passage de l’Ancre",arr:3,street:"Passage de l’Ancre",lat:48.8648,lng:2.3533,
-    address:"223 rue Saint-Martin, 75003",access:"Passage ouvert en journée, horaires variables",
-    hook:"Un passage pavé et fleuri, caché entre deux rues très passantes.",
-    text:["Une porte cochère discrète, rue Saint-Martin, ouvre sur un étroit passage pavé. Façades basses, volets peints de couleurs vives, plantes en pots : le bruit de la ville s’efface en quelques pas.","Son nom viendrait de l’enseigne d’une ancienne auberge. Longtemps occupé par des artisans, il a gardé une échelle presque villageoise. Le passage traverse un lieu habité : on le parcourt en silence."],
-    sources:"Ville de Paris, nomenclature des voies"},
-  flamel:{title:"Maison de Nicolas Flamel",arr:3,street:"Rue de Montmorency",lat:48.8634,lng:2.3545,
-    address:"51 rue de Montmorency, 75003",access:"Façade visible depuis la rue ; restaurant au rez-de-chaussée",
-    hook:"L’une des plus anciennes maisons de Paris, liée à un célèbre « alchimiste ».",
-    text:["Construite en 1407, cette maison passe pour l’une des plus anciennes de Paris. Elle fut édifiée par Nicolas Flamel, écrivain public et libraire, qui y logeait des personnes pauvres. En échange, il leur demandait de prier pour les défunts.","Levez les yeux : la façade porte encore une longue inscription gravée et des figures sculptées. Après sa mort, la légende a fait de Flamel un alchimiste qui aurait trouvé la pierre philosophale. Cette réputation a traversé les siècles, jusqu’aux romans d’aujourd’hui."],
-    sources:"Base Mérimée ; Wikipédia"},
-  defenseur:{title:"Le Défenseur du Temps",arr:3,street:"Rue Bernard-de-Clairvaux",lat:48.8618,lng:2.3527,
-    address:"Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",access:"Visible depuis la rue, en accès libre",
-    hook:"Une horloge géante où un guerrier affronte un dragon, un oiseau et un crabe.",
-    text:["À deux pas du Centre Pompidou, un guerrier de laiton brandit son épée face à trois créatures : un dragon, un oiseau et un crabe. Elles figurent la terre, l’air et l’eau.","Cette horloge-automate, œuvre de Jacques Monestier, a été inaugurée en 1979. À chaque heure, le guerrier affrontait l’une des bêtes. Elle est à l’arrêt depuis 2003, faute d’entretien. Immobile, elle reste l’une des curiosités les plus étranges du quartier."],
-    sources:"Wikipédia ; presse"},
-  miron:{title:"Les maisons à colombages de la rue François-Miron",arr:4,street:"Rue François-Miron",lat:48.8556,lng:2.3572,
-    address:"11 et 13 rue François-Miron, 75004",access:"Façades visibles depuis la rue",
-    hook:"Deux façades à pans de bois, rescapées du Paris médiéval.",
-    text:["Étroites et un peu penchées, ces deux maisons montrent leurs colombages, comme dans une ville de province. Ce sont des maisons à pans de bois d’origine médiévale, devenues très rares à Paris.","À partir du XVIIe siècle, les règlements imposèrent de recouvrir le bois de plâtre pour limiter les incendies. Les colombages sont restés cachés jusqu’à la restauration des façades, en 1967."],
-    sources:"Base Mérimée ; Ville de Paris"},
-  enceinte:{title:"L’enceinte de Philippe Auguste",arr:4,street:"Rue des Jardins-Saint-Paul",lat:48.8540,lng:2.3610,
-    address:"Rue des Jardins-Saint-Paul, 75004",access:"Visible depuis la rue, en accès libre",
-    hook:"Le plus long morceau encore visible de la muraille médiévale de Paris.",
-    text:["Le long d’un terrain de sport scolaire se dresse un haut mur de pierre, flanqué de tours rondes. C’est le plus long tronçon encore visible de l’enceinte de Philippe Auguste.","Le roi la fit bâtir à partir de 1190, avant de partir en croisade, pour protéger Paris. Au fil des siècles, la muraille a été démolie ou absorbée dans les immeubles. D’autres fragments se cachent encore dans des cours, des caves et des parkings."],
-    sources:"Wikipédia ; Ville de Paris"},
-  sens:{title:"L’hôtel de Sens et son boulet de canon",arr:4,street:"Rue du Figuier",lat:48.8532,lng:2.3592,
-    address:"1 rue du Figuier, 75004",access:"Extérieur en accès libre ; jardin et bibliothèque aux heures d’ouverture",
-    hook:"Une demeure médiévale qui garde un boulet de canon dans sa façade.",
-    text:["Tourelles, toits pointus, porche gothique : l’hôtel de Sens est l’une des rares grandes demeures médiévales encore debout à Paris. Il a été bâti à la fin du XVe siècle pour les archevêques de Sens, dont dépendait alors l’évêché de Paris.","Cherchez sur la façade un boulet de canon incrusté dans la pierre, avec la date du 28 juillet 1830 : un souvenir des Trois Glorieuses. L’hôtel abrite aujourd’hui la bibliothèque Forney, consacrée aux arts décoratifs."],
-    sources:"Base Mérimée ; Bibliothèques de la Ville de Paris"},
-  arenes:{title:"Les arènes de Lutèce",arr:5,street:"Rue des Arènes",lat:48.8452,lng:2.3527,
-    address:"49 rue Monge, 75005",access:"Square public, ouvert en journée, gratuit",
-    hook:"Un amphithéâtre romain caché derrière les immeubles.",
-    text:["Derrière les façades de la rue Monge se cache un amphithéâtre gallo-romain. Construit vers la fin du Ier siècle, il accueillait combats et spectacles devant plusieurs milliers de personnes.","Enfoui et oublié pendant des siècles, il est redécouvert en 1869, lors du percement de la rue Monge. Des personnalités, dont Victor Hugo, militent alors pour le sauver. Aujourd’hui, on y joue aux boules et les enfants courent sur la piste."],
-    sources:"Base Mérimée ; Ville de Paris"},
-  viviani:{title:"Le plus vieil arbre de Paris",arr:5,street:"Square René-Viviani",lat:48.8521,lng:2.3474,
-    address:"Square René-Viviani, 75005",access:"Square public, ouvert en journée",
-    hook:"Un arbre de plus de quatre siècles, soutenu par des béquilles.",
-    text:["Appuyé sur des étais de béton, ce robinier tient debout depuis le début du XVIIe siècle. Il aurait été planté vers 1601 par Jean Robin, botaniste du roi, qui a donné son nom à l’espèce, venue d’Amérique du Nord.","Il est considéré comme le plus vieil arbre de Paris et fleurit encore au printemps. Depuis le square, la vue sur Notre-Dame est l’une des plus belles de la rive gauche."],
-    sources:"Ville de Paris ; Wikipédia"},
-  chat:{title:"La rue du Chat-qui-Pêche",arr:5,street:"Rue du Chat-qui-Pêche",lat:48.8531,lng:2.3463,
-    address:"Entre la rue de la Huchette et le quai Saint-Michel, 75005",access:"Rue piétonne, accès libre",
-    hook:"La rue la plus étroite de Paris : moins de deux mètres par endroits.",
-    text:["Environ 1,80 mètre de large : c’est la rue la plus étroite de Paris. Elle relie la rue de la Huchette au quai Saint-Michel, à deux pas des foules du quartier Latin.","Son nom viendrait d’une ancienne enseigne représentant un chat attrapant des poissons. Écartez les bras : vous toucherez presque les deux murs."],
-    sources:"Ville de Paris, nomenclature des voies"},
-  metre:{title:"Le mètre étalon de la rue de Vaugirard",arr:6,street:"Rue de Vaugirard",lat:48.8488,lng:2.3332,
-    address:"36 rue de Vaugirard, 75006",access:"Visible depuis la rue, en accès libre",
-    hook:"Une règle de marbre posée en 1796 pour apprendre le mètre aux Parisiens.",
-    text:["Sur un mur, face au jardin du Luxembourg, une plaque de marbre est gravée d’une règle d’un mètre. Elle fait partie des mètres étalons installés dans Paris en 1796 et 1797, pour habituer les habitants au nouveau système métrique.","C’est l’un des deux encore visibles, et le seul resté à son emplacement d’origine. Vous pouvez y vérifier la longueur de votre pas."],
-    sources:"Wikipédia ; Sénat"}
+  ancre:{arr:3,street:"Passage de l’Ancre",lat:48.8648,lng:2.3533,address:"223 rue Saint-Martin, 75003",sources:"Ville de Paris, nomenclature des voies",
+    title:{fr:"Passage de l’Ancre",en:"Passage de l’Ancre",es:"Passage de l’Ancre"},
+    access:{fr:"Passage ouvert en journée, horaires variables",en:"Open during the day, hours vary",es:"Abierto durante el día, horario variable"},
+    hook:{fr:"Un passage pavé et fleuri, caché entre deux rues très passantes.",en:"A cobbled, flower-filled passage hidden between two busy streets.",es:"Un pasaje empedrado y lleno de flores, escondido entre dos calles muy concurridas."},
+    text:{fr:["Une porte cochère discrète, rue Saint-Martin, ouvre sur un étroit passage pavé. Façades basses, volets peints de couleurs vives, plantes en pots : le bruit de la ville s’efface en quelques pas.","Son nom viendrait de l’enseigne d’une ancienne auberge. Longtemps occupé par des artisans, il a gardé une échelle presque villageoise. Le passage traverse un lieu habité : on le parcourt en silence."],
+      en:["A discreet carriage gateway on Rue Saint-Martin opens onto a narrow cobbled passage. Low façades, brightly painted shutters, potted plants: within a few steps, the noise of the city fades away.","Its name is said to come from the sign of an old inn. Long home to craftsmen, it has kept an almost village-like scale. People live here, so walk through quietly."],
+      es:["Un discreto portón en la rue Saint-Martin se abre a un estrecho pasaje empedrado. Fachadas bajas, contraventanas de colores vivos, plantas en macetas: en pocos pasos, el ruido de la ciudad se desvanece.","Su nombre vendría del letrero de un antiguo albergue. Ocupado durante mucho tiempo por artesanos, conserva una escala casi de pueblo. Es un lugar habitado: recórrelo en silencio."]}},
+  flamel:{arr:3,street:"Rue de Montmorency",lat:48.8634,lng:2.3545,address:"51 rue de Montmorency, 75003",sources:"Base Mérimée ; Wikipédia",
+    title:{fr:"Maison de Nicolas Flamel",en:"Nicolas Flamel’s House",es:"Casa de Nicolas Flamel"},
+    access:{fr:"Façade visible depuis la rue ; restaurant au rez-de-chaussée",en:"Façade visible from the street; restaurant on the ground floor",es:"Fachada visible desde la calle; restaurante en la planta baja"},
+    hook:{fr:"L’une des plus anciennes maisons de Paris, liée à un célèbre « alchimiste ».",en:"One of the oldest houses in Paris, linked to a famous “alchemist”.",es:"Una de las casas más antiguas de París, ligada a un célebre «alquimista»."},
+    text:{fr:["Construite en 1407, cette maison passe pour l’une des plus anciennes de Paris. Elle fut édifiée par Nicolas Flamel, écrivain public et libraire, qui y logeait des personnes pauvres. En échange, il leur demandait de prier pour les défunts.","Levez les yeux : la façade porte encore une longue inscription gravée et des figures sculptées. Après sa mort, la légende a fait de Flamel un alchimiste qui aurait trouvé la pierre philosophale. Cette réputation a traversé les siècles, jusqu’aux romans d’aujourd’hui."],
+      en:["Built in 1407, this house is said to be one of the oldest in Paris. It was put up by Nicolas Flamel, a scribe and bookseller, who gave lodging to poor people. In return, he asked them to pray for the dead.","Look up: the façade still bears a long carved inscription and sculpted figures. After his death, legend turned Flamel into an alchemist who had found the philosopher’s stone. That reputation has lasted for centuries, all the way to today’s novels."],
+      es:["Construida en 1407, esta casa pasa por ser una de las más antiguas de París. La levantó Nicolas Flamel, escribano y librero, que alojaba en ella a personas pobres. A cambio, les pedía que rezaran por los difuntos.","Levanta la vista: la fachada aún conserva una larga inscripción grabada y figuras esculpidas. Tras su muerte, la leyenda convirtió a Flamel en un alquimista que habría encontrado la piedra filosofal. Esa fama ha atravesado los siglos, hasta las novelas de hoy."]}},
+  defenseur:{arr:3,street:"Rue Bernard-de-Clairvaux",lat:48.8618,lng:2.3527,address:"Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",sources:"Wikipédia ; presse",
+    title:{fr:"Le Défenseur du Temps",en:"The Defender of Time",es:"El Defensor del Tiempo"},
+    access:{fr:"Visible depuis la rue, en accès libre",en:"Visible from the street, free access",es:"Visible desde la calle, acceso libre"},
+    hook:{fr:"Une horloge géante où un guerrier affronte un dragon, un oiseau et un crabe.",en:"A giant clock where a warrior fights a dragon, a bird and a crab.",es:"Un reloj gigante donde un guerrero se enfrenta a un dragón, un pájaro y un cangrejo."},
+    text:{fr:["À deux pas du Centre Pompidou, un guerrier de laiton brandit son épée face à trois créatures : un dragon, un oiseau et un crabe. Elles figurent la terre, l’air et l’eau.","Cette horloge-automate, œuvre de Jacques Monestier, a été inaugurée en 1979. À chaque heure, le guerrier affrontait l’une des bêtes. Elle est à l’arrêt depuis 2003, faute d’entretien. Immobile, elle reste l’une des curiosités les plus étranges du quartier."],
+      en:["A stone’s throw from the Centre Pompidou, a brass warrior raises his sword against three creatures: a dragon, a bird and a crab. They stand for earth, air and water.","This automaton clock, the work of Jacques Monestier, was unveiled in 1979. Every hour, the warrior fought one of the beasts. It has stood still since 2003 for lack of maintenance. Motionless, it remains one of the strangest curiosities in the neighbourhood."],
+      es:["A dos pasos del Centro Pompidou, un guerrero de latón blande su espada frente a tres criaturas: un dragón, un pájaro y un cangrejo. Representan la tierra, el aire y el agua.","Este reloj autómata, obra de Jacques Monestier, se inauguró en 1979. Cada hora, el guerrero se enfrentaba a una de las bestias. Está parado desde 2003 por falta de mantenimiento. Inmóvil, sigue siendo una de las curiosidades más extrañas del barrio."]}},
+  miron:{arr:4,street:"Rue François-Miron",lat:48.8556,lng:2.3572,address:"11 et 13 rue François-Miron, 75004",sources:"Base Mérimée ; Ville de Paris",
+    title:{fr:"Les maisons à colombages de la rue François-Miron",en:"The half-timbered houses of Rue François-Miron",es:"Las casas de entramado de madera de la rue François-Miron"},
+    access:{fr:"Façades visibles depuis la rue",en:"Façades visible from the street",es:"Fachadas visibles desde la calle"},
+    hook:{fr:"Deux façades à pans de bois, rescapées du Paris médiéval.",en:"Two half-timbered façades, survivors of medieval Paris.",es:"Dos fachadas de entramado de madera, supervivientes del París medieval."},
+    text:{fr:["Étroites et un peu penchées, ces deux maisons montrent leurs colombages, comme dans une ville de province. Ce sont des maisons à pans de bois d’origine médiévale, devenues très rares à Paris.","À partir du XVIIe siècle, les règlements imposèrent de recouvrir le bois de plâtre pour limiter les incendies. Les colombages sont restés cachés jusqu’à la restauration des façades, en 1967."],
+      en:["Narrow and slightly leaning, these two houses show off their timber frames, like something from a country town. They are half-timbered houses of medieval origin, now very rare in Paris.","From the 17th century, regulations required the wood to be covered with plaster to limit fires. The timbers stayed hidden until the façades were restored in 1967."],
+      es:["Estrechas y algo inclinadas, estas dos casas muestran su entramado de madera, como en una ciudad de provincias. Son casas de origen medieval, hoy muy escasas en París.","A partir del siglo XVII, la normativa obligó a cubrir la madera con yeso para limitar los incendios. El entramado permaneció oculto hasta la restauración de las fachadas, en 1967."]}},
+  enceinte:{arr:4,street:"Rue des Jardins-Saint-Paul",lat:48.8540,lng:2.3610,address:"Rue des Jardins-Saint-Paul, 75004",sources:"Wikipédia ; Ville de Paris",
+    title:{fr:"L’enceinte de Philippe Auguste",en:"The Wall of Philip Augustus",es:"La muralla de Felipe Augusto"},
+    access:{fr:"Visible depuis la rue, en accès libre",en:"Visible from the street, free access",es:"Visible desde la calle, acceso libre"},
+    hook:{fr:"Le plus long morceau encore visible de la muraille médiévale de Paris.",en:"The longest surviving stretch of the medieval city wall of Paris.",es:"El tramo más largo que aún se ve de la muralla medieval de París."},
+    text:{fr:["Le long d’un terrain de sport scolaire se dresse un haut mur de pierre, flanqué de tours rondes. C’est le plus long tronçon encore visible de l’enceinte de Philippe Auguste.","Le roi la fit bâtir à partir de 1190, avant de partir en croisade, pour protéger Paris. Au fil des siècles, la muraille a été démolie ou absorbée dans les immeubles. D’autres fragments se cachent encore dans des cours, des caves et des parkings."],
+      en:["Alongside a school sports ground rises a tall stone wall flanked by round towers. It is the longest visible section of the wall of Philip Augustus.","The king had it built from 1190, before leaving on crusade, to protect Paris. Over the centuries, the wall was torn down or swallowed up by buildings. Other fragments still hide in courtyards, cellars and car parks."],
+      es:["Junto a un campo de deportes escolar se alza un alto muro de piedra flanqueado por torres redondas. Es el tramo visible más largo de la muralla de Felipe Augusto.","El rey la mandó construir a partir de 1190, antes de partir a la cruzada, para proteger París. Con los siglos, la muralla fue derribada o absorbida por los edificios. Otros fragmentos se esconden aún en patios, sótanos y aparcamientos."]}},
+  sens:{arr:4,street:"Rue du Figuier",lat:48.8532,lng:2.3592,address:"1 rue du Figuier, 75004",sources:"Base Mérimée ; Bibliothèques de la Ville de Paris",
+    title:{fr:"L’hôtel de Sens et son boulet de canon",en:"The Hôtel de Sens and its cannonball",es:"El Hôtel de Sens y su bala de cañón"},
+    access:{fr:"Extérieur en accès libre ; jardin et bibliothèque aux heures d’ouverture",en:"Exterior freely accessible; garden and library during opening hours",es:"Exterior de acceso libre; jardín y biblioteca en horario de apertura"},
+    hook:{fr:"Une demeure médiévale qui garde un boulet de canon dans sa façade.",en:"A medieval mansion with a cannonball still lodged in its façade.",es:"Una mansión medieval que conserva una bala de cañón incrustada en su fachada."},
+    text:{fr:["Tourelles, toits pointus, porche gothique : l’hôtel de Sens est l’une des rares grandes demeures médiévales encore debout à Paris. Il a été bâti à la fin du XVe siècle pour les archevêques de Sens, dont dépendait alors l’évêché de Paris.","Cherchez sur la façade un boulet de canon incrusté dans la pierre, avec la date du 28 juillet 1830 : un souvenir des Trois Glorieuses. L’hôtel abrite aujourd’hui la bibliothèque Forney, consacrée aux arts décoratifs."],
+      en:["Turrets, pointed roofs, a Gothic porch: the Hôtel de Sens is one of the few great medieval residences still standing in Paris. It was built at the end of the 15th century for the archbishops of Sens, to whom the bishopric of Paris then answered.","Look on the façade for a cannonball embedded in the stone, with the date 28 July 1830: a reminder of the July Revolution. Today the building houses the Forney library, devoted to the decorative arts."],
+      es:["Torrecillas, tejados puntiagudos, pórtico gótico: el Hôtel de Sens es una de las pocas grandes residencias medievales que siguen en pie en París. Se construyó a finales del siglo XV para los arzobispos de Sens, de quienes dependía entonces el obispado de París.","Busca en la fachada una bala de cañón incrustada en la piedra, con la fecha del 28 de julio de 1830: un recuerdo de la Revolución de Julio. Hoy alberga la biblioteca Forney, dedicada a las artes decorativas."]}},
+  arenes:{arr:5,street:"Rue des Arènes",lat:48.8452,lng:2.3527,address:"49 rue Monge, 75005",sources:"Base Mérimée ; Ville de Paris",
+    title:{fr:"Les arènes de Lutèce",en:"The Arènes de Lutèce",es:"Las arenas de Lutecia"},
+    access:{fr:"Square public, ouvert en journée, gratuit",en:"Public garden, open during the day, free",es:"Jardín público, abierto durante el día, gratuito"},
+    hook:{fr:"Un amphithéâtre romain caché derrière les immeubles.",en:"A Roman amphitheatre hidden behind apartment buildings.",es:"Un anfiteatro romano escondido detrás de los edificios."},
+    text:{fr:["Derrière les façades de la rue Monge se cache un amphithéâtre gallo-romain. Construit vers la fin du Ier siècle, il accueillait combats et spectacles devant plusieurs milliers de personnes.","Enfoui et oublié pendant des siècles, il est redécouvert en 1869, lors du percement de la rue Monge. Des personnalités, dont Victor Hugo, militent alors pour le sauver. Aujourd’hui, on y joue aux boules et les enfants courent sur la piste."],
+      en:["Behind the façades of Rue Monge lies a Gallo-Roman amphitheatre. Built around the end of the 1st century, it hosted fights and shows for several thousand spectators.","Buried and forgotten for centuries, it was rediscovered in 1869, when Rue Monge was cut through. Public figures, Victor Hugo among them, then campaigned to save it. Today, people play pétanque here and children run around the arena."],
+      es:["Tras las fachadas de la rue Monge se esconde un anfiteatro galorromano. Construido hacia finales del siglo I, acogía combates y espectáculos ante varios miles de personas.","Enterrado y olvidado durante siglos, se redescubrió en 1869, durante la apertura de la rue Monge. Varias personalidades, entre ellas Victor Hugo, lucharon entonces por salvarlo. Hoy se juega a la petanca y los niños corren por la arena."]}},
+  viviani:{arr:5,street:"Square René-Viviani",lat:48.8521,lng:2.3474,address:"Square René-Viviani, 75005",sources:"Ville de Paris ; Wikipédia",
+    title:{fr:"Le plus vieil arbre de Paris",en:"The oldest tree in Paris",es:"El árbol más antiguo de París"},
+    access:{fr:"Square public, ouvert en journée",en:"Public garden, open during the day",es:"Jardín público, abierto durante el día"},
+    hook:{fr:"Un arbre de plus de quatre siècles, soutenu par des béquilles.",en:"A tree more than four centuries old, propped up on crutches.",es:"Un árbol de más de cuatro siglos, sostenido por muletas."},
+    text:{fr:["Appuyé sur des étais de béton, ce robinier tient debout depuis le début du XVIIe siècle. Il aurait été planté vers 1601 par Jean Robin, botaniste du roi, qui a donné son nom à l’espèce, venue d’Amérique du Nord.","Il est considéré comme le plus vieil arbre de Paris et fleurit encore au printemps. Depuis le square, la vue sur Notre-Dame est l’une des plus belles de la rive gauche."],
+      en:["Leaning on concrete props, this black locust has been standing since the early 17th century. It is said to have been planted around 1601 by Jean Robin, the king’s botanist, who gave his name to the species, which came from North America.","It is considered the oldest tree in Paris and still flowers in spring. From the garden, the view of Notre-Dame is one of the finest on the Left Bank."],
+      es:["Apoyada en puntales de hormigón, esta falsa acacia sigue en pie desde principios del siglo XVII. La habría plantado hacia 1601 Jean Robin, botánico del rey, que dio nombre a la especie, llegada de América del Norte.","Se la considera el árbol más antiguo de París y todavía florece en primavera. Desde la plaza, la vista de Notre-Dame es una de las más bellas de la orilla izquierda."]}},
+  chat:{arr:5,street:"Rue du Chat-qui-Pêche",lat:48.8531,lng:2.3463,address:"Entre la rue de la Huchette et le quai Saint-Michel, 75005",sources:"Ville de Paris, nomenclature des voies",
+    title:{fr:"La rue du Chat-qui-Pêche",en:"Rue du Chat-qui-Pêche",es:"La rue du Chat-qui-Pêche"},
+    access:{fr:"Rue piétonne, accès libre",en:"Pedestrian street, free access",es:"Calle peatonal, acceso libre"},
+    hook:{fr:"La rue la plus étroite de Paris : moins de deux mètres par endroits.",en:"The narrowest street in Paris: under two metres wide in places.",es:"La calle más estrecha de París: menos de dos metros en algunos tramos."},
+    text:{fr:["Environ 1,80 mètre de large : c’est la rue la plus étroite de Paris. Elle relie la rue de la Huchette au quai Saint-Michel, à deux pas des foules du quartier Latin.","Son nom viendrait d’une ancienne enseigne représentant un chat attrapant des poissons. Écartez les bras : vous toucherez presque les deux murs."],
+      en:["About 1.80 metres wide, it is the narrowest street in Paris. It links Rue de la Huchette to Quai Saint-Michel, a few steps from the crowds of the Latin Quarter.","Its name, “street of the fishing cat”, is said to come from an old shop sign showing a cat catching fish. Stretch out your arms: you can almost touch both walls."],
+      es:["Unos 1,80 metros de ancho: es la calle más estrecha de París. Une la rue de la Huchette con el quai Saint-Michel, a dos pasos del bullicio del Barrio Latino.","Su nombre, «calle del gato que pesca», vendría de un antiguo letrero que mostraba un gato atrapando peces. Abre los brazos: casi tocarás las dos paredes."]}},
+  metre:{arr:6,street:"Rue de Vaugirard",lat:48.8488,lng:2.3332,address:"36 rue de Vaugirard, 75006",sources:"Wikipédia ; Sénat",
+    title:{fr:"Le mètre étalon de la rue de Vaugirard",en:"The standard metre of Rue de Vaugirard",es:"El metro patrón de la rue de Vaugirard"},
+    access:{fr:"Visible depuis la rue, en accès libre",en:"Visible from the street, free access",es:"Visible desde la calle, acceso libre"},
+    hook:{fr:"Une règle de marbre posée en 1796 pour apprendre le mètre aux Parisiens.",en:"A marble ruler put up in 1796 to teach Parisians the metre.",es:"Una regla de mármol colocada en 1796 para enseñar el metro a los parisinos."},
+    text:{fr:["Sur un mur, face au jardin du Luxembourg, une plaque de marbre est gravée d’une règle d’un mètre. Elle fait partie des mètres étalons installés dans Paris en 1796 et 1797, pour habituer les habitants au nouveau système métrique.","C’est l’un des deux encore visibles, et le seul resté à son emplacement d’origine. Vous pouvez y vérifier la longueur de votre pas."],
+      en:["On a wall facing the Luxembourg Gardens, a marble plaque is engraved with a one-metre ruler. It is one of the standard metres installed around Paris in 1796 and 1797 to get residents used to the new metric system.","It is one of only two still visible, and the only one still in its original location. You can check the length of your stride against it."],
+      es:["En un muro frente al jardín de Luxemburgo, una placa de mármol lleva grabada una regla de un metro. Forma parte de los metros patrón instalados en París en 1796 y 1797 para acostumbrar a los habitantes al nuevo sistema métrico.","Es uno de los dos que aún se ven, y el único que sigue en su emplazamiento original. Puedes comprobar en él la longitud de tu paso."]}}
 };
 
+/* start : point de départ de la marche simulée (sortie de métro proche) */
 const ROUTES = [
-  {id:"marais",duration:2,arr:{fr:"3<sup>e</sup> et 4<sup>e</sup> arrondissements",en:"3rd & 4th arrondissements"},
-   title:"Le Marais d’avant Haussmann",mode:"walk",
-   intro:"Des passages discrets aux vestiges médiévaux, un parcours au cœur du Marais, du nord du 3e jusqu’aux quais.",
+  {id:"marais",duration:2,mode:"walk",start:{lat:48.8663,lng:2.3524},
+   arr:{fr:"3<sup>e</sup> et 4<sup>e</sup> arrondissements",en:"3rd & 4th arrondissements",es:"Distritos 3 y 4"},
+   title:{fr:"Le Marais d’avant Haussmann",en:"The Marais before Haussmann",es:"El Marais de antes de Haussmann"},
+   intro:{fr:"Des passages discrets aux vestiges médiévaux, un parcours au cœur du Marais, du nord du 3e jusqu’aux quais.",
+     en:"From discreet passages to medieval remains, a walk through the heart of the Marais, from the north of the 3rd down to the river.",
+     es:"De pasajes discretos a vestigios medievales, un recorrido por el corazón del Marais, del norte del distrito 3 hasta los muelles."},
    stops:["ancre","flamel","defenseur","miron","enceinte","sens"]},
-  {id:"rivegauche",duration:2,arr:{fr:"5<sup>e</sup> et 6<sup>e</sup> arrondissements",en:"5th & 6th arrondissements"},
-   title:"Rive gauche, de Lutèce au mètre",mode:"walk",
-   intro:"Un amphithéâtre romain, un arbre de quatre siècles, une rue minuscule et une règle de marbre : la rive gauche en quatre surprises.",
+  {id:"rivegauche",duration:2,mode:"walk",start:{lat:48.8426,lng:2.3522},
+   arr:{fr:"5<sup>e</sup> et 6<sup>e</sup> arrondissements",en:"5th & 6th arrondissements",es:"Distritos 5 y 6"},
+   title:{fr:"Rive gauche, de Lutèce au mètre",en:"Left Bank, from Lutetia to the metre",es:"Orilla izquierda, de Lutecia al metro"},
+   intro:{fr:"Un amphithéâtre romain, un arbre de quatre siècles, une rue minuscule et une règle de marbre : la rive gauche en quatre surprises.",
+     en:"A Roman amphitheatre, a four-hundred-year-old tree, a tiny street and a marble ruler: the Left Bank in four surprises.",
+     es:"Un anfiteatro romano, un árbol de cuatro siglos, una calle diminuta y una regla de mármol: la orilla izquierda en cuatro sorpresas."},
    stops:["arenes","viviani","chat","metre"]},
-  {id:"journee",duration:6,arr:{fr:"3<sup>e</sup>, 4<sup>e</sup>, 5<sup>e</sup> et 6<sup>e</sup> arrondissements",en:"3rd to 6th arrondissements"},
-   title:"Une journée hors des sentiers",mode:"metro",
-   intro:"Le Marais le matin, la rive gauche l’après-midi, reliés par la ligne 7 du métro.",
+  {id:"journee",duration:6,mode:"metro",start:{lat:48.8663,lng:2.3524},
+   arr:{fr:"3<sup>e</sup>, 4<sup>e</sup>, 5<sup>e</sup> et 6<sup>e</sup> arrondissements",en:"3rd to 6th arrondissements",es:"Distritos 3, 4, 5 y 6"},
+   title:{fr:"Une journée hors des sentiers",en:"A day off the beaten track",es:"Un día fuera de los caminos trillados"},
+   intro:{fr:"Le Marais le matin, la rive gauche l’après-midi, reliés par la ligne 7 du métro.",
+     en:"The Marais in the morning, the Left Bank in the afternoon, linked by metro line 7.",
+     es:"El Marais por la mañana, la orilla izquierda por la tarde, unidos por la línea 7 del metro."},
    stops:["ancre","flamel","defenseur","miron","enceinte","sens","arenes","viviani","chat","metre"],
-   legs:[{from:"sens",to:"arenes",type:"metro",fr:"Métro ligne 7, de Pont Marie à Place Monge (environ 10 min)",en:"Metro line 7, Pont Marie to Place Monge (about 10 min)"}]}
+   legs:[{from:"sens",to:"arenes",type:"metro",line:"7",stopsCount:3,
+     board:{name:"Pont Marie",lat:48.8534,lng:2.3573},alight:{name:"Place Monge",lat:48.8426,lng:2.3522},
+     direction:{fr:"Villejuif – Louis Aragon ou Mairie d’Ivry",en:"Villejuif – Louis Aragon or Mairie d’Ivry",es:"Villejuif – Louis Aragon o Mairie d’Ivry"},
+     fr:"Métro ligne 7, de Pont Marie à Place Monge (environ 10 min)",en:"Metro line 7, Pont Marie to Place Monge (about 10 min)",es:"Metro línea 7, de Pont Marie a Place Monge (unos 10 min)"}]}
 ];
 
-const CITIES=[{id:"paris",name:{fr:"Paris",en:"Paris"},active:true},{id:"lyon",name:{fr:"Lyon",en:"Lyon"}},{id:"bordeaux",name:{fr:"Bordeaux",en:"Bordeaux"}},{id:"rome",name:{fr:"Rome",en:"Rome"}}];
+const CITIES=[{id:"paris",name:{fr:"Paris",en:"Paris",es:"París"},active:true},{id:"lyon",name:{fr:"Lyon",en:"Lyon",es:"Lyon"}},{id:"bordeaux",name:{fr:"Bordeaux",en:"Bordeaux",es:"Burdeos"}},{id:"rome",name:{fr:"Rome",en:"Rome",es:"Roma"}}];
 const THEMES=[
-  {id:"insolite",active:true,name:{fr:"Paris insolite",en:"Unusual Paris"},desc:{fr:"Lieux méconnus, détails cachés, histoires étonnantes.",en:"Little-known places, hidden details, surprising stories."}},
-  {id:"litteraire",name:{fr:"Paris littéraire",en:"Literary Paris"},desc:{fr:"Sur les pas des écrivains.",en:"In the footsteps of writers."}},
-  {id:"femmes",name:{fr:"Paris des femmes illustres",en:"Paris of remarkable women"},desc:{fr:"Leurs adresses, leurs combats.",en:"Their addresses, their struggles."}}
+  {id:"insolite",active:true,name:{fr:"Paris insolite",en:"Unusual Paris",es:"París insólito"},desc:{fr:"Lieux méconnus, détails cachés, histoires étonnantes.",en:"Little-known places, hidden details, surprising stories.",es:"Lugares poco conocidos, detalles ocultos, historias sorprendentes."}},
+  {id:"litteraire",name:{fr:"Paris littéraire",en:"Literary Paris",es:"París literario"},desc:{fr:"Sur les pas des écrivains.",en:"In the footsteps of writers.",es:"Tras los pasos de los escritores."}},
+  {id:"femmes",name:{fr:"Paris des femmes illustres",en:"Paris of remarkable women",es:"París de mujeres ilustres"},desc:{fr:"Leurs adresses, leurs combats.",en:"Their addresses, their struggles.",es:"Sus direcciones, sus luchas."}}
 ];
 
 const I18N={
@@ -226,37 +277,138 @@ const I18N={
   cities:"Choisissez une ville",themes:"Choisissez un thème",routes:"Choisissez un parcours",soon:"Bientôt",
   all:"Tous",short:"2 heures",day:"Une journée",walk:"À pied",metro:"À pied et en métro",
   places:n=>`${n} lieux`,km:d=>`${d} km à pied`,hours:h=>h>=6?"Une journée":`${h} h`,
-  start:"Commencer le parcours",resume:"Reprendre le parcours",step:(i,n)=>`Étape ${i} sur ${n}`,
+  step:(i,n)=>`Étape ${i} sur ${n}`,
   listen:"Écouter la fiche",playing:"Lecture en cours",paused:"En pause",noSpeech:"Lecture audio indisponible sur cet appareil",
-  practical:"Infos pratiques",address:"Adresse",access:"Accès",sources:"Sources",
+  address:"Adresse",access:"Accès",sources:"Sources",
   photoTitle:"Photos en cours de sélection",photoText:"Seules des photos sous licence libre, utilisables commercialement, seront publiées avec leur crédit.",
   prev:"Précédent",next:"Lieu suivant",finish:"Terminer",back:"Retour",
   walkMin:m=>`${m} min à pied`,mapNote:"Tracé indicatif entre les étapes.",
   doneTitle:"Parcours terminé",doneText:"Vous avez vu tous les lieux de ce parcours. D’autres vous attendent.",others:"Voir les autres parcours",
-  demo:"Prototype. Les textes sont des exemples, en attente de vérification.",langsSoon:"Six autres langues arriveront ensuite.",
-  fallback:"",duration:"Durée",distance:"Marche",count:"Lieux"},
+  demo:"Prototype. Les textes sont des exemples, en attente de vérification.",langsSoon:"Cinq autres langues arriveront ensuite.",
+  duration:"Durée",distance:"Marche",count:"Lieux",
+  guideStart:"Démarrer le guide vocal",readOnly:"Lire les fiches sans guidage",guideNote:"Guidage à la voix, rue par rue, dans la langue choisie.",
+  nextGuided:"Me guider au lieu suivant",guideTo:(i,n)=>`Vers l’étape ${i} sur ${n}`,
+  locating:"Recherche de votre position…",computing:"Calcul de l’itinéraire…",rerouting:"Nouvel itinéraire.",
+  farShort:"Parcours trop éloigné",noLoc:"Position indisponible",
+  far:"Vous êtes loin de ce parcours. Pour essayer le guidage depuis chez vous, lancez la simulation.",
+  gpsDenied:"L’accès à votre position est refusé. Autorisez-le dans les réglages du navigateur, ou lancez la simulation.",
+  gpsNone:"Votre position est introuvable pour l’instant. Vérifiez que la localisation est activée.",
+  offline:"Itinéraire détaillé indisponible (connexion ?) : guidage à vol d’oiseau.",
+  weak:"Signal GPS faible : les distances sont approximatives.",keepOn:"Gardez l’écran allumé pendant la marche.",
+  simOn:"Mode démo : la marche est simulée, quatre fois plus vite qu’en réalité.",
+  simulate:"Simuler la marche (démo)",useGps:"Utiliser ma position réelle",
+  voiceOn:"Voix activée",voiceOff:"Voix coupée",repeat:"Répéter",here:"J’y suis",
+  remaining:"Restant",walkTime:"À pied",destination:"Destination",arrivedShort:"Vous y êtes",thenLine:x=>`Ensuite : ${x}`,
+  metroTitle:"Prenez le métro",stationTitle:n=>`Vers le métro ${n}`,stationSpoken:n=>`métro ${n}`,line:"Ligne",direction:"Direction",
+  alightAt:(n,c)=>`Descendez à ${n}, ${c} arrêts plus loin`,
+  metroSay:(l,d,n,c)=>`Prenez la ligne ${l}, direction ${d}. Descendez à ${n}, ${c} arrêts plus loin.`,
+  metroExit:n=>`Me voici à ${n}`,
+  routeIntro:(x,d,m)=>`Direction ${x} : ${d}, environ ${m} minute${m>1?"s":""} à pied.`,
+  arrived:x=>`Vous y êtes : ${x}.`,
+  mapAria:"Plan de l’itinéraire",
+  privacy:"Itinéraires calculés par le service OpenStreetMap de FOSSGIS, qui reçoit votre position. Données © contributeurs OpenStreetMap."},
  en:{tagline:"Themed tours to take at your own pace, on foot or by metro, with or without headphones.",
   cities:"Choose a city",themes:"Choose a theme",routes:"Choose a tour",soon:"Soon",
   all:"All",short:"2 hours",day:"Full day",walk:"On foot",metro:"On foot and by metro",
   places:n=>`${n} places`,km:d=>`${d} km on foot`,hours:h=>h>=6?"Full day":`${h} hrs`,
-  start:"Start the tour",resume:"Resume the tour",step:(i,n)=>`Stop ${i} of ${n}`,
+  step:(i,n)=>`Stop ${i} of ${n}`,
   listen:"Listen",playing:"Playing",paused:"Paused",noSpeech:"Audio isn’t available on this device",
-  practical:"Practical info",address:"Address",access:"Access",sources:"Sources",
+  address:"Address",access:"Access",sources:"Sources",
   photoTitle:"Photos being selected",photoText:"Only openly licensed photos cleared for commercial use will be published, with credits.",
   prev:"Previous",next:"Next place",finish:"Finish",back:"Back",
   walkMin:m=>`${m} min walk`,mapNote:"Indicative path between stops.",
   doneTitle:"Tour complete",doneText:"You’ve seen every place on this tour. More are waiting.",others:"See other tours",
-  demo:"Prototype. Texts are samples awaiting fact-checking.",langsSoon:"Six more languages are coming.",
-  fallback:"Tour texts and audio are in French for now; the English version is coming.",duration:"Duration",distance:"Walking",count:"Places"}
+  demo:"Prototype. Texts are samples awaiting fact-checking.",langsSoon:"Five more languages are coming.",
+  duration:"Duration",distance:"Walking",count:"Places",
+  guideStart:"Start voice guidance",readOnly:"Read the stops without guidance",guideNote:"Turn-by-turn voice guidance in the language you chose.",
+  nextGuided:"Guide me to the next place",guideTo:(i,n)=>`To stop ${i} of ${n}`,
+  locating:"Finding your location…",computing:"Calculating the route…",rerouting:"Rerouting.",
+  farShort:"Tour too far away",noLoc:"Location unavailable",
+  far:"You’re far from this tour. To try the guidance from home, start the simulation.",
+  gpsDenied:"Location access is blocked. Allow it in your browser settings, or start the simulation.",
+  gpsNone:"Your location can’t be found right now. Check that location services are on.",
+  offline:"Detailed route unavailable (connection?): guiding as the crow flies.",
+  weak:"Weak GPS signal: distances are approximate.",keepOn:"Keep your screen on while walking.",
+  simOn:"Demo mode: the walk is simulated at four times walking speed.",
+  simulate:"Simulate the walk (demo)",useGps:"Use my real location",
+  voiceOn:"Voice on",voiceOff:"Voice muted",repeat:"Repeat",here:"I’m here",
+  remaining:"Remaining",walkTime:"On foot",destination:"Destination",arrivedShort:"You’ve arrived",thenLine:x=>`Then: ${x}`,
+  metroTitle:"Take the metro",stationTitle:n=>`To ${n} metro station`,stationSpoken:n=>`${n} metro station`,line:"Line",direction:"Towards",
+  alightAt:(n,c)=>`Get off at ${n}, ${c} stops later`,
+  metroSay:(l,d,n,c)=>`Take line ${l} towards ${d}. Get off at ${n}, ${c} stops later.`,
+  metroExit:n=>`I’m out at ${n}`,
+  routeIntro:(x,d,m)=>`Heading to ${x}: ${d}, about ${m} minute${m>1?"s":""} on foot.`,
+  arrived:x=>`You’ve arrived: ${x}.`,
+  mapAria:"Route map",
+  privacy:"Routes are calculated by the FOSSGIS OpenStreetMap service, which receives your location. Data © OpenStreetMap contributors."},
+ es:{tagline:"Visitas temáticas a tu ritmo, a pie o en metro, con o sin auriculares.",
+  cities:"Elige una ciudad",themes:"Elige un tema",routes:"Elige un recorrido",soon:"Pronto",
+  all:"Todos",short:"2 horas",day:"Un día",walk:"A pie",metro:"A pie y en metro",
+  places:n=>`${n} lugares`,km:d=>`${d} km a pie`,hours:h=>h>=6?"Un día":`${h} h`,
+  step:(i,n)=>`Etapa ${i} de ${n}`,
+  listen:"Escuchar la ficha",playing:"Reproduciendo",paused:"En pausa",noSpeech:"Audio no disponible en este dispositivo",
+  address:"Dirección",access:"Acceso",sources:"Fuentes",
+  photoTitle:"Fotos en proceso de selección",photoText:"Solo se publicarán fotos con licencia libre y uso comercial autorizado, con su crédito.",
+  prev:"Anterior",next:"Siguiente lugar",finish:"Terminar",back:"Volver",
+  walkMin:m=>`${m} min a pie`,mapNote:"Trazado indicativo entre las etapas.",
+  doneTitle:"Recorrido terminado",doneText:"Has visto todos los lugares de este recorrido. Te esperan otros.",others:"Ver los otros recorridos",
+  demo:"Prototipo. Los textos son ejemplos pendientes de verificación.",langsSoon:"Pronto llegarán cinco idiomas más.",
+  duration:"Duración",distance:"A pie",count:"Lugares",
+  guideStart:"Iniciar la guía de voz",readOnly:"Leer las fichas sin guía",guideNote:"Indicaciones de voz calle a calle, en el idioma elegido.",
+  nextGuided:"Guíame al siguiente lugar",guideTo:(i,n)=>`Hacia la etapa ${i} de ${n}`,
+  locating:"Buscando tu ubicación…",computing:"Calculando la ruta…",rerouting:"Recalculando la ruta.",
+  farShort:"Recorrido demasiado lejos",noLoc:"Ubicación no disponible",
+  far:"Estás lejos de este recorrido. Para probar la guía desde casa, inicia la simulación.",
+  gpsDenied:"El acceso a tu ubicación está bloqueado. Permítelo en los ajustes del navegador o inicia la simulación.",
+  gpsNone:"No se encuentra tu ubicación por ahora. Comprueba que la localización está activada.",
+  offline:"Ruta detallada no disponible (¿conexión?): guía en línea recta.",
+  weak:"Señal GPS débil: las distancias son aproximadas.",keepOn:"Mantén la pantalla encendida mientras caminas.",
+  simOn:"Modo demo: el paseo se simula a cuatro veces la velocidad real.",
+  simulate:"Simular el paseo (demo)",useGps:"Usar mi ubicación real",
+  voiceOn:"Voz activada",voiceOff:"Voz silenciada",repeat:"Repetir",here:"Ya estoy aquí",
+  remaining:"Restante",walkTime:"A pie",destination:"Destino",arrivedShort:"Has llegado",thenLine:x=>`Después: ${x}`,
+  metroTitle:"Toma el metro",stationTitle:n=>`Hacia el metro ${n}`,stationSpoken:n=>`la estación de metro ${n}`,line:"Línea",direction:"Dirección",
+  alightAt:(n,c)=>`Bájate en ${n}, ${c} paradas después`,
+  metroSay:(l,d,n,c)=>`Toma la línea ${l}, dirección ${d}. Bájate en ${n}, ${c} paradas después.`,
+  metroExit:n=>`Ya he salido en ${n}`,
+  routeIntro:(x,d,m)=>`Rumbo a ${x}: ${d}, unos ${m} minuto${m>1?"s":""} a pie.`,
+  arrived:x=>`Has llegado: ${x}.`,
+  mapAria:"Plano de la ruta",
+  privacy:"Las rutas las calcula el servicio OpenStreetMap de FOSSGIS, que recibe tu ubicación. Datos © colaboradores de OpenStreetMap."}
 };
+
+/* Phrases du guidage rue par rue (fragments en minuscules, la majuscule est ajoutée à l’assemblage) */
+const NAV={
+ fr:{m:n=>`${n} mètres`,km:x=>`${x} kilomètre${parseFloat(String(x).replace(",","."))>=2?"s":""}`,in:d=>`dans ${d}`,then:"puis",onto:n=>`, ${n}`,
+  mods:{straight:"continuez tout droit","slight right":"prenez légèrement à droite",right:"tournez à droite","sharp right":"tournez franchement à droite",uturn:"faites demi-tour","sharp left":"tournez franchement à gauche",left:"tournez à gauche","slight left":"prenez légèrement à gauche"},
+  depart:(d,n)=>`partez vers ${d}${n?`, ${n}`:""}`,
+  round:n=>`au rond-point, prenez la ${["première","deuxième","troisième","quatrième"][n-1]||n+"e"} sortie`,
+  dirs:["le nord","le nord-est","l’est","le sud-est","le sud","le sud-ouest","l’ouest","le nord-ouest"],
+  arriveSoon:"vous arrivez à destination",crow:(d,dir)=>`le lieu est à ${d} à vol d’oiseau, vers ${dir}`},
+ en:{m:n=>`${n} meters`,km:x=>`${x} kilometers`,in:d=>`in ${d}`,then:"then",onto:n=>` onto ${n}`,
+  mods:{straight:"continue straight","slight right":"bear right",right:"turn right","sharp right":"turn sharp right",uturn:"make a U-turn","sharp left":"turn sharp left",left:"turn left","slight left":"bear left"},
+  depart:(d,n)=>`head ${d}${n?` on ${n}`:""}`,
+  round:n=>`at the roundabout, take the ${["first","second","third","fourth"][n-1]||n+"th"} exit`,
+  dirs:["north","northeast","east","southeast","south","southwest","west","northwest"],
+  arriveSoon:"you’ll reach your destination",crow:(d,dir)=>`the place is ${d} away as the crow flies, to the ${dir}`},
+ es:{m:n=>`${n} metros`,km:x=>`${x} kilómetros`,in:d=>`en ${d}`,then:"luego",onto:n=>` hacia ${n}`,
+  mods:{straight:"sigue recto","slight right":"gira ligeramente a la derecha",right:"gira a la derecha","sharp right":"gira bruscamente a la derecha",uturn:"da media vuelta","sharp left":"gira bruscamente a la izquierda",left:"gira a la izquierda","slight left":"gira ligeramente a la izquierda"},
+  depart:(d,n)=>`dirígete hacia ${d}${n?` por ${n}`:""}`,
+  round:n=>`en la rotonda, toma la ${["primera","segunda","tercera","cuarta"][n-1]||n+".ª"} salida`,
+  dirs:["el norte","el noreste","el este","el sureste","el sur","el suroeste","el oeste","el noroeste"],
+  arriveSoon:"llegarás a tu destino",crow:(d,dir)=>`el lugar está a ${d} en línea recta, hacia ${dir}`}
+};
+const LOCALES={fr:"fr-FR",en:"en-GB",es:"es-ES"};
 
 /* ---------- État ---------- */
 function loadLang(){try{const s=localStorage.getItem("flanerie-lang");if(s&&I18N[s])return s}catch(e){}
   const n=(navigator.language||"fr").slice(0,2).toLowerCase();return I18N[n]?n:"fr"}
-const state={lang:loadLang(),screen:"home",theme:null,route:null,idx:0,filter:"all",rate:1};
-const t=(k,...a)=>{const v=(I18N[state.lang]||I18N.fr)[k];return typeof v==="function"?v(...a):v};
-const L=o=>o[state.lang]||o.fr;
+function loadVoice(){try{return localStorage.getItem("flanerie-voice")!=="off"}catch(e){return true}}
+const state={lang:loadLang(),screen:"home",theme:null,route:null,idx:0,filter:"all",rate:1,guided:false,autoplay:false,voice:loadVoice()};
+const t=(k,...a)=>{const D=I18N[state.lang]||I18N.fr,v=(k in D)?D[k]:I18N.fr[k];return typeof v==="function"?v(...a):v};
+const L=o=>o==null?"":(typeof o==="object"&&!Array.isArray(o)?(o[state.lang]??o.fr):o);
 const routeById=id=>ROUTES.find(r=>r.id===id);
+const cap=s=>s?s.charAt(0).toUpperCase()+s.slice(1):s;
 
 /* ---------- Géo ---------- */
 function dist(a,b){const R=6371000,r=Math.PI/180,dLa=(b.lat-a.lat)*r,dLo=(b.lng-a.lng)*r;
@@ -286,23 +438,31 @@ function mapSVG(r,big){
     ?`<g><circle cx="${x}" cy="${y}" r="12" fill="var(--plaque)" stroke="var(--surface)" stroke-width="2"/><text x="${x}" y="${y+4.5}" text-anchor="middle" font-family="Jost,sans-serif" font-size="12" font-weight="500" fill="#fff">${i+1}</text></g>`
     :`<circle cx="${x}" cy="${y}" r="3.2" fill="var(--plaque)"/>`}).join("");
   const label=big?`<text x="${w-14}" y="${h-12}" text-anchor="end" font-family="Newsreader,Georgia,serif" font-style="italic" font-size="13" fill="var(--muted)">Seine</text>`:"";
-  return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${r.title}"><polyline points="${seine}" fill="none" stroke="var(--river)" stroke-width="${big?16:7}" stroke-linecap="round" stroke-linejoin="round"/>${lines}${dots}${label}</svg>`;
+  return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${L(r.title)}"><polyline points="${seine}" fill="none" stroke="var(--river)" stroke-width="${big?16:7}" stroke-linecap="round" stroke-linejoin="round"/>${lines}${dots}${label}</svg>`;
 }
 
 /* ---------- Icônes ---------- */
+const SV=`viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"`;
 const I={
   back:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>`,
   chev:`<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>`,
   play:`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>`,
-  pause:`<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>`
+  pause:`<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>`,
+  arrow:a=>`<svg ${SV}><g transform="rotate(${a} 12 12)"><path d="M12 20V5M6 11l6-6 6 6"/></g></svg>`,
+  uturn:`<svg ${SV}><path d="M8 20V10a4 4 0 0 1 8 0v5"/><path d="M12.5 12l3.5 3.5 3.5-3.5"/></svg>`,
+  round:`<svg ${SV}><path d="M12 21v-6"/><circle cx="12" cy="10" r="5"/><path d="M15.5 6.5L20 2M20 2h-4M20 2v4"/></svg>`,
+  pin:`<svg ${SV}><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>`,
+  locate:`<svg ${SV}><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>`,
+  metro:`<svg ${SV}><circle cx="12" cy="12" r="10"/><path d="M7.5 16.5V8l4.5 5 4.5-5v8.5"/></svg>`
 };
+const TURN_ANGLE={straight:0,"slight right":45,right:90,"sharp right":135,"sharp left":-135,left:-90,"slight left":-45};
 
 /* ---------- Écrans ---------- */
-const langSelect=()=>`<select class="lang" data-action="lang" aria-label="Langue / Language">
+const langSelect=()=>`<select class="lang" data-action="lang" aria-label="Langue / Language / Idioma">
   <option value="fr"${state.lang==="fr"?" selected":""}>Français</option>
-  <option value="en"${state.lang==="en"?" selected":""}>English</option></select>`;
+  <option value="en"${state.lang==="en"?" selected":""}>English</option>
+  <option value="es"${state.lang==="es"?" selected":""}>Español</option></select>`;
 const bar=(back)=>`<div class="bar">${back?`<button class="back" data-action="go" data-to="${back}">${I.back}${t("back")}</button>`:"<span></span>"}${langSelect()}</div>`;
-const fallback=()=>state.lang!=="fr"?`<p class="fallback">${t("fallback")}</p>`:"";
 const plaque=(arr,street,cls="")=>`<span class="plaque ${cls}"><span class="arr">${arr}<sup>${arr===1?"er":"e"}</sup> Arr<sup>t</sup></span><span class="street">${street}</span></span>`;
 
 const SCREENS={
@@ -317,7 +477,7 @@ const SCREENS={
    <p class="note">${t("langsSoon")} ${t("demo")}</p>`,
 
   themes:()=>`${bar("home")}
-   <h1>Paris</h1><p class="sub">${t("themes")}</p>
+   <h1>${L(CITIES[0].name)}</h1><p class="sub">${t("themes")}</p>
    <div style="margin-top:18px">${THEMES.map(th=>`<button class="choice" ${th.active?`data-action="theme" data-id="${th.id}"`:"disabled"}>
      <span><span class="name">${L(th.name)}</span><span class="desc">${L(th.desc)}</span></span>${th.active?I.chev:`<span class="soon">${t("soon")}</span>`}</button>`).join("")}</div>`,
 
@@ -329,47 +489,64 @@ const SCREENS={
    </div>
    ${list.map(r=>`<button class="route" data-action="route" data-id="${r.id}">
      <span class="thumb">${mapSVG(r,false)}</span>
-     <span><span class="title">${r.title}</span>
+     <span><span class="title">${L(r.title)}</span>
      <span class="facts" style="display:block">${t("hours",r.duration)}, ${t("places",r.stops.length)}<br>${t(r.mode)}, ${t("km",routeKm(r))}</span></span></button>`).join("")}`},
 
   route:()=>{const r=routeById(state.route);
    let items="";
    r.stops.forEach((id,i)=>{const p=PLACES[id];
-     items+=`<li class="stop"><span class="num">${i+1}</span><button data-action="open" data-i="${i}"><span class="t">${p.title}</span><span class="h">${p.hook}</span></button></li>`;
+     items+=`<li class="stop"><span class="num">${i+1}</span><button data-action="open" data-i="${i}"><span class="t">${L(p.title)}</span><span class="h">${L(p.hook)}</span></button></li>`;
      if(i<r.stops.length-1){const lg=legOf(r,id,r.stops[i+1]);
        items+=`<li class="leg${lg?" metro":""}"><i></i><span>${lg?L(lg):t("walkMin",walkMinutes(id,r.stops[i+1]))}</span></li>`}});
    return `${bar("routes")}
    <p class="sub" style="margin-top:8px">${L(r.arr)}</p>
-   <h1>${r.title}</h1>
-   ${fallback()}
+   <h1>${L(r.title)}</h1>
    <div class="map">${mapSVG(r,true)}</div><p class="caption">${t("mapNote")}</p>
    <div class="facts-row">
      <div class="fact"><b>${t("hours",r.duration)}</b><span>${t("duration")}</span></div>
      <div class="fact"><b>${routeKm(r)} km</b><span>${t("distance")}</span></div>
      <div class="fact"><b>${r.stops.length}</b><span>${t("count")}</span></div>
    </div>
-   <p class="intro">${r.intro}</p>
+   <p class="intro">${L(r.intro)}</p>
    <ol class="stops">${items}</ol>
-   <button class="primary" data-action="open" data-i="0">${t("start")}</button>`},
+   <button class="primary" data-action="guide" data-i="0">${t("guideStart")}</button>
+   <button class="secondary" data-action="open" data-i="0">${t("readOnly")}</button>
+   <p class="caption" style="text-align:center;margin-top:12px">${t("guideNote")}</p>`},
 
   place:()=>{const r=routeById(state.route),n=r.stops.length,i=state.idx,p=PLACES[r.stops[i]];
    const nextLeg=i<n-1?(legOf(r,r.stops[i],r.stops[i+1])?L(legOf(r,r.stops[i],r.stops[i+1])):t("walkMin",walkMinutes(r.stops[i],r.stops[i+1]))):"";
+   const nextLabel=i===n-1?t("finish"):state.guided?t("nextGuided"):t("next");
    return `${bar("route")}
    <div class="progress" aria-hidden="true">${r.stops.map((_,k)=>`<span class="${k<=i?"on":""}"></span>`).join("")}</div>
    <p class="step-label">${t("step",i+1,n)}</p>
    ${plaque(p.arr,p.street,"wide")}
-   <h1>${p.title}</h1>
-   ${fallback()}
-   <p class="hook">${p.hook}</p>
-   <div class="body">${p.text.map(x=>`<p>${x}</p>`).join("")}</div>
+   <h1>${L(p.title)}</h1>
+   <p class="hook">${L(p.hook)}</p>
+   <div class="body">${L(p.text).map(x=>`<p>${x}</p>`).join("")}</div>
    <div class="photo"><b>${t("photoTitle")}</b>${t("photoText")}</div>
-   <dl class="practical"><dt>${t("address")}</dt><dd>${p.address}</dd><dt>${t("access")}</dt><dd>${p.access}</dd></dl>
+   <dl class="practical"><dt>${t("address")}</dt><dd>${p.address}</dd><dt>${t("access")}</dt><dd>${L(p.access)}</dd></dl>
    <p class="sources">${t("sources")} : ${p.sources}</p>
    <div class="nav">
      <button data-action="step" data-d="-1"${i===0?" disabled":""}>${t("prev")}</button>
-     <button class="next" data-action="step" data-d="1">${i===n-1?t("finish"):t("next")}</button>
+     <button class="next" data-action="step" data-d="1">${nextLabel}</button>
    </div>
    ${nextLeg?`<p class="caption" style="text-align:right;margin-top:10px">${nextLeg}</p>`:""}`},
+
+  guide:()=>{const r=routeById(state.route),n=r.stops.length,i=state.idx,p=PLACES[r.stops[i]];
+   const metro=G.phase==="metro"&&G.leg,toSt=G.phase==="toStation"&&G.leg;
+   const title=metro?t("metroTitle"):toSt?t("stationTitle",G.leg.board.name):L(p.title);
+   return `${bar("route")}
+   <p class="step-label" style="margin-top:4px">${t("guideTo",i+1,n)}</p>
+   <h1>${title}</h1>
+   <div class="gcard"><span class="g-ico" id="g-ico" aria-hidden="true"></span><span class="g-dist" id="g-dist"></span><span class="g-instr" id="g-instr"></span><span class="g-name" id="g-name"></span></div>
+   <p class="g-then" id="g-then"></p>
+   <p class="g-status" id="g-status" role="status"></p>
+   ${metro?"":`<div class="map g-map" id="g-map"></div>
+   <div class="facts-row"><div class="fact"><b id="g-remain">–</b><span>${t("remaining")}</span></div><div class="fact"><b id="g-time">–</b><span>${t("walkTime")}</span></div></div>`}
+   <div class="g-tools"><button class="chip" data-action="voice" aria-pressed="${state.voice}">${state.voice?t("voiceOn"):t("voiceOff")}</button><button class="chip" data-action="repeat">${t("repeat")}</button></div>
+   ${metro?`<button class="primary" data-action="metroexit">${t("metroExit",G.leg.alight.name)}</button>`:`<button class="primary" data-action="here">${t("here")}</button>`}
+   <button class="secondary" data-action="sim">${G.sim?t("useGps"):t("simulate")}</button>
+   <p class="caption" style="margin-top:20px">${t("privacy")}</p>`},
 
   done:()=>{const r=routeById(state.route);return `${bar("route")}
    <section class="done">${plaque(PLACES[r.stops[r.stops.length-1]].arr,t("doneTitle"),"hero")}
@@ -377,15 +554,18 @@ const SCREENS={
    <button class="primary" data-action="go" data-to="routes">${t("others")}</button></section>`}
 };
 
-/* ---------- Audio (synthèse vocale de l’appareil : coût nul, hors ligne) ---------- */
-const audio={status:"idle",token:0,parts:[],at:0};
+/* ---------- Voix (synthèse vocale de l’appareil : coût nul, hors ligne) ---------- */
 const hasSpeech="speechSynthesis" in window;
-function frVoice(){return (speechSynthesis.getVoices()||[]).find(v=>(v.lang||"").toLowerCase().startsWith("fr"))}
-function stopAudio(){audio.token++;if(hasSpeech)speechSynthesis.cancel();audio.status="idle";audio.at=0}
+function voiceFor(lang){if(!hasSpeech)return null;const vs=speechSynthesis.getVoices()||[],norm=s=>(s||"").toLowerCase().replace("_","-"),want=norm(LOCALES[lang]);
+  return vs.find(v=>norm(v.lang)===want)||vs.find(v=>norm(v.lang).startsWith(lang))||null}
+
+/* Lecture des fiches */
+const audio={status:"idle",token:0,parts:[],at:0};
+function stopAudio(){audio.token++;if(hasSpeech&&audio.status!=="idle")speechSynthesis.cancel();audio.status="idle";audio.at=0}
 function speakFrom(k){
   const my=++audio.token;speechSynthesis.cancel();
   if(k>=audio.parts.length){audio.status="idle";audio.at=0;renderPlayer();return}
-  audio.at=k;const u=new SpeechSynthesisUtterance(audio.parts[k]);u.lang="fr-FR";const v=frVoice();if(v)u.voice=v;u.rate=state.rate;
+  audio.at=k;const u=new SpeechSynthesisUtterance(audio.parts[k]);u.lang=LOCALES[state.lang];const v=voiceFor(state.lang);if(v)u.voice=v;u.rate=state.rate;
   u.onend=()=>{if(my===audio.token)speakFrom(k+1)};
   speechSynthesis.speak(u);audio.status="playing";renderPlayer();
 }
@@ -394,7 +574,7 @@ function togglePlay(){
   if(audio.status==="playing"){speechSynthesis.pause();audio.status="paused"}
   else if(audio.status==="paused"){speechSynthesis.resume();audio.status="playing"}
   else{const r=routeById(state.route),p=PLACES[r.stops[state.idx]];
-    audio.parts=[p.title+".",p.hook,...p.text.join(" ").split(/(?<=[.!?])\s+/)];speakFrom(0);return}
+    audio.parts=[L(p.title)+".",L(p.hook),...L(p.text).join(" ").split(/(?<=[.!?])\s+/)];speakFrom(0);return}
   renderPlayer();
 }
 function cycleRate(){const rates=[0.9,1,1.15];state.rate=rates[(rates.indexOf(state.rate)+1)%rates.length];
@@ -406,10 +586,212 @@ function renderPlayer(){
   const st=!hasSpeech?t("noSpeech"):audio.status==="playing"?t("playing"):audio.status==="paused"?t("paused"):t("listen");
   slot.innerHTML=`<div class="player"><div class="player-in">
     <button class="play" data-action="play" aria-label="${audio.status==="playing"?t("paused"):t("listen")}"${hasSpeech?"":" disabled"}>${audio.status==="playing"?I.pause:I.play}</button>
-    <div class="ptext"><b>${p.title}</b><span>${st}</span></div>
+    <div class="ptext"><b>${L(p.title)}</b><span>${st}</span></div>
     <button class="speed" data-action="rate" aria-label="Vitesse">${state.rate.toLocaleString(state.lang)}×</button>
   </div></div>`;
 }
+
+/* ---------- Guide vocal rue par rue ----------
+   Itinéraire piéton : service OSRM « routed-foot » de FOSSGIS (données OpenStreetMap).
+   Position : GPS du téléphone, ou marche simulée pour tester à distance. */
+const OSRM="https://routing.openstreetmap.de/routed-foot/route/v1/foot/";
+const SIM_SPEED=(()=>{try{return +new URLSearchParams(location.search).get("simspeed")||4}catch(e){return 4}})();
+const G={on:false,sim:false,seq:0,unlocked:false,watch:null,simTimer:null,metroTimer:null,wake:null};
+const K0=Math.cos(48.855*Math.PI/180);
+const toXY=(lat,lng)=>[lng*K0*111320,lat*110574];
+const nav=()=>NAV[state.lang]||NAV.fr;
+function bearing(a,b){const r=Math.PI/180,y=Math.sin((b.lng-a.lng)*r)*Math.cos(b.lat*r),x=Math.cos(a.lat*r)*Math.sin(b.lat*r)-Math.sin(a.lat*r)*Math.cos(b.lat*r)*Math.cos((b.lng-a.lng)*r);return (Math.atan2(y,x)/r+360)%360}
+function modFromTurn(before,after){const d=((after-before+540)%360)-180,a=Math.abs(d),s=d>0?"right":"left";
+  if(a<20)return "straight";if(a<60)return "slight "+s;if(a<135)return s;if(a<170)return "sharp "+s;return "uturn"}
+const dirOf=b=>nav().dirs[Math.round((((b||0)%360)+360)%360/45)%8];
+const roundSay=m=>m<100?Math.max(10,Math.round(m/10)*10):Math.round(m/50)*50;
+function sayDist(m){const N=nav();return m<1000?N.m(roundSay(m)):N.km((Math.round(m/100)/10).toLocaleString(state.lang))}
+function fmtDist(m){return m<1000?`${m<100?Math.max(5,Math.round(m/5)*5):Math.round(m/10)*10} m`:`${(Math.round(m/100)/10).toLocaleString(state.lang)} km`}
+
+/* Nettoyage des étapes OSRM : on retire les « tout droit » inutiles et on fusionne les virages collés */
+function buildSteps(raw){
+  const quiet=new Set(["new name","continue","notification","use lane","suppressed","exit roundabout","exit rotary"]),res=[];
+  for(const r of raw){const m=r.maneuver,s={type:m.type,mod:m.modifier||"straight",name:r.name||"",dist:r.distance||0,lat:m.location[1],lng:m.location[0],bb:m.bearing_before||0,ba:m.bearing_after||0,exit:m.exit};
+    const last=res[res.length-1];
+    if(last&&s.type!=="arrive"&&quiet.has(s.type)&&(s.mod==="straight"||s.type.startsWith("exit"))){last.dist+=s.dist;continue}
+    if(last&&last.type!=="depart"&&s.type!=="arrive"&&last.dist<3){
+      last.mod=modFromTurn(last.bb,s.ba);last.ba=s.ba;last.dist+=s.dist;last.name=s.name||last.name;last.exit=s.exit;last.type=s.exit?s.type:"turn";
+      if(last.mod==="straight"&&!last.exit){res.pop();const prev=res[res.length-1];if(prev)prev.dist+=last.dist}
+      continue}
+    res.push(s)}
+  return res}
+function makeRoute(coords,steps,fallback){
+  const cum=[0];for(let i=1;i<coords.length;i++)cum.push(cum[i-1]+dist({lat:coords[i-1][0],lng:coords[i-1][1]},{lat:coords[i][0],lng:coords[i][1]}));
+  const len=cum[cum.length-1];let j=0;
+  steps.forEach(s=>{let best=j,bd=Infinity;
+    for(let i=j;i<coords.length;i++){const d=Math.abs(coords[i][0]-s.lat)+Math.abs(coords[i][1]-s.lng);if(d<bd){bd=d;best=i;if(d<1e-6)break}}
+    j=best;s.along=cum[best]});
+  const last=steps[steps.length-1];if(last&&last.type==="arrive")last.along=len;
+  return {coords,cum,len,steps,fallback}}
+async function fetchRoute(o,tg){
+  const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),9000);
+  try{
+    const res=await fetch(`${OSRM}${o.lng.toFixed(6)},${o.lat.toFixed(6)};${tg.lng.toFixed(6)},${tg.lat.toFixed(6)}?overview=full&geometries=geojson&steps=true`,{signal:ctl.signal});
+    if(!res.ok)throw new Error("HTTP "+res.status);
+    const d=await res.json();if(d.code!=="Ok"||!d.routes||!d.routes[0])throw new Error(d.code);
+    const rt=d.routes[0],coords=rt.geometry.coordinates.map(c=>[c[1],c[0]]);
+    if(coords.length<2)throw new Error("geometry");
+    return makeRoute(coords,buildSteps(rt.legs[0].steps),false)}
+  catch(e){const d=dist(o,tg);/* repli : ligne droite */
+    return makeRoute([[o.lat,o.lng],[tg.lat,tg.lng]],[{type:"depart",mod:"straight",name:"",dist:d,lat:o.lat,lng:o.lng,bb:0,ba:bearing(o,tg)},{type:"arrive",mod:"straight",name:"",dist:0,lat:tg.lat,lng:tg.lng,bb:0,ba:0}],true)}
+  finally{clearTimeout(tm)}}
+function snap(R,p){const P=toXY(p.lat,p.lng),from=G.lastAlong||0;let best=null;
+  for(let i=0;i<R.coords.length-1;i++){
+    if(R.cum[i+1]<from-40)continue;
+    const A=toXY(R.coords[i][0],R.coords[i][1]),B=toXY(R.coords[i+1][0],R.coords[i+1][1]),dx=B[0]-A[0],dy=B[1]-A[1],L2=dx*dx+dy*dy;
+    let u=L2?((P[0]-A[0])*dx+(P[1]-A[1])*dy)/L2:0;u=Math.max(0,Math.min(1,u));
+    const d=Math.hypot(P[0]-(A[0]+u*dx),P[1]-(A[1]+u*dy));
+    if(!best||d<best.off)best={off:d,along:R.cum[i]+u*(R.cum[i+1]-R.cum[i])}}
+  return best||{off:Infinity,along:0}}
+function pointAt(R,s){
+  for(let i=1;i<R.coords.length;i++){if(R.cum[i]>=s){const f=(s-R.cum[i-1])/((R.cum[i]-R.cum[i-1])||1),a=R.coords[i-1],b=R.coords[i];return {lat:a[0]+f*(b[0]-a[0]),lng:a[1]+f*(b[1]-a[1])}}}
+  const c=R.coords[R.coords.length-1];return {lat:c[0],lng:c[1]}}
+
+/* Textes des instructions */
+function targetTitle(){if(G.kind==="station")return t("stationSpoken",G.leg.board.name);const r=routeById(state.route);return L(PLACES[r.stops[state.idx]].title)}
+function stepAct(s){const N=nav();if(s.type==="depart")return N.depart(dirOf(s.ba),"");if(/roundabout|rotary/.test(s.type)&&s.exit)return N.round(s.exit);return N.mods[s.mod]||N.mods.straight}
+function stepSay(s){const N=nav();
+  if(s.type==="depart")return G.route&&G.route.fallback?N.crow(sayDist(G.route.len),dirOf(s.ba)):N.depart(dirOf(s.ba),s.name);
+  return stepAct(s)+(s.name?N.onto(s.name):"")}
+function stepIcon(s){if(s.type==="arrive")return I.pin;if(/roundabout|rotary/.test(s.type))return I.round;if(s.mod==="uturn")return I.uturn;return I.arrow(TURN_ANGLE[s.mod]||0)}
+
+/* Parole du guide : les annonces se mettent en file d’attente */
+function unlockSpeech(){if(hasSpeech&&!G.unlocked){try{const u=new SpeechSynthesisUtterance(" ");u.volume=0;speechSynthesis.speak(u);G.unlocked=true}catch(e){}}}
+function say(text,opts={}){G.lastSaid=text;
+  if(!hasSpeech||(!state.voice&&!opts.force)){if(opts.onend)setTimeout(opts.onend,700);return}
+  const u=new SpeechSynthesisUtterance(text);u.lang=LOCALES[state.lang];const v=voiceFor(state.lang);if(v)u.voice=v;
+  if(opts.onend){let done=false;const fin=()=>{if(!done){done=true;opts.onend()}};u.onend=fin;u.onerror=fin;setTimeout(fin,2500+text.length*80)}
+  speechSynthesis.speak(u)}
+function buzz(p){try{navigator.vibrate&&navigator.vibrate(p)}catch(e){}}
+function wakeOn(){try{if("wakeLock" in navigator&&!G.wake)navigator.wakeLock.request("screen").then(l=>{G.wake=l;l.addEventListener("release",()=>{G.wake=null})}).catch(()=>{})}catch(e){}}
+function wakeOff(){try{G.wake&&G.wake.release()}catch(e){}G.wake=null}
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&G.on)wakeOn()});
+
+/* Cycle de guidage d’une étape */
+function setTarget(){const r=routeById(state.route),p=PLACES[r.stops[state.idx]];
+  if(G.phase==="toStation"){G.kind="station";G.target={lat:G.leg.board.lat,lng:G.leg.board.lng}}
+  else{G.kind="place";G.target={lat:p.lat,lng:p.lng}}}
+function simOrigin(){const r=routeById(state.route),i=state.idx;
+  if(G.phase==="fromStation"||G.phase==="metro")return G.leg.alight;
+  return i>0?PLACES[r.stops[i-1]]:r.start}
+function stopTracking(){if(G.watch!=null&&navigator.geolocation)navigator.geolocation.clearWatch(G.watch);G.watch=null;clearInterval(G.simTimer);G.simTimer=null}
+function stopGuide(){if(hasSpeech&&G.on&&!G.arrived&&audio.status==="idle")speechSynthesis.cancel();stopTracking();clearTimeout(G.metroTimer);G.on=false;G.seq++;wakeOff()}
+function startGuide(){stopGuide();
+  const r=routeById(state.route),i=state.idx,prev=i>0?r.stops[i-1]:null,lg=prev?legOf(r,prev,r.stops[i]):null;
+  Object.assign(G,{on:true,leg:lg&&lg.type==="metro"?lg:null,route:null,pos:null,arrived:false,computing:false,info:null,adv:new Set(),now:new Set(),off:0,lastAlong:0,lastRoute:0,startOff:0,lastSaid:""});
+  G.phase=G.leg?"toStation":"walk";G.status=G.sim?"computing":"locating";setTarget();
+  state.screen="guide";wakeOn();render();
+  if(G.sim)startSim(simOrigin());else startWatch()}
+function startWatch(){stopTracking();
+  if(!("geolocation" in navigator)){G.status="nogps";updateGuideUI();return}
+  G.watch=navigator.geolocation.watchPosition(onFix,onGeoErr,{enableHighAccuracy:true,maximumAge:3000,timeout:30000})}
+function onFix(e){if(!G.on||G.sim)return;const p={lat:e.coords.latitude,lng:e.coords.longitude,acc:e.coords.accuracy||0};
+  if(G.phase==="metro"||G.route||G.computing){navTick(p);return}
+  G.pos=p;if(dist(p,G.target)>15000){G.status="far";updateGuideUI();return}
+  computeRoute(p,true)}
+function onGeoErr(e){if(!G.on||G.sim)return;if(e.code===1)G.status="denied";else if(e.code===2)G.status="nogps";else return;updateGuideUI()}
+async function startSim(o){stopTracking();G.pos={lat:o.lat,lng:o.lng,acc:5};G.status="computing";updateGuideUI();
+  await computeRoute(G.pos,true);if(!G.on||!G.sim||!G.route)return;
+  const R=G.route;let s=0;
+  G.simTimer=setInterval(()=>{if(!G.on||G.route!==R){clearInterval(G.simTimer);return}
+    s=Math.min(R.len,s+1.4*SIM_SPEED*0.5);navTick({...pointAt(R,s),acc:5})},500)}
+async function computeRoute(o,intro){const my=++G.seq;G.computing=true;if(!G.route)G.status="computing";updateGuideUI();
+  const R=await fetchRoute(o,G.target);
+  if(my!==G.seq||!G.on)return;
+  Object.assign(G,{computing:false,route:R,adv:new Set(),now:new Set(),lastAlong:0,off:0,lastRoute:Date.now(),info:null,status:R.fallback?"offline":"ok"});
+  G.startOff=snap(R,o).off;
+  drawGuideMap();
+  const N=nav();let txt="";
+  if(intro)txt+=t("routeIntro",targetTitle(),sayDist(R.len),Math.max(1,Math.round(R.len/75)))+" ";
+  txt+=cap(stepSay(R.steps[0]))+".";
+  const s1=R.steps[1];
+  if(s1&&s1.type!=="arrive"&&s1.along>12&&s1.along<=50){txt+=" "+cap(`${N.in(sayDist(s1.along))}, ${stepSay(s1)}`)+".";G.adv.add(1)}
+  say(txt);
+  navTick(G.pos||o)}
+function navTick(p){if(!G.on)return;G.pos=p;
+  if(G.phase==="metro"){if(!G.sim&&dist(p,G.leg.alight)<150)leaveMetro();return}
+  const R=G.route;if(!R||G.arrived||G.computing){updateGuideUI();return}
+  const sn=snap(R,p);if(sn.along>30)G.startOff=0;
+  const tol=Math.max(30,Math.min(60,(p.acc||0)*1.2),G.startOff+15),isOff=sn.off>tol;
+  if(isOff){G.off++;if(G.off>=2&&Date.now()-G.lastRoute>(R.fallback?45000:12000)){if(!R.fallback)say(t("rerouting"));computeRoute(p,false);return}}
+  else{G.off=0;G.lastAlong=Math.max(G.lastAlong,sn.along)}
+  const along=isOff?G.lastAlong:sn.along,remain=Math.max(0,R.len-along);
+  if(remain<=15||dist(p,G.target)<=18){arrive();return}
+  const N=nav();let k=R.steps.findIndex((s,i)=>i>0&&s.along>along+2);if(k<0)k=R.steps.length-1;
+  const s=R.steps[k],d=Math.max(0,s.along-along),gap=s.along-R.steps[k-1].along;
+  if(s.type==="arrive"){if(!G.adv.has(k)&&d<=50&&d>20&&gap>=40){G.adv.add(k);say(cap(`${N.in(sayDist(d))}, ${N.arriveSoon}`)+".")}}
+  else{
+    if(!G.adv.has(k)&&d<=50&&d>15&&gap>=30){G.adv.add(k);say(cap(`${N.in(sayDist(d))}, ${stepSay(s)}`)+".")}
+    if(!G.now.has(k)&&d<=12){G.now.add(k);G.adv.add(k);let txt=cap(stepSay(s));
+      /* virages rapprochés (traversées en zigzag) : annoncés d’une traite */
+      for(let j=k+1;j<=k+2;j++){const a=R.steps[j-1],b=R.steps[j];if(!b||b.type==="arrive"||b.along-a.along>=15)break;
+        txt+=`, ${N.then} ${stepSay(b)}`;G.adv.add(j);G.now.add(j)}
+      say(txt+".");buzz(60)}}
+  G.info={k,d,remain};updateGuideUI()}
+function arrive(){if(G.arrived||!G.on)return;G.arrived=true;G.seq++;G.computing=false;stopTracking();buzz([90,60,90]);
+  if(G.phase==="toStation"){enterMetro();return}
+  G.status="arrived";G.info=null;updateGuideUI();
+  say(t("arrived",targetTitle()),{onend:()=>{if(G.on&&state.screen==="guide"){state.autoplay=true;go("place")}}})}
+function enterMetro(){const lg=G.leg;Object.assign(G,{phase:"metro",kind:"metro",route:null,info:null,arrived:false,status:"metro"});render();
+  say(t("arrived",t("stationSpoken",lg.board.name))+" "+t("metroSay",lg.line,L(lg.direction),lg.alight.name,lg.stopsCount),
+    {onend:()=>{if(G.on&&G.sim&&G.phase==="metro")G.metroTimer=setTimeout(leaveMetro,3000)}});
+  if(!G.sim)startWatch()}
+function leaveMetro(){if(!G.on||G.phase!=="metro")return;clearTimeout(G.metroTimer);
+  Object.assign(G,{phase:"fromStation",route:null,info:null,arrived:false,status:"computing"});setTarget();render();
+  if(G.sim)startSim(G.leg.alight);else if(G.pos)computeRoute(G.pos,true);else G.status="locating"}
+function toggleSim(){G.sim=!G.sim;stopTracking();clearTimeout(G.metroTimer);G.seq++;
+  Object.assign(G,{route:null,computing:false,arrived:false,info:null,lastAlong:0});
+  if(G.phase==="metro"){render();if(G.sim)G.metroTimer=setTimeout(leaveMetro,3000);else startWatch();return}
+  G.status=G.sim?"computing":"locating";render();
+  if(G.sim)startSim(simOrigin());else startWatch()}
+function repeatInstr(){const N=nav();
+  if(G.phase==="metro"){const lg=G.leg;say(t("metroSay",lg.line,L(lg.direction),lg.alight.name,lg.stopsCount),{force:true});return}
+  const R=G.route,i=G.info;
+  if(R&&i){const s=R.steps[i.k];say(cap(`${N.in(sayDist(i.d))}, ${s.type==="arrive"?N.arriveSoon:stepSay(s)}`)+".",{force:true});return}
+  if(G.lastSaid)say(G.lastSaid,{force:true})}
+
+/* Affichage du guidage */
+function updateGuideUI(){if(state.screen!=="guide")return;const $=id=>document.getElementById(id),ico=$("g-ico");if(!ico)return;
+  let icon=I.locate,d="",instr="",name="",then="",remain="–",time="–";
+  if(G.phase==="metro"&&G.leg){const lg=G.leg;icon=I.metro;d=`${t("line")} ${lg.line}`;instr=`${t("direction")} ${L(lg.direction)}`;name=t("alightAt",lg.alight.name,lg.stopsCount)}
+  else if(G.status==="arrived"){icon=I.pin;instr=t("arrivedShort");name=G.kind==="station"?G.leg.board.name:targetTitle()}
+  else if(G.route&&G.info){const R=G.route,s=R.steps[G.info.k];icon=stepIcon(s);d=fmtDist(G.info.d);
+    if(s.type==="arrive"){instr=G.kind==="station"?G.leg.board.name:targetTitle();name=t("destination")}
+    else{instr=cap(stepAct(s));name=s.name}
+    const n2=R.steps[G.info.k+1];if(n2&&n2.type!=="arrive")then=t("thenLine",stepAct(n2)+(n2.name?` · ${n2.name}`:""));
+    remain=fmtDist(G.info.remain);time=`${Math.max(1,Math.round(G.info.remain/75))} min`}
+  else instr=G.status==="far"?t("farShort"):(G.status==="denied"||G.status==="nogps")?t("noLoc"):G.status==="computing"?t("computing"):t("locating");
+  ico.innerHTML=icon;$("g-dist").textContent=d;$("g-instr").textContent=instr;$("g-name").textContent=name;$("g-then").textContent=then;
+  if($("g-remain")){$("g-remain").textContent=remain;$("g-time").textContent=time}
+  let msg="";
+  if(G.status==="far")msg=t("far");else if(G.status==="denied")msg=t("gpsDenied");else if(G.status==="nogps")msg=t("gpsNone");
+  else if(G.status==="offline")msg=t("offline");else if(G.sim)msg=t("simOn");
+  else if(G.pos&&G.pos.acc>50)msg=t("weak");else if(G.route&&!("wakeLock" in navigator))msg=t("keepOn");
+  $("g-status").textContent=msg;
+  updateDot()}
+function drawGuideMap(){const el=document.getElementById("g-map");if(!el)return;const R=G.route;
+  if(!R||G.phase==="metro"){el.innerHTML="";G.proj=null;return}
+  const w=400,h=260,pad=26,pts=R.coords.map(c=>toXY(c[0],c[1])),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);
+  const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+  const s=Math.min((w-2*pad)/((maxX-minX)||1),(h-2*pad)/((maxY-minY)||1));
+  const ox=pad+((w-2*pad)-(maxX-minX)*s)/2,oy=pad+((h-2*pad)-(maxY-minY)*s)/2;
+  const P=(lat,lng)=>{const [x,y]=toXY(lat,lng);return [ox+(x-minX)*s,oy+(maxY-y)*s]};G.proj=P;
+  const f=n=>n.toFixed(1),line=R.coords.map(c=>P(c[0],c[1]).map(f).join(",")).join(" ");
+  const turns=R.steps.slice(1,-1).map(st=>{const [x,y]=P(st.lat,st.lng);return `<circle cx="${f(x)}" cy="${f(y)}" r="3.2" fill="var(--surface)" stroke="var(--gline)" stroke-width="1.6"/>`}).join("");
+  const [tx,ty]=P(G.target.lat,G.target.lng);
+  el.innerHTML=`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${t("mapAria")}">
+    <polyline points="${line}" fill="none" stroke="var(--gline)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"${R.fallback?' stroke-dasharray="2 9"':""}/>${turns}
+    <circle cx="${f(tx)}" cy="${f(ty)}" r="12" fill="var(--plaque)" stroke="var(--surface)" stroke-width="2"/>
+    <text x="${f(tx)}" y="${f(ty+4.5)}" text-anchor="middle" font-family="Jost,sans-serif" font-size="12" font-weight="500" fill="#fff">${G.kind==="station"?"M":state.idx+1}</text>
+    <circle id="g-me" cx="-20" cy="-20" r="8" fill="var(--ink)" stroke="var(--surface)" stroke-width="3"/></svg>`}
+function updateDot(){const me=document.getElementById("g-me");if(!me||!G.proj||!G.pos)return;
+  let [x,y]=G.proj(G.pos.lat,G.pos.lng);x=Math.max(8,Math.min(392,x));y=Math.max(8,Math.min(252,y));
+  me.setAttribute("cx",x.toFixed(1));me.setAttribute("cy",y.toFixed(1))}
 
 /* ---------- Rendu et événements ---------- */
 function render(){
@@ -418,8 +800,12 @@ function render(){
   const app=document.getElementById("app");
   app.innerHTML=`<div class="screen">${SCREENS[state.screen]()}</div>`;
   renderPlayer();window.scrollTo(0,0);
+  if(state.screen==="guide"){drawGuideMap();updateGuideUI()}
+  if(state.screen==="place"&&state.autoplay){state.autoplay=false;
+    if(state.voice&&hasSpeech)setTimeout(()=>{if(state.screen==="place"&&audio.status==="idle")togglePlay()},400)}
 }
-function go(screen){state.screen=screen;render()}
+function go(screen){if(state.screen==="guide"&&screen!=="guide")stopGuide();state.screen=screen;render()}
+function openGuide(i){state.guided=true;state.idx=i;unlockSpeech();startGuide()}
 document.addEventListener("click",e=>{
   const el=e.target.closest("[data-action]");if(!el||el.disabled)return;
   const a=el.dataset.action;
@@ -427,11 +813,19 @@ document.addEventListener("click",e=>{
   else if(a==="theme"){state.theme=el.dataset.id;go("routes")}
   else if(a==="filter"){state.filter=el.dataset.f;render()}
   else if(a==="route"){state.route=el.dataset.id;go("route")}
-  else if(a==="open"){state.idx=+el.dataset.i;go("place")}
-  else if(a==="step"){const n=routeById(state.route).stops.length,j=state.idx+ +el.dataset.d;
-    if(j>=n)go("done");else if(j>=0){state.idx=j;go("place")}}
+  else if(a==="open"){state.guided=false;state.idx=+el.dataset.i;go("place")}
+  else if(a==="guide")openGuide(+el.dataset.i);
+  else if(a==="step"){const n=routeById(state.route).stops.length,dd=+el.dataset.d,j=state.idx+dd;
+    if(j>=n)go("done");else if(j>=0){if(state.guided&&dd===1)openGuide(j);else{state.idx=j;go("place")}}}
   else if(a==="play")togglePlay();
   else if(a==="rate")cycleRate();
+  else if(a==="voice"){state.voice=!state.voice;try{localStorage.setItem("flanerie-voice",state.voice?"on":"off")}catch(_){}
+    if(!state.voice&&hasSpeech&&audio.status==="idle")speechSynthesis.cancel();
+    el.setAttribute("aria-pressed",String(state.voice));el.textContent=state.voice?t("voiceOn"):t("voiceOff")}
+  else if(a==="repeat")repeatInstr();
+  else if(a==="here")arrive();
+  else if(a==="metroexit")leaveMetro();
+  else if(a==="sim"){unlockSpeech();toggleSim()}
 });
 document.addEventListener("change",e=>{
   if(e.target.dataset.action==="lang"){state.lang=e.target.value;try{localStorage.setItem("flanerie-lang",state.lang)}catch(_){}render()}
