@@ -30,7 +30,18 @@
       "accroche": "A cobbled, flower-filled passage hidden between two busy streets.",
       "texte_long": "A discreet carriage gateway on Rue Saint-Martin opens onto a narrow cobbled passage. Low façades, brightly painted shutters, potted plants: within a few steps, the noise of the city fades away.\n\nIts name is said to come from the sign of an old inn. Long home to craftsmen, it has kept an almost village-like scale. People live here, so walk through quietly.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+          "titre": "Paris passage de l ancre2",
+          "auteur": "Ralf.treinen",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Open during the day, hours vary",
       "lien_officiel": null,
@@ -59,7 +70,18 @@
       "accroche": "One of the oldest houses in Paris, linked to a famous “alchemist”.",
       "texte_long": "Built in 1407, this house is said to be one of the oldest in Paris. It was put up by Nicolas Flamel, a scribe and bookseller, who gave lodging to poor people. In return, he asked them to pray for the dead.\n\nLook up: the façade still bears a long carved inscription and sculpted figures. After his death, legend turned Flamel into an alchemist who had found the philosopher’s stone. That reputation has lasted for centuries, all the way to today’s novels.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg/960px-Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "titre": "Maison de Nicolas Flamel après restauration, 51 rue de Montmorency",
+          "auteur": "Eugène Atget (Paris Musées, musée Carnavalet)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Façade visible from the street; restaurant on the ground floor",
       "lien_officiel": null,
@@ -88,7 +110,28 @@
       "accroche": "A giant clock where a warrior fights a dragon, a bird and a crab.",
       "texte_long": "A stone’s throw from the Centre Pompidou, a brass warrior raises his sword against three creatures: a dragon, a bird and a crab. They stand for earth, air and water.\n\nThis automaton clock, the work of Jacques Monestier, was unveiled in 1979. Every hour, the warrior fought one of the beasts. It has stood still since 2003 for lack of maintenance. Motionless, it remains one of the strangest curiosities in the neighbourhood.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Horloge_Murale_Paris.jpg/960px-Horloge_Murale_Paris.jpg",
+          "titre": "Horloge Murale Paris",
+          "auteur": "Danielbaise",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horloge_Murale_Paris.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg/960px-Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "titre": "Quartier de lHorloge 10, Paris 30 July 2010",
+          "auteur": "zoetnet",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible from the street, free access",
       "lien_officiel": null,
@@ -117,7 +160,18 @@
       "accroche": "Two half-timbered façades, survivors of medieval Paris.",
       "texte_long": "Narrow and slightly leaning, these two houses show off their timber frames, like something from a country town. They are half-timbered houses of medieval origin, now very rare in Paris.\n\nFrom the 17th century, regulations required the wood to be covered with plaster to limit fires. The timbers stayed hidden until the façades were restored in 1967.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg/960px-11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "titre": "11-13 rue François Miron, Paris 4e 2-1",
+          "auteur": "Polymagou",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Façades visible from the street",
       "lien_officiel": null,
@@ -146,7 +200,18 @@
       "accroche": "The longest surviving stretch of the medieval city wall of Paris.",
       "texte_long": "Alongside a school sports ground rises a tall stone wall flanked by round towers. It is the longest visible section of the wall of Philip Augustus.\n\nThe king had it built from 1190, before leaving on crusade, to protect Paris. Over the centuries, the wall was torn down or swallowed up by buildings. Other fragments still hide in courtyards, cellars and car parks.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg/960px-P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "titre": "P1200049 Paris IV enceinte de Philippe-Auguste rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible from the street, free access",
       "lien_officiel": null,
@@ -175,7 +240,18 @@
       "accroche": "A medieval mansion with a cannonball still lodged in its façade.",
       "texte_long": "Turrets, pointed roofs, a Gothic porch: the Hôtel de Sens is one of the few great medieval residences still standing in Paris. It was built at the end of the 15th century for the archbishops of Sens, to whom the bishopric of Paris then answered.\n\nLook on the façade for a cannonball embedded in the stone, with the date 28 July 1830: a reminder of the July Revolution. Today the building houses the Forney library, devoted to the decorative arts.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+          "titre": "Hotel-de-Sens-DSC 8075",
+          "auteur": "Pline",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Exterior freely accessible; garden and library during opening hours",
       "lien_officiel": null,

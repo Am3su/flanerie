@@ -30,7 +30,28 @@
       "accroche": "A Roman amphitheatre hidden behind apartment buildings.",
       "texte_long": "Behind the façades of Rue Monge lies a Gallo-Roman amphitheatre. Built around the end of the 1st century, it hosted fights and shows for several thousand spectators.\n\nBuried and forgotten for centuries, it was rediscovered in 1869, when Rue Monge was cut through. Public figures, Victor Hugo among them, then campaigned to save it. Today, people play pétanque here and children run around the arena.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Public garden, open during the day, free",
       "lien_officiel": null,
@@ -59,7 +80,18 @@
       "accroche": "A tree more than four centuries old, propped up on crutches.",
       "texte_long": "Leaning on concrete props, this black locust has been standing since the early 17th century. It is said to have been planted around 1601 by Jean Robin, the king’s botanist, who gave his name to the species, which came from North America.\n\nIt is considered the oldest tree in Paris and still flowers in spring. From the garden, the view of Notre-Dame is one of the finest on the Left Bank.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Public garden, open during the day",
       "lien_officiel": null,
@@ -88,7 +120,18 @@
       "accroche": "The narrowest street in Paris: under two metres wide in places.",
       "texte_long": "About 1.80 metres wide, it is the narrowest street in Paris. It links Rue de la Huchette to Quai Saint-Michel, a few steps from the crowds of the Latin Quarter.\n\nIts name, “street of the fishing cat”, is said to come from an old shop sign showing a cat catching fish. Stretch out your arms: you can almost touch both walls.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Pedestrian street, free access",
       "lien_officiel": null,
@@ -117,7 +160,18 @@
       "accroche": "A marble ruler put up in 1796 to teach Parisians the metre.",
       "texte_long": "On a wall facing the Luxembourg Gardens, a marble plaque is engraved with a one-metre ruler. It is one of the standard metres installed around Paris in 1796 and 1797 to get residents used to the new metric system.\n\nIt is one of only two still visible, and the only one still in its original location. You can check the length of your stride against it.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible from the street, free access",
       "lien_officiel": null,

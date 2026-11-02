@@ -33,7 +33,18 @@
       "accroche": "Behind a blue shopfront, a repair shop hides a museum of light from before electricity.",
       "texte_long": "On Rue Flatters, a few steps from Boulevard de Port-Royal, nothing announces a museum. You see a small shop with a blue front, Lumière de l’Œil, where antique lamps are repaired and sold. Yet all you have to do is push the door and ask to see the collection to step into another era.\n\nThe place is run by Ara Kebapçioğlu, known here as Monsieur Ara. Born in Turkey, this passionate collector settled on Rue Flatters more than forty years ago. He has written a book about his passion, L’Autre siècle des lumières. His aim: to show how people lit their homes before electricity took over.\n\nIn the museum’s small room, dozens of lamps tell that story, from the late 18th century to the early 20th. They burned oil, paraffin, gas or alcohol. Look at the opaline globes, the shades edged with beaded fringes, the metal and porcelain bases. You can see how far lighting came, from a simple oil flame to gas lamps.\n\nSome pieces have their own story. Monsieur Ara assembled one lamp himself; its recently restored shade shows a view that recalls Constantinople. A model that looks almost modern is said to be one of the first oil-fuelled bedside lamps. The collector has also donated several objects to the Musée Carnavalet, the museum of the history of Paris.\n\nAt the back of the shop, the workshop is used for repairs and for conversations with visitors. That is the charm of the place: you don’t just look at display cases, you meet the man who gathered them and who knows how to bring each mechanism back to life.\n\nEntry is free. The museum opens Tuesday to Friday from 2 pm to 7 pm, and Saturday from 11 am to 5 pm. As the shop is run by one person, it is best to book before coming, and to stay quiet if Monsieur Ara is in the middle of a repair.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg/960px-Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "titre": "Plaque Rue Flatters - Paris V (FR75) - 2021-07-27 - 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Free. Tuesday to Friday 2 pm to 7 pm, Saturday 11 am to 5 pm. Booking recommended on +33 1 47 07 63 47.",
       "lien_officiel": "https://www.lumieredeloeil.com",
@@ -472,7 +483,18 @@
       "texte_court": "The last remnant of a powerful abbey founded in the 6th century, the church gave its name to the district. Its bell tower, built around the year 1000, is among the oldest in France. Around it, literary cafés made Saint-Germain-des-Prés famous.",
       "etape_voisine": "cour-du-commerce",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg/960px-Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "titre": "Paris Abbaye Saint-Germain-des-Prés 3",
+          "auteur": "Zairon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Free entry.",
       "lien_officiel": "https://www.eglise-saintgermaindespres.fr",
