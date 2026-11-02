@@ -1,0 +1,337 @@
+{
+  "parcours_id": "paris-insolite-journee",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "fr",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Une journée hors des sentiers",
+  "zone": "3e, 4e, 5e et 6e arrondissements",
+  "introduction": "Le Marais le matin, la rive gauche l’après-midi, reliés par la ligne 7 du métro.",
+  "duree": {
+    "min": 360,
+    "max": 360
+  },
+  "distance_km": 4.8,
+  "mode": "pied_metro",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8663,
+      "lng": 2.3524
+    }
+  },
+  "etapes": [
+    {
+      "id": "ancre",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Passage de l’Ancre",
+      "accroche": "Un passage pavé et fleuri, caché entre deux rues très passantes.",
+      "texte_long": "Une porte cochère discrète, rue Saint-Martin, ouvre sur un étroit passage pavé. Façades basses, volets peints de couleurs vives, plantes en pots : le bruit de la ville s’efface en quelques pas.\n\nSon nom viendrait de l’enseigne d’une ancienne auberge. Longtemps occupé par des artisans, il a gardé une échelle presque villageoise. Le passage traverse un lieu habité : on le parcourt en silence.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Passage ouvert en journée, horaires variables",
+      "lien_officiel": null,
+      "adresse": "223 rue Saint-Martin, 75003",
+      "coordonnees": {
+        "lat": 48.8648,
+        "lng": 2.3533
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Passage de l’Ancre"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "flamel",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "Maison de Nicolas Flamel",
+      "accroche": "L’une des plus anciennes maisons de Paris, liée à un célèbre « alchimiste ».",
+      "texte_long": "Construite en 1407, cette maison passe pour l’une des plus anciennes de Paris. Elle fut édifiée par Nicolas Flamel, écrivain public et libraire, qui y logeait des personnes pauvres. En échange, il leur demandait de prier pour les défunts.\n\nLevez les yeux : la façade porte encore une longue inscription gravée et des figures sculptées. Après sa mort, la légende a fait de Flamel un alchimiste qui aurait trouvé la pierre philosophale. Cette réputation a traversé les siècles, jusqu’aux romans d’aujourd’hui.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Façade visible depuis la rue ; restaurant au rez-de-chaussée",
+      "lien_officiel": null,
+      "adresse": "51 rue de Montmorency, 75003",
+      "coordonnees": {
+        "lat": 48.8634,
+        "lng": 2.3545
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue de Montmorency"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "defenseur",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "Le Défenseur du Temps",
+      "accroche": "Une horloge géante où un guerrier affronte un dragon, un oiseau et un crabe.",
+      "texte_long": "À deux pas du Centre Pompidou, un guerrier de laiton brandit son épée face à trois créatures : un dragon, un oiseau et un crabe. Elles figurent la terre, l’air et l’eau.\n\nCette horloge-automate, œuvre de Jacques Monestier, a été inaugurée en 1979. À chaque heure, le guerrier affrontait l’une des bêtes. Elle est à l’arrêt depuis 2003, faute d’entretien. Immobile, elle reste l’une des curiosités les plus étranges du quartier.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible depuis la rue, en accès libre",
+      "lien_officiel": null,
+      "adresse": "Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",
+      "coordonnees": {
+        "lat": 48.8618,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue Bernard-de-Clairvaux"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; presse"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "miron",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "Les maisons à colombages de la rue François-Miron",
+      "accroche": "Deux façades à pans de bois, rescapées du Paris médiéval.",
+      "texte_long": "Étroites et un peu penchées, ces deux maisons montrent leurs colombages, comme dans une ville de province. Ce sont des maisons à pans de bois d’origine médiévale, devenues très rares à Paris.\n\nÀ partir du XVIIe siècle, les règlements imposèrent de recouvrir le bois de plâtre pour limiter les incendies. Les colombages sont restés cachés jusqu’à la restauration des façades, en 1967.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Façades visibles depuis la rue",
+      "lien_officiel": null,
+      "adresse": "11 et 13 rue François-Miron, 75004",
+      "coordonnees": {
+        "lat": 48.8556,
+        "lng": 2.3572
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue François-Miron"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "enceinte",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "L’enceinte de Philippe Auguste",
+      "accroche": "Le plus long morceau encore visible de la muraille médiévale de Paris.",
+      "texte_long": "Le long d’un terrain de sport scolaire se dresse un haut mur de pierre, flanqué de tours rondes. C’est le plus long tronçon encore visible de l’enceinte de Philippe Auguste.\n\nLe roi la fit bâtir à partir de 1190, avant de partir en croisade, pour protéger Paris. Au fil des siècles, la muraille a été démolie ou absorbée dans les immeubles. D’autres fragments se cachent encore dans des cours, des caves et des parkings.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible depuis la rue, en accès libre",
+      "lien_officiel": null,
+      "adresse": "Rue des Jardins-Saint-Paul, 75004",
+      "coordonnees": {
+        "lat": 48.854,
+        "lng": 2.361
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue des Jardins-Saint-Paul"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "sens",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "L’hôtel de Sens et son boulet de canon",
+      "accroche": "Une demeure médiévale qui garde un boulet de canon dans sa façade.",
+      "texte_long": "Tourelles, toits pointus, porche gothique : l’hôtel de Sens est l’une des rares grandes demeures médiévales encore debout à Paris. Il a été bâti à la fin du XVe siècle pour les archevêques de Sens, dont dépendait alors l’évêché de Paris.\n\nCherchez sur la façade un boulet de canon incrusté dans la pierre, avec la date du 28 juillet 1830 : un souvenir des Trois Glorieuses. L’hôtel abrite aujourd’hui la bibliothèque Forney, consacrée aux arts décoratifs.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Extérieur en accès libre ; jardin et bibliothèque aux heures d’ouverture",
+      "lien_officiel": null,
+      "adresse": "1 rue du Figuier, 75004",
+      "coordonnees": {
+        "lat": 48.8532,
+        "lng": 2.3592
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue du Figuier"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Bibliothèques de la Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "Les arènes de Lutèce",
+      "accroche": "Un amphithéâtre romain caché derrière les immeubles.",
+      "texte_long": "Derrière les façades de la rue Monge se cache un amphithéâtre gallo-romain. Construit vers la fin du Ier siècle, il accueillait combats et spectacles devant plusieurs milliers de personnes.\n\nEnfoui et oublié pendant des siècles, il est redécouvert en 1869, lors du percement de la rue Monge. Des personnalités, dont Victor Hugo, militent alors pour le sauver. Aujourd’hui, on y joue aux boules et les enfants courent sur la piste.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Square public, ouvert en journée, gratuit",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 8,
+      "titre": "Le plus vieil arbre de Paris",
+      "accroche": "Un arbre de plus de quatre siècles, soutenu par des béquilles.",
+      "texte_long": "Appuyé sur des étais de béton, ce robinier tient debout depuis le début du XVIIe siècle. Il aurait été planté vers 1601 par Jean Robin, botaniste du roi, qui a donné son nom à l’espèce, venue d’Amérique du Nord.\n\nIl est considéré comme le plus vieil arbre de Paris et fleurit encore au printemps. Depuis le square, la vue sur Notre-Dame est l’une des plus belles de la rive gauche.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Square public, ouvert en journée",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 9,
+      "titre": "La rue du Chat-qui-Pêche",
+      "accroche": "La rue la plus étroite de Paris : moins de deux mètres par endroits.",
+      "texte_long": "Environ 1,80 mètre de large : c’est la rue la plus étroite de Paris. Elle relie la rue de la Huchette au quai Saint-Michel, à deux pas des foules du quartier Latin.\n\nSon nom viendrait d’une ancienne enseigne représentant un chat attrapant des poissons. Écartez les bras : vous toucherez presque les deux murs.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Rue piétonne, accès libre",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 10,
+      "titre": "Le mètre étalon de la rue de Vaugirard",
+      "accroche": "Une règle de marbre posée en 1796 pour apprendre le mètre aux Parisiens.",
+      "texte_long": "Sur un mur, face au jardin du Luxembourg, une plaque de marbre est gravée d’une règle d’un mètre. Elle fait partie des mètres étalons installés dans Paris en 1796 et 1797, pour habituer les habitants au nouveau système métrique.\n\nC’est l’un des deux encore visibles, et le seul resté à son emplacement d’origine. Vous pouvez y vérifier la longueur de votre pas.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible depuis la rue, en accès libre",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": [
+    {
+      "de": "sens",
+      "vers": "arenes",
+      "type": "metro",
+      "ligne": "7",
+      "arrets": 3,
+      "montee": {
+        "nom": "Pont Marie",
+        "lat": 48.8534,
+        "lng": 2.3573
+      },
+      "descente": {
+        "nom": "Place Monge",
+        "lat": 48.8426,
+        "lng": 2.3522
+      },
+      "direction": "Villejuif – Louis Aragon ou Mairie d’Ivry",
+      "texte": "Métro ligne 7, de Pont Marie à Place Monge (environ 10 min)"
+    }
+  ]
+}

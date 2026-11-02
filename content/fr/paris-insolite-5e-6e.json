@@ -1,0 +1,543 @@
+{
+  "parcours_id": "paris-insolite-5e-6e",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "fr",
+  "statut": "gratuit",
+  "titre": "Paris insolite, du Quartier latin à Saint-Germain",
+  "zone": "5e et 6e arrondissements",
+  "introduction": "Sept lieux que l’on frôle sans les voir : une boutique qui cache un musée de la lumière, un amphithéâtre romain, un café sous des voûtes gothiques, un passage révolutionnaire, des bancs en forme de livres, un verger de plus de 600 variétés et des ruches. En chemin, les monuments que vous connaissez déjà.",
+  "duree": {
+    "min": 210,
+    "max": 240
+  },
+  "distance_km": 5,
+  "mode": "pied",
+  "arrondissements": [
+    5,
+    6
+  ],
+  "depart": {
+    "nom": "Métro Censier-Daubenton",
+    "coordonnees": {
+      "lat": 48.8403,
+      "lng": 2.3515
+    }
+  },
+  "etapes": [
+    {
+      "id": "eclairages-anciens",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Le musée des Éclairages anciens",
+      "accroche": "Derrière une vitrine bleue, une boutique de réparateur cache un musée de la lumière d’avant l’électricité.",
+      "texte_long": "Rue Flatters, à deux pas du boulevard de Port-Royal, rien ne signale un musée. On voit une petite boutique à la devanture bleue, Lumière de l’Œil, où l’on répare et vend des lampes anciennes. Il suffit pourtant de pousser la porte et de demander à voir la collection pour changer d’époque.\n\nLe lieu est tenu par Ara Kebapçioğlu, que l’on appelle ici Monsieur Ara. Né en Turquie, ce collectionneur passionné s’est installé rue Flatters il y a plus de quarante ans. Il a consacré un livre à sa passion, L’Autre siècle des lumières. Son idée : montrer comment on s’éclairait avant que l’électricité ne s’impose partout.\n\nDans la petite salle du musée, des dizaines de lampes racontent cette histoire, de la fin du XVIIIe siècle au début du XXe. Elles brûlaient de l’huile, du pétrole, du gaz ou de l’alcool. Regardez les globes en opaline, les abat-jour bordés de franges perlées, les pieds de métal ou de porcelaine. On mesure le chemin parcouru, de la simple flamme à huile jusqu’aux lampes à gaz.\n\nCertaines pièces ont leur propre histoire. Monsieur Ara a remonté lui-même une lampe dont l’abat-jour, restauré récemment, montre une vue qui évoque Constantinople. Un modèle à l’allure presque moderne serait l’une des premières lampes de chevet à huile. Le collectionneur a aussi donné plusieurs objets au musée Carnavalet, le musée d’histoire de Paris.\n\nAu fond de la boutique, l’atelier sert aux réparations et aux conversations avec les visiteurs. C’est tout le charme du lieu : on ne regarde pas seulement des vitrines, on rencontre celui qui les a réunies et qui sait faire revivre chaque mécanisme.\n\nL’entrée est gratuite. Le musée ouvre du mardi au vendredi de 14 h à 19 h, et le samedi de 11 h à 17 h. Comme la boutique est tenue par une seule personne, mieux vaut réserver avant de venir, et rester discret si Monsieur Ara est en pleine réparation.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuit. Du mardi au vendredi de 14 h à 19 h, le samedi de 11 h à 17 h. Réservation conseillée au 01 47 07 63 47.",
+      "lien_officiel": "https://www.lumieredeloeil.com",
+      "adresse": "4 rue Flatters, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.8378,
+        "lng": 2.34658
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue Flatters"
+      },
+      "monument_proche": "pantheon",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Avez-vous déjà visité… le musée des Éclairages anciens ?",
+          "url": "https://www.paris.fr/pages/avez-vous-deja-visite-le-musee-des-eclairages-anciens-29044"
+        },
+        {
+          "titre": "Sortir à Paris — Le musée des éclairages anciens",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/338860-the-museum-of-old-lighting-a-hidden-gem-tucked-away-inside-a-boutique-workshop-in-the-heart-of-paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes-de-lutece",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "Les arènes de Lutèce",
+      "accroche": "Un amphithéâtre romain, oublié pendant des siècles, où l’on joue aujourd’hui à la pétanque.",
+      "texte_long": "Entre la rue Monge et la rue de Navarre, un passage discret mène à un vaste ovale de sable entouré de gradins de pierre. Vous êtes dans les arènes de Lutèce, le nom antique de Paris.\n\nL’amphithéâtre date du Ier siècle de notre ère. Il accueillait combats et spectacles devant plusieurs milliers de personnes. Particularité rare, il possédait aussi une scène, ce qui permettait d’y donner du théâtre [À VÉRIFIER]. Au fil des siècles, l’édifice a disparu sous la terre et les constructions, au point que l’on en a oublié jusqu’à l’emplacement.\n\nSa redécouverte est un petit roman. En 1869, pendant le percement de la rue Monge voulu par Haussmann, les terrassiers tombent sur une partie de l’édifice. Napoléon III refuse de financer une restauration, et les ruines sont de nouveau recouvertes. Dans les années 1880, la Compagnie générale des omnibus veut construire un dépôt de tramways sur le site et met au jour d’autres vestiges. Cette fois, des personnalités, dont Victor Hugo, se mobilisent pour les sauver.\n\nLe square ouvre en 1892. La restauration se poursuit jusqu’en 1918 sous la direction de Louis Capitan, et le jardin voisin porte son nom depuis 1931. Une partie de ce que vous voyez est donc reconstituée, mais le plan et l’ampleur sont bien ceux de l’amphithéâtre antique.\n\nLe plus étonnant reste l’usage qu’en font les Parisiens. Sur la piste où se tenaient les combats, on joue aujourd’hui à la pétanque, les enfants courent et les habitants du quartier lisent sur les gradins. Peu de visiteurs s’aventurent jusqu’ici, alors que le lieu a près de deux mille ans.\n\nMontez en haut des gradins pour mesurer la taille de l’ovale, puis redescendez sur la piste : vous marchez exactement là où se tenaient les spectacles de Lutèce. Le square est ouvert tous les jours et l’entrée est libre. En hiver, il ouvre à 8 h en semaine et à 9 h le week-end, et ferme à 17 h 45. Les pelouses se reposent une partie de l’hiver.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuit, square public. En hiver, ouvert de 8 h à 17 h 45 en semaine et de 9 h à 17 h 45 le week-end.",
+      "lien_officiel": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760",
+      "adresse": "49 rue Monge ou rue des Arènes, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84506,
+        "lng": 2.35294
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": "jardin-des-plantes",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Square des Arènes de Lutèce et square Capitan",
+          "url": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "bernardins",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "Un café sous la nef gothique des Bernardins",
+      "accroche": "On boit un café sous des voûtes du XIIIe siècle, dans un collège où des pompiers ont vécu cent cinquante ans.",
+      "texte_long": "Au 20 rue de Poissy, une façade sobre ne laisse rien deviner. Passez la porte : une nef de soixante-dix mètres de long s’ouvre devant vous, rythmée de fines colonnes qui s’épanouissent en voûtes gothiques. Et au milieu de ce décor médiéval, on sert des cafés.\n\nLe Collège des Bernardins est fondé en 1245 par Étienne de Lexington pour l’enseignement des moines cisterciens. Les travaux commencent en 1248, sur un terrain acheté à l’abbaye voisine de Saint-Victor. Pendant plus de cinq siècles, des moines viennent y étudier.\n\nLa Révolution change tout. Saisi en 1790, le collège est en partie démoli pour récupérer ses pierres. Il devient prison, puis entrepôt, école et internat de l’école nationale de police. En 1845, une caserne de pompiers s’y installe ; elle y restera jusqu’en 1995. Pendant un siècle et demi, la nef gothique a donc vécu au rythme des sirènes [À VÉRIFIER].\n\nLe bâtiment est ensuite restauré par Hervé Baptiste, architecte en chef des monuments historiques, tandis que Jean-Michel Wilmotte conçoit les espaces d’accueil. Le collège est inauguré le 4 septembre 2008 et ouvre au public le 15 septembre suivant. Il accueille aujourd’hui des expositions, des conférences et des concerts.\n\nC’est là que se cache le décalage qui fait tout le sel du lieu : la Table des Bernardins, un café-restaurant installé dans la nef elle-même. On s’y assoit pour un café ou un déjeuner simple, sous la voûte ou en terrasse. Peu de Parisiens savent qu’on peut prendre un café dans l’un des plus anciens édifices médiévaux de la ville.\n\nAvant de repartir, prenez le temps de lever les yeux. Les colonnes, alignées comme les arbres d’une allée, portent les arcs des voûtes sans effort apparent. Il n’y a rien à payer pour profiter de ce spectacle.\n\nLa nef et le jardin sont en accès libre, du lundi au samedi de 10 h à 18 h. Le café ouvre en semaine. Des visites guidées payantes, entre 4 et 8 euros, permettent d’en savoir plus sur l’histoire du collège.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg/960px-Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+          "titre": "Paris - Collège des Bernardins - la nef - 011",
+          "auteur": "Thesupermat",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg/960px-Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg",
+          "titre": "Collège Bernardins voûtes vaults",
+          "auteur": "Jebulon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Nef et jardin gratuits, du lundi au samedi de 10 h à 18 h. Café payant, ouvert du lundi au vendredi. Fermé le dimanche.",
+      "lien_officiel": "https://www.collegedesbernardins.fr",
+      "adresse": "20 rue de Poissy, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84883,
+        "lng": 2.35198
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue de Poissy"
+      },
+      "monument_proche": "notre-dame",
+      "sources": [
+        {
+          "titre": "Sortir à Paris — Le Collège des Bernardins",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/10278-the-college-des-bernardins-one-of-paris-oldest-medieval-buildings-free-to-visit"
+        },
+        {
+          "titre": "Diocèse de Paris — Le Collège des Bernardins",
+          "url": "https://dioceseparis.fr/691-Le-College-des-Bernardins-un.html"
+        },
+        {
+          "titre": "Sortir à Paris — La Table des Bernardins",
+          "url": "https://www.sortiraparis.com/en/where-to-eat-in-paris/restaurant/articles/304398-la-table-des-bernardins-the-unusual-cafe-restaurant-nestled-in-the-nave-of-the-college-des-bernardins"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "cour-du-commerce",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "La cour du Commerce-Saint-André",
+      "accroche": "Un passage pavé où l’on croise une tour de l’enceinte médiévale, l’imprimerie de Marat et l’arrière du Procope.",
+      "texte_long": "Entre le boulevard Saint-Germain et la rue Saint-André-des-Arts, un passage pavé se faufile entre de vieilles façades. On le traverse souvent sans s’arrêter. Pourtant, en quelques dizaines de mètres, il résume plus de huit siècles d’histoire de Paris.\n\nCommencez par le sol. Le passage suit le tracé des fossés de l’enceinte que Philippe Auguste fit bâtir entre 1190 et 1215 pour protéger la ville. Au numéro 4, un établissement abrite encore les restes d’une tour de cette muraille. Une tour médiévale au milieu d’un salon de thé : c’est tout l’esprit du lieu.\n\nAu XVIIIe siècle, un jeu de paume s’installe sur les anciens fossés, puis le passage prend sa forme actuelle ; sa verrière date du XIXe siècle. Sous la Révolution, la cour devient l’un des endroits les plus agités de Paris. Au numéro 8, Jean-Paul Marat imprime son journal, L’Ami du peuple. Georges Danton habite le passage ; son immeuble a disparu lors du percement du boulevard Saint-Germain, et sa statue se dresse aujourd’hui tout près, sur le boulevard.\n\nLa cour garde aussi une histoire plus sombre, rapportée par la tradition. C’est ici, dit-on, qu’en 1792 l’Allemand Tobias Schmidt aurait mis au point la machine que l’on appellera la guillotine, en la testant d’abord sur des bottes de paille puis sur des moutons [À VÉRIFIER]. Les récits divergent sur l’adresse exacte de l’atelier, ce qui invite à la prudence.\n\nLevez ensuite les yeux vers l’arrière du Procope. Le plus ancien café de Paris, ouvert en 1686, a son entrée principale rue de l’Ancienne-Comédie, mais il donne aussi sur la cour. Voltaire, Rousseau, Diderot et Montesquieu, puis Danton, Marat et Robespierre comptent parmi ses habitués célèbres.\n\nLe passage est public et se parcourt librement. Prenez le temps de regarder les enseignes, les pavés inégaux et les vitrines : chacune cache un morceau de cette histoire, des remparts du Moyen Âge aux imprimeries de la Révolution. Puis ressortez côté boulevard : l’église Saint-Germain-des-Prés n’est qu’à quelques minutes.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG/960px-P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "titre": "P1020083 Paris VI Cour du Commerce-Saint-André reductwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG/960px-P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "titre": "P1020086 Paris VI Cour Cour du Commerce-Saint-André reductwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuit, passage public ouvert à toute heure.",
+      "lien_officiel": null,
+      "adresse": "Cour du Commerce-Saint-André, entre le 130 boulevard Saint-Germain et la rue Saint-André-des-Arts, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8527,
+        "lng": 2.33894
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Cour du Commerce-St-André"
+      },
+      "monument_proche": "saint-germain-des-pres",
+      "sources": [
+        {
+          "titre": "Paris Zigzag — La cour du Commerce-Saint-André",
+          "url": "https://www.pariszigzag.fr/insolite/lieux-insolites/cour-saint-andre-saint-germain-odeon/"
+        },
+        {
+          "titre": "Bonjour Paris — Streets and Stories: La Cour du Commerce-Saint-André",
+          "url": "https://bonjourparis.com/history/streets-and-stories-la-cour-du-commerce-saint-andre/"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "square-gabriel-pierne",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "Le square Gabriel-Pierné et ses bancs-livres",
+      "accroche": "Derrière l’Institut de France, deux bancs de pierre en forme de livres ouverts se font face sous les cerisiers.",
+      "texte_long": "Au 5 rue de Seine, juste derrière la coupole de l’Institut de France, un petit square s’abrite derrière ses grilles. La plupart des passants filent vers les quais sans le remarquer. Ceux qui entrent découvrent l’un des clins d’œil les plus discrets de Saint-Germain-des-Prés.\n\nRegardez les bancs. Parmi eux, deux bancs de pierre se font face et prennent la forme de livres ouverts, posés sur des pieds en forme de livres fermés. On s’assoit littéralement sur une page, à quelques mètres de l’Académie française, gardienne de la langue. Les sources consultées ne disent pas qui les a sculptés, ni quand [À VÉRIFIER].\n\nLe square lui-même a été aménagé en 1938. Il porte depuis 1968 le nom de Gabriel Pierné (1863-1937), organiste, compositeur et chef d’orchestre.\n\nAu centre, une fontaine raconte une autre histoire, celle d’un déménagement. Elle a été dessinée en 1830 par Alexandre-Évariste Fragonard (1780-1850) pour alimenter en eau le marché couvert des Carmes, place Maubert. Lorsque ce marché a été démoli, en 1930, la fontaine a été transportée ici. Au sommet de son pilier, deux visages allégoriques représentent le Commerce et l’Abondance.\n\nUn peu plus loin, une jeune femme de bronze semble vous observer : c’est Carolina, sculptée en 1968 par Marcello Tommasi (1928-2008).\n\nVenez au printemps si vous le pouvez. En avril, la rangée de cerisiers japonais se couvre de fleurs roses, dont les pétales tapissent le square et la rue voisine. Le reste de l’année, c’est un refuge calme pour lire quelques pages, entre le pont des Arts et les vitrines de la rue de Seine.\n\nLe décalage est là : dans un quartier où l’on vient pour les librairies, les galeries et les cafés littéraires, le plus bel hommage aux livres est peut-être ce banc de pierre que personne ne regarde.\n\nLe square est ouvert tous les jours et l’accès est gratuit. En hiver, il ouvre à 8 h en semaine et à 9 h le week-end, et ferme à 17 h.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg/960px-Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg",
+          "titre": "Book bench, Square Gabriel Pierné, Paris 11 February 2017",
+          "auteur": "Guilhem Vellut",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Square_Gabriel-Piern%C3%A9_(15050977809).jpg/960px-Square_Gabriel-Piern%C3%A9_(15050977809).jpg",
+          "titre": "Square Gabriel-Pierné (15050977809)",
+          "auteur": "Schezar",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Square_Gabriel-Piern%C3%A9_(15050977809).jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuit, square public. En hiver, ouvert à 8 h en semaine et à 9 h le week-end, fermeture à 17 h.",
+      "lien_officiel": "https://www.paris.fr/lieux/square-gabriel-pierne-2453",
+      "adresse": "5 rue de Seine, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85692,
+        "lng": 2.33681
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Seine"
+      },
+      "monument_proche": "institut-de-france",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Square Gabriel-Pierné",
+          "url": "https://www.paris.fr/lieux/square-gabriel-pierne-2453"
+        },
+        {
+          "titre": "Sortir à Paris — Les bancs-livres du square Gabriel-Pierné",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/343842-this-parisian-square-in-the-6th-arrondissement-hides-benches-shaped-like-books-beneath-cherry-trees"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "verger-du-luxembourg",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "Le verger conservatoire du Luxembourg",
+      "accroche": "Dans un coin du jardin le plus fréquenté de Paris, plus de 600 variétés de pommes et de poires taillées en formes étonnantes.",
+      "texte_long": "Les promeneurs du Luxembourg connaissent le grand bassin, les chaises vertes et le palais du Sénat. Bien peu poussent jusqu’au côté de la rue Auguste-Comte. C’est là qu’un verger d’un genre unique perpétue une histoire de plus de trois siècles et demi.\n\nTout commence vers 1650, quand un habitant de Vitry, frère Alexis, entre au couvent des Chartreux, voisin du palais du Luxembourg. Les moines développent une pépinière réputée : en 1712, elle produit plus de 14 000 arbres fruitiers par an. En 1789, la nationalisation des biens du clergé met fin à cette activité. Le ministre Jean Chaptal fait pourtant replanter la collection sur l’ancien terrain des moines, et une pépinière nationale des Chartreux renaît vers 1801-1802. En 1866, la création de la rue Auguste-Comte donne au jardin ses limites actuelles.\n\nAujourd’hui, le verger réunit un peu plus de 1 000 arbres sur 2 100 m² : 379 variétés de pommes et 247 variétés de poires, comme la Doyenné du Comice. C’est une véritable bibliothèque vivante des fruits d’autrefois, conservée au cœur de Paris.\n\nLe plus surprenant, c’est la forme des arbres. Ici, on ne les laisse pas pousser librement. Ils sont palissés et taillés en U simple ou double, en trident, en candélabre, en colonne, en gobelet, ou en palmettes qui portent le nom de leurs inventeurs : Verrier, Legendre, Ferraguti. Regardez de près : chaque arbre est une petite sculpture qui demande des années de taille patiente.\n\nCes gestes se transmettent sur place. Le verger sert aux cours de l’École d’horticulture du jardin du Luxembourg, fondée en 1809, qui accueille environ 250 élèves chaque année. Quant aux fruits récoltés, ils partent dans les expositions de pomologie auxquelles participe le Sénat, et sont donnés à la Soupe populaire du 6e arrondissement.\n\nÀ l’automne, l’exposition présentée dans l’Orangerie du jardin montre l’armature d’une palmette historique, la Louise Bonne d’Avranches.\n\nLe verger se découvre librement depuis les allées, aux heures d’ouverture du jardin. Restez sur les chemins : les arbres sont fragiles et servent à l’enseignement.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doyenn%C3%A9_du_comice_JdL.jpg/960px-Doyenn%C3%A9_du_comice_JdL.jpg",
+          "titre": "Doyenné du comice JdL",
+          "auteur": "Jebulon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Doyenn%C3%A9_du_comice_JdL.jpg",
+          "licence": "Domaine public",
+          "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuit, visible depuis les allées aux heures d’ouverture du jardin du Luxembourg.",
+      "lien_officiel": "https://jardin.senat.fr",
+      "adresse": "Jardin du Luxembourg, côté rue Auguste-Comte, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8446,
+        "lng": 2.3348
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue Auguste-Comte"
+      },
+      "monument_proche": "palais-du-luxembourg",
+      "sources": [
+        {
+          "titre": "Sénat — The Luxembourg Fruit Garden",
+          "url": "https://jardin.senat.fr/en/botany/the-luxembourg-fruit-garden.html"
+        }
+      ],
+      "verification": "a_verifier",
+      "note_coordonnees": "position estimée dans le jardin, à relever sur place"
+    },
+    {
+      "id": "rucher-du-luxembourg",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "Le rucher-école du Luxembourg",
+      "accroche": "Depuis 1856, des apprentis apiculteurs s’initient en plein Paris, à quelques pas du Sénat.",
+      "texte_long": "Tendez l’oreille en longeant le verger, côté rue d’Assas : vous entendrez peut-être un bourdonnement. Entre les fruitiers, des ruches en bois entourent un petit pavillon. Vous êtes devant le rucher-école du jardin du Luxembourg, actif depuis 1856.\n\nCette année-là, Henri Hamet, bibliothécaire et professeur que l’on surnomme le père de l’apiculture française, crée une société d’apiculteurs et installe des ruches dans le jardin [À VÉRIFIER]. Son but : apprendre aux Parisiens à élever les abeilles. En 1866, les grands travaux d’Haussmann bouleversent ce coin du jardin ; le rucher et le verger sont supprimés, puis rétablis en 1872.\n\nLe pavillon voisin, construit en 1867 par Gabriel Davioud, architecte de nombreux équipements du Paris d’Haussmann, était à l’origine un café-restaurant, la Pépinière Buffet. Il accueille aujourd’hui des cours gratuits de l’École d’horticulture et des conférences de la Société centrale d’apiculture.\n\nCar l’enseignement continue. Des élèves suivent un cycle de cours le samedi matin, de la mi-février à septembre, entre théorie dans le pavillon et pratique au milieu des ruches. À la fin, un examen leur permet d’obtenir un diplôme d’apiculteur [À VÉRIFIER].\n\nEn 2018, le rucher comptait dix-sept ruches, soit près d’un million d’abeilles [À VÉRIFIER]. Elles butinent les fleurs du Luxembourg et des jardins voisins, et produisent environ 200 kilos de miel par an. Ce miel ne se trouve pas en magasin : il est vendu chaque automne, lors de la fête du miel organisée à l’Orangerie, le dernier week-end de septembre [À VÉRIFIER].\n\nRestez sur les allées : les ruches sont un lieu de travail, et les abeilles n’aiment pas être dérangées. Mais si un apiculteur en tenue ouvre une ruche pendant votre passage, vous assisterez à une scène que peu de Parisiens imaginent possible au cœur de leur ville.\n\nC’est le dernier arrêt du parcours, et peut-être le plus inattendu : après une boutique de lampes, des arènes romaines et un passage révolutionnaire, la promenade se termine ici, au son du travail de près d’un million d’abeilles.\n\nL’accès au jardin est gratuit, aux heures d’ouverture. Les cours d’apiculture sont payants et se réservent auprès de la Société centrale d’apiculture.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg/960px-Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg",
+          "titre": "Paris 6e Jardin du Luxembourg Rucher-École 293",
+          "auteur": "GFreihalter",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Parisd_75006_Rucher-%C3%89cole_du_Jardin_du_Luxembourg_20060730.jpg",
+          "titre": "Parisd 75006 Rucher-École du Jardin du Luxembourg 20060730",
+          "auteur": "O. Perrin (Wikipédia en français)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Parisd_75006_Rucher-%C3%89cole_du_Jardin_du_Luxembourg_20060730.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuit, visible depuis les allées aux heures d’ouverture du jardin. Cours d’apiculture payants.",
+      "lien_officiel": "https://jardin.senat.fr",
+      "adresse": "Jardin du Luxembourg, près du pavillon Davioud, côté rue d’Assas, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8449,
+        "lng": 2.3333
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue d’Assas"
+      },
+      "monument_proche": "palais-du-luxembourg",
+      "sources": [
+        {
+          "titre": "Messy Nessy — The Little Paris Beekeeping School (2018)",
+          "url": "https://www.messynessychic.com/2018/01/18/the-little-paris-beekeeping-school/"
+        },
+        {
+          "titre": "evous — Les ruches de Paris",
+          "url": "https://www.evous.fr/paris/Visiter/Les-ruches-de-Paris,1176309.html"
+        },
+        {
+          "titre": "Sénat — The Davioud pavilion",
+          "url": "https://jardin.senat.fr/en/history-heritage/heritage/the-davioud-pavilion.html"
+        }
+      ],
+      "verification": "a_verifier",
+      "note_coordonnees": "position estimée dans le jardin, à relever sur place"
+    },
+    {
+      "id": "pantheon",
+      "type": "standard",
+      "titre": "Le Panthéon",
+      "texte_court": "Louis XV le fait construire comme une église dédiée à sainte Geneviève, sur les plans de Soufflot. En 1791, la Révolution en fait un temple pour les grands hommes de la nation. Sa crypte abrite notamment Voltaire, Rousseau, Victor Hugo, Émile Zola et Marie Curie.",
+      "etape_voisine": "eclairages-anciens",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg/960px-Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+          "titre": "Façade Panthéon Paris 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "payant",
+      "acces_detail": "Visite payante.",
+      "lien_officiel": "https://www.paris-pantheon.fr",
+      "adresse": "Place du Panthéon, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84619,
+        "lng": 2.34605
+      }
+    },
+    {
+      "id": "jardin-des-plantes",
+      "type": "standard",
+      "titre": "Le Jardin des Plantes",
+      "texte_court": "Créé en 1635 comme jardin royal des plantes médicinales, ouvert au public en 1640, il est aujourd’hui le cœur du Muséum national d’histoire naturelle. Ses allées, ses grandes serres et sa ménagerie sont à quelques minutes des arènes de Lutèce.",
+      "etape_voisine": "arenes-de-lutece",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg/960px-Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg",
+          "titre": "Grande serre du Jardin des plantes, mai 2026, MNHN",
+          "auteur": "Gustave en résidence",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Jardin gratuit ; serres, galeries et ménagerie payantes.",
+      "lien_officiel": "https://www.jardindesplantesdeparis.fr",
+      "adresse": "57 rue Cuvier, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84404,
+        "lng": 2.35973
+      }
+    },
+    {
+      "id": "notre-dame",
+      "type": "standard",
+      "titre": "Notre-Dame de Paris",
+      "texte_court": "Commencée en 1163, la cathédrale est l’un des chefs-d’œuvre de l’art gothique. Ravagée par un incendie le 15 avril 2019, elle a rouvert en décembre 2024 après cinq ans de chantier. Depuis le quai, en sortant des Bernardins, on voit son chevet et ses arcs-boutants.",
+      "etape_voisine": "bernardins",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg/960px-Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg",
+          "titre": "Cathédrale Notre Dame, Paris 30 September 2015",
+          "auteur": "Antonin Subtil",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Entrée gratuite.",
+      "lien_officiel": "https://www.notredamedeparis.fr",
+      "adresse": "6 parvis Notre-Dame – place Jean-Paul-II, 75004 Paris",
+      "coordonnees": {
+        "lat": 48.85294,
+        "lng": 2.35005
+      }
+    },
+    {
+      "id": "saint-germain-des-pres",
+      "type": "standard",
+      "titre": "L’église Saint-Germain-des-Prés",
+      "texte_court": "Dernier vestige d’une puissante abbaye fondée au VIe siècle, l’église a donné son nom au quartier. Son clocher, élevé vers l’an mil, compte parmi les plus anciens de France. Autour d’elle, les cafés littéraires ont fait la réputation de Saint-Germain-des-Prés.",
+      "etape_voisine": "cour-du-commerce",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Entrée gratuite.",
+      "lien_officiel": "https://www.eglise-saintgermaindespres.fr",
+      "adresse": "3 place Saint-Germain-des-Prés, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85397,
+        "lng": 2.33452
+      }
+    },
+    {
+      "id": "institut-de-france",
+      "type": "standard",
+      "titre": "L’Institut de France et le pont des Arts",
+      "texte_court": "Le palais à coupole est né du testament de Mazarin, qui fonde en 1661 le collège des Quatre-Nations. Depuis 1805, il abrite l’Institut de France et ses cinq académies, dont l’Académie française. En face, le pont des Arts a été le premier pont en fer de Paris.",
+      "etape_voisine": "square-gabriel-pierne",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg/960px-Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+          "titre": "Pont des Arts, 6e Arrondissement, Paris (HDR) 20140320 1",
+          "auteur": "DXR",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Extérieurs en accès libre ; visites de l’Institut payantes.",
+      "lien_officiel": "https://www.institutdefrance.fr",
+      "adresse": "23 quai de Conti, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85739,
+        "lng": 2.33784
+      }
+    },
+    {
+      "id": "palais-du-luxembourg",
+      "type": "standard",
+      "titre": "Le palais du Luxembourg",
+      "texte_court": "Marie de Médicis le fait construire à partir de 1615, en souvenir du palais Pitti de sa Florence natale. Il abrite aujourd’hui le Sénat. Son jardin, l’un des plus aimés de Paris, cache dans son coin sud-ouest le verger et le rucher du parcours.",
+      "etape_voisine": "verger-du-luxembourg",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg,_South_View_140116_1.jpg/960px-Palais_du_Luxembourg,_South_View_140116_1.jpg",
+          "titre": "Palais du Luxembourg, South View 140116 1",
+          "auteur": "DXR",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Palais_du_Luxembourg,_South_View_140116_1.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Jardin gratuit ; palais visitable sur réservation.",
+      "lien_officiel": "https://www.senat.fr",
+      "adresse": "15 rue de Vaugirard, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.84854,
+        "lng": 2.33778
+      }
+    }
+  ],
+  "trajets": []
+}

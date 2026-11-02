@@ -1,0 +1,143 @@
+{
+  "parcours_id": "paris-insolite-rivegauche",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "fr",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Rive gauche, de Lutèce au mètre",
+  "zone": "5e et 6e arrondissements",
+  "introduction": "Un amphithéâtre romain, un arbre de quatre siècles, une rue minuscule et une règle de marbre : la rive gauche en quatre surprises.",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.7,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8426,
+      "lng": 2.3522
+    }
+  },
+  "etapes": [
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Les arènes de Lutèce",
+      "accroche": "Un amphithéâtre romain caché derrière les immeubles.",
+      "texte_long": "Derrière les façades de la rue Monge se cache un amphithéâtre gallo-romain. Construit vers la fin du Ier siècle, il accueillait combats et spectacles devant plusieurs milliers de personnes.\n\nEnfoui et oublié pendant des siècles, il est redécouvert en 1869, lors du percement de la rue Monge. Des personnalités, dont Victor Hugo, militent alors pour le sauver. Aujourd’hui, on y joue aux boules et les enfants courent sur la piste.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Square public, ouvert en journée, gratuit",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "Le plus vieil arbre de Paris",
+      "accroche": "Un arbre de plus de quatre siècles, soutenu par des béquilles.",
+      "texte_long": "Appuyé sur des étais de béton, ce robinier tient debout depuis le début du XVIIe siècle. Il aurait été planté vers 1601 par Jean Robin, botaniste du roi, qui a donné son nom à l’espèce, venue d’Amérique du Nord.\n\nIl est considéré comme le plus vieil arbre de Paris et fleurit encore au printemps. Depuis le square, la vue sur Notre-Dame est l’une des plus belles de la rive gauche.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Square public, ouvert en journée",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "La rue du Chat-qui-Pêche",
+      "accroche": "La rue la plus étroite de Paris : moins de deux mètres par endroits.",
+      "texte_long": "Environ 1,80 mètre de large : c’est la rue la plus étroite de Paris. Elle relie la rue de la Huchette au quai Saint-Michel, à deux pas des foules du quartier Latin.\n\nSon nom viendrait d’une ancienne enseigne représentant un chat attrapant des poissons. Écartez les bras : vous toucherez presque les deux murs.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Rue piétonne, accès libre",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "Le mètre étalon de la rue de Vaugirard",
+      "accroche": "Une règle de marbre posée en 1796 pour apprendre le mètre aux Parisiens.",
+      "texte_long": "Sur un mur, face au jardin du Luxembourg, une plaque de marbre est gravée d’une règle d’un mètre. Elle fait partie des mètres étalons installés dans Paris en 1796 et 1797, pour habituer les habitants au nouveau système métrique.\n\nC’est l’un des deux encore visibles, et le seul resté à son emplacement d’origine. Vous pouvez y vérifier la longueur de votre pas.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible depuis la rue, en accès libre",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}
