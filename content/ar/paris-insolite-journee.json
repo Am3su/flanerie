@@ -1,0 +1,467 @@
+{
+  "parcours_id": "paris-insolite-journee",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "ar",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "يوم بعيدًا عن المسارات المعتادة",
+  "zone": "الدوائر الثالثة والرابعة والخامسة والسادسة",
+  "introduction": "حيّ لو ماريه صباحًا، والضفة اليسرى بعد الظهر، يربط بينهما خط المترو رقم 7.",
+  "duree": {
+    "min": 360,
+    "max": 360
+  },
+  "distance_km": 4.8,
+  "mode": "pied_metro",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8663,
+      "lng": 2.3524
+    }
+  },
+  "etapes": [
+    {
+      "id": "ancre",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "ممرّ لانكر",
+      "accroche": "ممرّ مرصوف ومزهر، مختبئ بين شارعين مزدحمين.",
+      "texte_long": "تفتح بوابة متواضعة في شارع rue Saint-Martin على ممرّ ضيق مرصوف بالحجارة. واجهات منخفضة، ونوافذ بمصاريع مطلية بألوان زاهية، ونباتات في أصص: يتلاشى ضجيج المدينة بعد خطوات قليلة.\n\nيُقال إن اسمه، الذي يعني «المرساة»، جاء من لافتة نُزُل قديم. سكنه الحرفيون زمنًا طويلًا، فحافظ على طابع يكاد يكون قرويًا. يعبر الممر مكانًا مأهولًا: فامشوا فيه بهدوء.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+          "titre": "Paris passage de l ancre2",
+          "auteur": "Ralf.treinen",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "مفتوح نهارًا، بمواعيد متغيرة",
+      "lien_officiel": null,
+      "adresse": "223 rue Saint-Martin, 75003",
+      "coordonnees": {
+        "lat": 48.8648,
+        "lng": 2.3533
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Passage de l’Ancre"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "flamel",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "منزل نيكولا فلاميل",
+      "accroche": "من أقدم منازل باريس، ومرتبط بـ«خيميائي» شهير.",
+      "texte_long": "بُني هذا المنزل عام 1407، ويُعدّ من أقدم منازل باريس. شيّده نيكولا فلاميل، الكاتب العمومي وبائع الكتب، الذي كان يؤوي فيه الفقراء، ويطلب منهم في المقابل أن يصلّوا من أجل الموتى.\n\nارفعوا أبصاركم: لا تزال الواجهة تحمل نقشًا طويلًا محفورًا وأشكالًا منحوتة. وبعد وفاته، جعلت منه الأسطورة خيميائيًا يُقال إنه عثر على حجر الفلاسفة. وقد عبرت هذه الشهرة القرون حتى روايات اليوم.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg/960px-Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "titre": "Maison de Nicolas Flamel après restauration, 51 rue de Montmorency",
+          "auteur": "Eugène Atget (Paris Musées, musée Carnavalet)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "الواجهة مرئية من الشارع؛ مطعم في الطابق الأرضي",
+      "lien_officiel": null,
+      "adresse": "51 rue de Montmorency, 75003",
+      "coordonnees": {
+        "lat": 48.8634,
+        "lng": 2.3545
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue de Montmorency"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "defenseur",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "حارس الزمن",
+      "accroche": "ساعة عملاقة يواجه فيها محارب تنّينًا وطائرًا وسلطعونًا.",
+      "texte_long": "على بعد خطوات من مركز بومبيدو، يلوّح محارب من النحاس بسيفه في وجه ثلاثة كائنات: تنّين وطائر وسلطعون، ترمز إلى الأرض والهواء والماء.\n\nدُشّنت هذه الساعة الآلية، من إبداع جاك مونستييه، عام 1979. وكان المحارب يواجه عند كل ساعة أحد هذه المخلوقات. لكنها متوقفة منذ عام 2003 لغياب الصيانة. وحتى وهي ساكنة، تبقى من أغرب طرائف الحي.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Horloge_Murale_Paris.jpg/960px-Horloge_Murale_Paris.jpg",
+          "titre": "Horloge Murale Paris",
+          "auteur": "Danielbaise",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horloge_Murale_Paris.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg/960px-Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "titre": "Quartier de lHorloge 10, Paris 30 July 2010",
+          "auteur": "zoetnet",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "مرئية من الشارع، الدخول حر",
+      "lien_officiel": null,
+      "adresse": "Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",
+      "coordonnees": {
+        "lat": 48.8618,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue Bernard-de-Clairvaux"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; presse"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "miron",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "البيوت ذات الهياكل الخشبية في شارع rue François-Miron",
+      "accroche": "واجهتان بهيكل خشبي ظاهر، نجتا من باريس العصور الوسطى.",
+      "texte_long": "ضيّقان ومائلان قليلًا، يُظهر هذان المنزلان هيكلهما الخشبي كما في مدن الأقاليم. إنهما منزلان بهيكل خشبي يعودان إلى العصور الوسطى، وقد أصبح هذا النوع نادرًا جدًا في باريس.\n\nابتداءً من القرن السابع عشر، فرضت الأنظمة تغطية الخشب بالجص للحدّ من الحرائق. وبقي الهيكل الخشبي مخفيًا حتى ترميم الواجهات عام 1967.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg/960px-11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "titre": "11-13 rue François Miron, Paris 4e 2-1",
+          "auteur": "Polymagou",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "الواجهتان مرئيتان من الشارع",
+      "lien_officiel": null,
+      "adresse": "11 et 13 rue François-Miron, 75004",
+      "coordonnees": {
+        "lat": 48.8556,
+        "lng": 2.3572
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue François-Miron"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "enceinte",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "سور فيليب أوغست",
+      "accroche": "أطول جزء لا يزال ظاهرًا من سور باريس في العصور الوسطى.",
+      "texte_long": "على امتداد ملعب رياضي مدرسي، يرتفع جدار حجري عالٍ تحفّه أبراج مستديرة. إنه أطول مقطع لا يزال ظاهرًا من سور فيليب أوغست.\n\nأمر الملك ببنائه ابتداءً من عام 1190، قبل أن ينطلق إلى الحملة الصليبية، لحماية باريس. ومع مرور القرون، هُدم السور أو دُمج في المباني. ولا تزال أجزاء أخرى منه مختبئة في الأفنية والأقبية ومواقف السيارات.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg/960px-P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "titre": "P1200049 Paris IV enceinte de Philippe-Auguste rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "مرئي من الشارع، الدخول حر",
+      "lien_officiel": null,
+      "adresse": "Rue des Jardins-Saint-Paul, 75004",
+      "coordonnees": {
+        "lat": 48.854,
+        "lng": 2.361
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue des Jardins-Saint-Paul"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "sens",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "قصر سانس وقذيفة المدفع",
+      "accroche": "قصر من العصور الوسطى يحتفظ بقذيفة مدفع في واجهته.",
+      "texte_long": "أبراج صغيرة، وأسقف مدبّبة، وبوابة قوطية: قصر سانس من القصور الكبيرة النادرة من العصور الوسطى التي لا تزال قائمة في باريس. بُني في أواخر القرن الخامس عشر لرؤساء أساقفة سانس، الذين كانت أسقفية باريس تتبعهم آنذاك.\n\nابحثوا في الواجهة عن قذيفة مدفع مغروسة في الحجر، وإلى جانبها تاريخ 28 يوليو 1830: ذكرى «الأيام الثلاثة المجيدة». ويضم القصر اليوم مكتبة فورني المخصّصة للفنون الزخرفية.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+          "titre": "Hotel-de-Sens-DSC 8075",
+          "auteur": "Pline",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "الخارج مفتوح؛ الحديقة والمكتبة خلال ساعات الفتح",
+      "lien_officiel": null,
+      "adresse": "1 rue du Figuier, 75004",
+      "coordonnees": {
+        "lat": 48.8532,
+        "lng": 2.3592
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue du Figuier"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Bibliothèques de la Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "مدرّج لوتيسيا",
+      "accroche": "مدرّج روماني مختبئ خلف المباني.",
+      "texte_long": "خلف واجهات شارع rue Monge يختبئ مدرّج غالي روماني. بُني نحو أواخر القرن الأول، وكان يستضيف المبارزات والعروض أمام عدة آلاف من المتفرجين.\n\nظلّ مدفونًا ومنسيًا لقرون، حتى أُعيد اكتشافه عام 1869 أثناء شقّ شارع rue Monge. وقد ناضلت آنذاك شخصيات بارزة، منها فيكتور هوغو، لإنقاذه. واليوم يلعب الناس فيه لعبة الكرات، ويركض الأطفال في الحلبة.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "حديقة عامة، مفتوحة نهارًا، مجانية",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 8,
+      "titre": "أقدم شجرة في باريس",
+      "accroche": "شجرة عمرها أكثر من أربعة قرون، تستند إلى عكّازات.",
+      "texte_long": "مستندةً إلى دعامات من الخرسانة، تقف شجرة الروبينيا هذه منذ مطلع القرن السابع عشر. يُقال إن جان روبان، عالم النبات لدى الملك، غرسها نحو عام 1601، وقد أُطلق اسمه على هذا النوع القادم من أمريكا الشمالية.\n\nتُعدّ أقدم شجرة في باريس، ولا تزال تُزهر في الربيع. ومن الحديقة، يُعدّ منظر نوتردام من أجمل مناظر الضفة اليسرى.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "حديقة عامة، مفتوحة نهارًا",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 9,
+      "titre": "شارع القط الصياد",
+      "accroche": "أضيق شارع في باريس: أقل من مترين في بعض المواضع.",
+      "texte_long": "عرضه نحو 1.80 متر: إنه أضيق شارع في باريس. يصل بين شارع rue de la Huchette وضفة quai Saint-Michel، على بعد خطوات من حشود الحي اللاتيني.\n\nيُقال إن اسمه جاء من لافتة قديمة تصوّر قطًا يصطاد السمك. افتحوا ذراعيكم: ستكادون تلمسون الجدارين معًا.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "شارع للمشاة، الدخول حر",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 10,
+      "titre": "المتر المرجعي في شارع rue de Vaugirard",
+      "accroche": "مسطرة من الرخام وُضعت عام 1796 لتعليم الباريسيين وحدة المتر.",
+      "texte_long": "على جدار مقابل حديقة لوكسمبورغ، لوح من الرخام نُقشت عليه مسطرة طولها متر واحد. وهو من الأمتار المرجعية التي ثُبّتت في باريس عامي 1796 و1797 لتعويد السكان على النظام المتري الجديد.\n\nإنه واحد من اثنين لا يزالان ظاهرين، والوحيد الذي بقي في موضعه الأصلي. يمكنكم أن تقيسوا عنده طول خطوتكم.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "مرئي من الشارع، الدخول حر",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": [
+    {
+      "de": "sens",
+      "vers": "arenes",
+      "type": "metro",
+      "ligne": "7",
+      "arrets": 3,
+      "montee": {
+        "nom": "Pont Marie",
+        "lat": 48.8534,
+        "lng": 2.3573
+      },
+      "descente": {
+        "nom": "Place Monge",
+        "lat": 48.8426,
+        "lng": 2.3522
+      },
+      "direction": "Villejuif – Louis Aragon أو Mairie d’Ivry",
+      "texte": "خط المترو 7، من محطة Pont Marie إلى محطة Place Monge (نحو 10 دقائق)"
+    }
+  ]
+}

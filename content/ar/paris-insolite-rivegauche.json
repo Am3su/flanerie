@@ -1,0 +1,197 @@
+{
+  "parcours_id": "paris-insolite-rivegauche",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "ar",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "الضفة اليسرى، من لوتيسيا إلى المتر",
+  "zone": "الدائرتان الخامسة والسادسة",
+  "introduction": "مدرّج روماني، وشجرة عمرها أربعة قرون، وشارع ضيّق جدًا، ومسطرة من الرخام: الضفة اليسرى في أربع مفاجآت.",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.7,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8426,
+      "lng": 2.3522
+    }
+  },
+  "etapes": [
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "مدرّج لوتيسيا",
+      "accroche": "مدرّج روماني مختبئ خلف المباني.",
+      "texte_long": "خلف واجهات شارع rue Monge يختبئ مدرّج غالي روماني. بُني نحو أواخر القرن الأول، وكان يستضيف المبارزات والعروض أمام عدة آلاف من المتفرجين.\n\nظلّ مدفونًا ومنسيًا لقرون، حتى أُعيد اكتشافه عام 1869 أثناء شقّ شارع rue Monge. وقد ناضلت آنذاك شخصيات بارزة، منها فيكتور هوغو، لإنقاذه. واليوم يلعب الناس فيه لعبة الكرات، ويركض الأطفال في الحلبة.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "حديقة عامة، مفتوحة نهارًا، مجانية",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "أقدم شجرة في باريس",
+      "accroche": "شجرة عمرها أكثر من أربعة قرون، تستند إلى عكّازات.",
+      "texte_long": "مستندةً إلى دعامات من الخرسانة، تقف شجرة الروبينيا هذه منذ مطلع القرن السابع عشر. يُقال إن جان روبان، عالم النبات لدى الملك، غرسها نحو عام 1601، وقد أُطلق اسمه على هذا النوع القادم من أمريكا الشمالية.\n\nتُعدّ أقدم شجرة في باريس، ولا تزال تُزهر في الربيع. ومن الحديقة، يُعدّ منظر نوتردام من أجمل مناظر الضفة اليسرى.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "حديقة عامة، مفتوحة نهارًا",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "شارع القط الصياد",
+      "accroche": "أضيق شارع في باريس: أقل من مترين في بعض المواضع.",
+      "texte_long": "عرضه نحو 1.80 متر: إنه أضيق شارع في باريس. يصل بين شارع rue de la Huchette وضفة quai Saint-Michel، على بعد خطوات من حشود الحي اللاتيني.\n\nيُقال إن اسمه جاء من لافتة قديمة تصوّر قطًا يصطاد السمك. افتحوا ذراعيكم: ستكادون تلمسون الجدارين معًا.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "شارع للمشاة، الدخول حر",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "المتر المرجعي في شارع rue de Vaugirard",
+      "accroche": "مسطرة من الرخام وُضعت عام 1796 لتعليم الباريسيين وحدة المتر.",
+      "texte_long": "على جدار مقابل حديقة لوكسمبورغ، لوح من الرخام نُقشت عليه مسطرة طولها متر واحد. وهو من الأمتار المرجعية التي ثُبّتت في باريس عامي 1796 و1797 لتعويد السكان على النظام المتري الجديد.\n\nإنه واحد من اثنين لا يزالان ظاهرين، والوحيد الذي بقي في موضعه الأصلي. يمكنكم أن تقيسوا عنده طول خطوتكم.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "مرئي من الشارع، الدخول حر",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}
