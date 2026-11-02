@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "langue_reference": "fr",
   "langues_disponibles": [
     "fr",
@@ -24,25 +24,22 @@
         "en": "Paris",
         "es": "París"
       },
-      "statut": "actif"
-    },
-    {
-      "id": "lyon",
-      "nom": {
-        "fr": "Lyon",
-        "en": "Lyon",
-        "es": "Lyon"
+      "pays": {
+        "fr": "France",
+        "en": "France",
+        "es": "Francia"
       },
-      "statut": "bientot"
-    },
-    {
-      "id": "bordeaux",
-      "nom": {
-        "fr": "Bordeaux",
-        "en": "Bordeaux",
-        "es": "Burdeos"
-      },
-      "statut": "bientot"
+      "statut": "actif",
+      "photo": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg/960px-Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+        "titre": "Pont des Arts, 6e Arrondissement, Paris (HDR) 20140320 1",
+        "auteur": "DXR",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "statut_validation": "candidate"
+      }
     },
     {
       "id": "rome",
@@ -51,7 +48,70 @@
         "en": "Rome",
         "es": "Roma"
       },
-      "statut": "bientot"
+      "pays": {
+        "fr": "Italie",
+        "en": "Italy",
+        "es": "Italia"
+      },
+      "statut": "bientot",
+      "photo": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Trastevere_streets,_Rome,_Italy.jpg/960px-Trastevere_streets,_Rome,_Italy.jpg",
+        "titre": "Trastevere streets, Rome, Italy",
+        "auteur": "Alessandro Cossu",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Trastevere_streets,_Rome,_Italy.jpg",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "statut_validation": "candidate"
+      }
+    },
+    {
+      "id": "madrid",
+      "nom": {
+        "fr": "Madrid",
+        "en": "Madrid",
+        "es": "Madrid"
+      },
+      "pays": {
+        "fr": "Espagne",
+        "en": "Spain",
+        "es": "España"
+      },
+      "statut": "bientot",
+      "photo": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Plaza_Mayor_de_Madrid_-_01.jpg/960px-Plaza_Mayor_de_Madrid_-_01.jpg",
+        "titre": "Plaza Mayor de Madrid - 01",
+        "auteur": "Carlos Delgado",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_-_01.jpg",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "statut_validation": "candidate"
+      }
+    },
+    {
+      "id": "londres",
+      "nom": {
+        "fr": "Londres",
+        "en": "London",
+        "es": "Londres"
+      },
+      "pays": {
+        "fr": "Royaume-Uni",
+        "en": "United Kingdom",
+        "es": "Reino Unido"
+      },
+      "statut": "bientot",
+      "photo": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Neal's_Yard,_London_-_panoramio.jpg/960px-Neal's_Yard,_London_-_panoramio.jpg",
+        "titre": "Neal's Yard, London - panoramio",
+        "auteur": "Anthony Webb",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Neal's_Yard,_London_-_panoramio.jpg",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "statut_validation": "candidate"
+      }
     }
   ],
   "thematiques": [
@@ -155,5 +215,15 @@
       ],
       "fichier": "content/{langue}/paris-insolite-journee.json"
     }
-  ]
+  ],
+  "visuel_accueil": {
+    "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Le_Relais_Od%C3%A9on,_Cour_du_Commerce-Saint-Andr%C3%A9,_Paris_2012.jpg/1280px-Le_Relais_Od%C3%A9on,_Cour_du_Commerce-Saint-Andr%C3%A9,_Paris_2012.jpg",
+    "titre": "Le Relais Odéon, Cour du Commerce-Saint-André, Paris 2012",
+    "auteur": "Marko Kudjerski",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Relais_Od%C3%A9on,_Cour_du_Commerce-Saint-Andr%C3%A9,_Paris_2012.jpg",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+    "statut_validation": "candidate"
+  }
 }
