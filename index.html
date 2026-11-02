@@ -235,7 +235,7 @@ em.g{font-style:italic;color:var(--gold)}
 
 .rcard{display:block;width:100%;border:0;padding:0;margin:0 0 16px;background:var(--card);border-radius:22px;overflow:hidden;text-align:left;cursor:pointer;box-shadow:var(--shadow);transition:transform .2s ease}
 .rcard:active{transform:scale(.99)}
-.rcard .img{position:relative;aspect-ratio:16/10;background:var(--paper-2) center/cover no-repeat}
+.rcard .img{display:block;position:relative;aspect-ratio:16/10;background:var(--paper-2) center/cover no-repeat}
 .rcard .img .tags{position:absolute;left:12px;top:12px;display:flex;gap:6px;flex-wrap:wrap}
 .tagi{font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;border-radius:999px;padding:5px 10px;background:rgba(14,19,27,.55);color:#F6F2EA;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .tagi.gold{background:#E3C88F;color:#14202F}
@@ -268,7 +268,7 @@ em.g{font-style:italic;color:var(--gold)}
 
 /* ---------- Parcours ---------- */
 .cover{position:relative;min-height:62vh;min-height:62svh;max-height:640px;display:flex;flex-direction:column;justify-content:flex-end;color:#F6F2EA;background:#14202F center/cover no-repeat}
-.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,20,.45) 0%,rgba(10,14,20,0) 28%,rgba(10,14,20,.2) 55%,rgba(10,14,20,.9) 100%)}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,20,.5) 0%,rgba(10,14,20,.15) 25%,rgba(10,14,20,.45) 55%,rgba(10,14,20,.92) 100%)}
 .cover .wrap{position:relative;z-index:2;width:100%;padding-bottom:26px}
 .cover h1{font-size:clamp(38px,10vw,56px);line-height:1}
 .cover .zone{margin-top:10px;font-size:15px;color:rgba(246,242,234,.85);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
@@ -1029,9 +1029,9 @@ const SCREENS={
 
 function routeCard(r,big){const cv=coverOf(r);
   const tags=`${big?`<span class="tagi gold">${t("signature")}</span>`:`<span class="tagi">${t("sample")}</span>`}<span class="tagi">${r.statut==="payant"?t("paid"):t("free")}</span>`;
-  if(big)return `<button class="rcard" data-action="route" data-id="${r.parcours_id}"><span class="img" style="display:block"${bg(cv,960)}><span class="tags">${tags}</span></span>
+  if(big)return `<button class="rcard" data-action="route" data-id="${r.parcours_id}"><span class="img"${bg(cv,960)}><span class="tags">${tags}</span></span>
     <span class="rb"><h3>${esc(r.titre)}</h3><span class="zone" style="display:block">${esc(r.zone)}</span>${metaRow(r)}</span></button>`;
-  return `<button class="rcard compact" data-action="route" data-id="${r.parcours_id}"><span class="img" style="display:block"${bg(cv,330)}></span>
+  return `<button class="rcard compact" data-action="route" data-id="${r.parcours_id}"><span class="img"${bg(cv,330)}></span>
     <span class="rb"><span class="tagi" style="background:var(--paper-2);color:var(--muted);backdrop-filter:none">${t("sample")}</span><h3 style="margin-top:8px">${esc(r.titre)}</h3><span class="zone" style="display:block">${esc(r.zone)}</span>${metaRow(r)}</span></button>`}
 
 function langList(action){
