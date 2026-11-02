@@ -1,0 +1,143 @@
+{
+  "parcours_id": "paris-insolite-rivegauche",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "en",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Left Bank, from Lutetia to the metre",
+  "zone": "5th & 6th arrondissements",
+  "introduction": "A Roman amphitheatre, a four-hundred-year-old tree, a tiny street and a marble ruler: the Left Bank in four surprises.",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.7,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8426,
+      "lng": 2.3522
+    }
+  },
+  "etapes": [
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "The Arènes de Lutèce",
+      "accroche": "A Roman amphitheatre hidden behind apartment buildings.",
+      "texte_long": "Behind the façades of Rue Monge lies a Gallo-Roman amphitheatre. Built around the end of the 1st century, it hosted fights and shows for several thousand spectators.\n\nBuried and forgotten for centuries, it was rediscovered in 1869, when Rue Monge was cut through. Public figures, Victor Hugo among them, then campaigned to save it. Today, people play pétanque here and children run around the arena.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Public garden, open during the day, free",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "The oldest tree in Paris",
+      "accroche": "A tree more than four centuries old, propped up on crutches.",
+      "texte_long": "Leaning on concrete props, this black locust has been standing since the early 17th century. It is said to have been planted around 1601 by Jean Robin, the king’s botanist, who gave his name to the species, which came from North America.\n\nIt is considered the oldest tree in Paris and still flowers in spring. From the garden, the view of Notre-Dame is one of the finest on the Left Bank.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Public garden, open during the day",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "Rue du Chat-qui-Pêche",
+      "accroche": "The narrowest street in Paris: under two metres wide in places.",
+      "texte_long": "About 1.80 metres wide, it is the narrowest street in Paris. It links Rue de la Huchette to Quai Saint-Michel, a few steps from the crowds of the Latin Quarter.\n\nIts name, “street of the fishing cat”, is said to come from an old shop sign showing a cat catching fish. Stretch out your arms: you can almost touch both walls.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Pedestrian street, free access",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "The standard metre of Rue de Vaugirard",
+      "accroche": "A marble ruler put up in 1796 to teach Parisians the metre.",
+      "texte_long": "On a wall facing the Luxembourg Gardens, a marble plaque is engraved with a one-metre ruler. It is one of the standard metres installed around Paris in 1796 and 1797 to get residents used to the new metric system.\n\nIt is one of only two still visible, and the only one still in its original location. You can check the length of your stride against it.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible from the street, free access",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}

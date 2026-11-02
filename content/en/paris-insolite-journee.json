@@ -1,0 +1,337 @@
+{
+  "parcours_id": "paris-insolite-journee",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "en",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "A day off the beaten track",
+  "zone": "3rd to 6th arrondissements",
+  "introduction": "The Marais in the morning, the Left Bank in the afternoon, linked by metro line 7.",
+  "duree": {
+    "min": 360,
+    "max": 360
+  },
+  "distance_km": 4.8,
+  "mode": "pied_metro",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8663,
+      "lng": 2.3524
+    }
+  },
+  "etapes": [
+    {
+      "id": "ancre",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Passage de l’Ancre",
+      "accroche": "A cobbled, flower-filled passage hidden between two busy streets.",
+      "texte_long": "A discreet carriage gateway on Rue Saint-Martin opens onto a narrow cobbled passage. Low façades, brightly painted shutters, potted plants: within a few steps, the noise of the city fades away.\n\nIts name is said to come from the sign of an old inn. Long home to craftsmen, it has kept an almost village-like scale. People live here, so walk through quietly.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Open during the day, hours vary",
+      "lien_officiel": null,
+      "adresse": "223 rue Saint-Martin, 75003",
+      "coordonnees": {
+        "lat": 48.8648,
+        "lng": 2.3533
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Passage de l’Ancre"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "flamel",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "Nicolas Flamel’s House",
+      "accroche": "One of the oldest houses in Paris, linked to a famous “alchemist”.",
+      "texte_long": "Built in 1407, this house is said to be one of the oldest in Paris. It was put up by Nicolas Flamel, a scribe and bookseller, who gave lodging to poor people. In return, he asked them to pray for the dead.\n\nLook up: the façade still bears a long carved inscription and sculpted figures. After his death, legend turned Flamel into an alchemist who had found the philosopher’s stone. That reputation has lasted for centuries, all the way to today’s novels.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Façade visible from the street; restaurant on the ground floor",
+      "lien_officiel": null,
+      "adresse": "51 rue de Montmorency, 75003",
+      "coordonnees": {
+        "lat": 48.8634,
+        "lng": 2.3545
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue de Montmorency"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "defenseur",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "The Defender of Time",
+      "accroche": "A giant clock where a warrior fights a dragon, a bird and a crab.",
+      "texte_long": "A stone’s throw from the Centre Pompidou, a brass warrior raises his sword against three creatures: a dragon, a bird and a crab. They stand for earth, air and water.\n\nThis automaton clock, the work of Jacques Monestier, was unveiled in 1979. Every hour, the warrior fought one of the beasts. It has stood still since 2003 for lack of maintenance. Motionless, it remains one of the strangest curiosities in the neighbourhood.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible from the street, free access",
+      "lien_officiel": null,
+      "adresse": "Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",
+      "coordonnees": {
+        "lat": 48.8618,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue Bernard-de-Clairvaux"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; presse"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "miron",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "The half-timbered houses of Rue François-Miron",
+      "accroche": "Two half-timbered façades, survivors of medieval Paris.",
+      "texte_long": "Narrow and slightly leaning, these two houses show off their timber frames, like something from a country town. They are half-timbered houses of medieval origin, now very rare in Paris.\n\nFrom the 17th century, regulations required the wood to be covered with plaster to limit fires. The timbers stayed hidden until the façades were restored in 1967.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Façades visible from the street",
+      "lien_officiel": null,
+      "adresse": "11 et 13 rue François-Miron, 75004",
+      "coordonnees": {
+        "lat": 48.8556,
+        "lng": 2.3572
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue François-Miron"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "enceinte",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "The Wall of Philip Augustus",
+      "accroche": "The longest surviving stretch of the medieval city wall of Paris.",
+      "texte_long": "Alongside a school sports ground rises a tall stone wall flanked by round towers. It is the longest visible section of the wall of Philip Augustus.\n\nThe king had it built from 1190, before leaving on crusade, to protect Paris. Over the centuries, the wall was torn down or swallowed up by buildings. Other fragments still hide in courtyards, cellars and car parks.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible from the street, free access",
+      "lien_officiel": null,
+      "adresse": "Rue des Jardins-Saint-Paul, 75004",
+      "coordonnees": {
+        "lat": 48.854,
+        "lng": 2.361
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue des Jardins-Saint-Paul"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "sens",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "The Hôtel de Sens and its cannonball",
+      "accroche": "A medieval mansion with a cannonball still lodged in its façade.",
+      "texte_long": "Turrets, pointed roofs, a Gothic porch: the Hôtel de Sens is one of the few great medieval residences still standing in Paris. It was built at the end of the 15th century for the archbishops of Sens, to whom the bishopric of Paris then answered.\n\nLook on the façade for a cannonball embedded in the stone, with the date 28 July 1830: a reminder of the July Revolution. Today the building houses the Forney library, devoted to the decorative arts.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Exterior freely accessible; garden and library during opening hours",
+      "lien_officiel": null,
+      "adresse": "1 rue du Figuier, 75004",
+      "coordonnees": {
+        "lat": 48.8532,
+        "lng": 2.3592
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue du Figuier"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Bibliothèques de la Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "The Arènes de Lutèce",
+      "accroche": "A Roman amphitheatre hidden behind apartment buildings.",
+      "texte_long": "Behind the façades of Rue Monge lies a Gallo-Roman amphitheatre. Built around the end of the 1st century, it hosted fights and shows for several thousand spectators.\n\nBuried and forgotten for centuries, it was rediscovered in 1869, when Rue Monge was cut through. Public figures, Victor Hugo among them, then campaigned to save it. Today, people play pétanque here and children run around the arena.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Public garden, open during the day, free",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 8,
+      "titre": "The oldest tree in Paris",
+      "accroche": "A tree more than four centuries old, propped up on crutches.",
+      "texte_long": "Leaning on concrete props, this black locust has been standing since the early 17th century. It is said to have been planted around 1601 by Jean Robin, the king’s botanist, who gave his name to the species, which came from North America.\n\nIt is considered the oldest tree in Paris and still flowers in spring. From the garden, the view of Notre-Dame is one of the finest on the Left Bank.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Public garden, open during the day",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 9,
+      "titre": "Rue du Chat-qui-Pêche",
+      "accroche": "The narrowest street in Paris: under two metres wide in places.",
+      "texte_long": "About 1.80 metres wide, it is the narrowest street in Paris. It links Rue de la Huchette to Quai Saint-Michel, a few steps from the crowds of the Latin Quarter.\n\nIts name, “street of the fishing cat”, is said to come from an old shop sign showing a cat catching fish. Stretch out your arms: you can almost touch both walls.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Pedestrian street, free access",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 10,
+      "titre": "The standard metre of Rue de Vaugirard",
+      "accroche": "A marble ruler put up in 1796 to teach Parisians the metre.",
+      "texte_long": "On a wall facing the Luxembourg Gardens, a marble plaque is engraved with a one-metre ruler. It is one of the standard metres installed around Paris in 1796 and 1797 to get residents used to the new metric system.\n\nIt is one of only two still visible, and the only one still in its original location. You can check the length of your stride against it.",
+      "audio": null,
+      "photos": [],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visible from the street, free access",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": [
+    {
+      "de": "sens",
+      "vers": "arenes",
+      "type": "metro",
+      "ligne": "7",
+      "arrets": 3,
+      "montee": {
+        "nom": "Pont Marie",
+        "lat": 48.8534,
+        "lng": 2.3573
+      },
+      "descente": {
+        "nom": "Place Monge",
+        "lat": 48.8426,
+        "lng": 2.3522
+      },
+      "direction": "Villejuif – Louis Aragon or Mairie d’Ivry",
+      "texte": "Metro line 7, Pont Marie to Place Monge (about 10 min)"
+    }
+  ]
+}
