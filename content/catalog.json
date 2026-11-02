@@ -171,7 +171,17 @@
         "en",
         "es"
       ],
-      "fichier": "content/{langue}/paris-insolite-5e-6e.json"
+      "fichier": "content/{langue}/paris-insolite-5e-6e.json",
+      "couverture": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg/960px-Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+        "titre": "Paris - Collège des Bernardins - la nef - 011",
+        "auteur": "Thesupermat",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "statut_validation": "candidate"
+      }
     },
     {
       "parcours_id": "paris-insolite-marais",
@@ -185,7 +195,17 @@
         "en",
         "es"
       ],
-      "fichier": "content/{langue}/paris-insolite-marais.json"
+      "fichier": "content/{langue}/paris-insolite-marais.json",
+      "couverture": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+        "titre": "Paris passage de l ancre2",
+        "auteur": "Ralf.treinen",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "statut_validation": "candidate"
+      }
     },
     {
       "parcours_id": "paris-insolite-rivegauche",
@@ -199,7 +219,17 @@
         "en",
         "es"
       ],
-      "fichier": "content/{langue}/paris-insolite-rivegauche.json"
+      "fichier": "content/{langue}/paris-insolite-rivegauche.json",
+      "couverture": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+        "titre": "Arènes de Lutèce, Paris April 2011",
+        "auteur": "Chris Waits",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+        "licence": "CC BY 2.0",
+        "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+        "statut_validation": "candidate"
+      }
     },
     {
       "parcours_id": "paris-insolite-journee",
@@ -213,7 +243,17 @@
         "en",
         "es"
       ],
-      "fichier": "content/{langue}/paris-insolite-journee.json"
+      "fichier": "content/{langue}/paris-insolite-journee.json",
+      "couverture": {
+        "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+        "titre": "Hotel-de-Sens-DSC 8075",
+        "auteur": "Pline",
+        "source": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "statut_validation": "candidate"
+      }
     }
   ],
   "visuel_accueil": {
