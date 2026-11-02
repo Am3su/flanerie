@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "langue_reference": "fr",
   "langues_disponibles": [
     "fr",
@@ -261,7 +261,8 @@
         "licence": "CC BY-SA 3.0",
         "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
         "statut_validation": "candidate"
-      }
+      },
+      "trace": "content/traces/paris-insolite-5e-6e.geojson"
     },
     {
       "parcours_id": "paris-insolite-marais",
@@ -290,7 +291,8 @@
         "licence": "CC BY-SA 3.0",
         "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
         "statut_validation": "candidate"
-      }
+      },
+      "trace": "content/traces/paris-insolite-marais.geojson"
     },
     {
       "parcours_id": "paris-insolite-rivegauche",
@@ -319,7 +321,8 @@
         "licence": "CC BY 2.0",
         "licence_url": "https://creativecommons.org/licenses/by/2.0/",
         "statut_validation": "candidate"
-      }
+      },
+      "trace": "content/traces/paris-insolite-rivegauche.geojson"
     },
     {
       "parcours_id": "paris-insolite-journee",
@@ -348,7 +351,8 @@
         "licence": "CC BY-SA 3.0",
         "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
         "statut_validation": "candidate"
-      }
+      },
+      "trace": "content/traces/paris-insolite-journee.geojson"
     }
   ],
   "visuel_accueil": {
@@ -360,5 +364,10 @@
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0/",
     "statut_validation": "candidate"
+  },
+  "cartographie": {
+    "fond": "OpenFreeMap (tuiles vectorielles OpenStreetMap), style recoloré façon Plans (Apple) ou Google Maps selon l’appareil",
+    "attribution": "OpenFreeMap © OpenMapTiles, données © contributeurs OpenStreetMap",
+    "itineraires": "OSRM routed-foot (FOSSGIS)"
   }
 }
