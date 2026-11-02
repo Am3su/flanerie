@@ -33,7 +33,18 @@
       "accroche": "Derrière une vitrine bleue, une boutique de réparateur cache un musée de la lumière d’avant l’électricité.",
       "texte_long": "Rue Flatters, à deux pas du boulevard de Port-Royal, rien ne signale un musée. On voit une petite boutique à la devanture bleue, Lumière de l’Œil, où l’on répare et vend des lampes anciennes. Il suffit pourtant de pousser la porte et de demander à voir la collection pour changer d’époque.\n\nLe lieu est tenu par Ara Kebapçioğlu, que l’on appelle ici Monsieur Ara. Né en Turquie, ce collectionneur passionné s’est installé rue Flatters il y a plus de quarante ans. Il a consacré un livre à sa passion, L’Autre siècle des lumières. Son idée : montrer comment on s’éclairait avant que l’électricité ne s’impose partout.\n\nDans la petite salle du musée, des dizaines de lampes racontent cette histoire, de la fin du XVIIIe siècle au début du XXe. Elles brûlaient de l’huile, du pétrole, du gaz ou de l’alcool. Regardez les globes en opaline, les abat-jour bordés de franges perlées, les pieds de métal ou de porcelaine. On mesure le chemin parcouru, de la simple flamme à huile jusqu’aux lampes à gaz.\n\nCertaines pièces ont leur propre histoire. Monsieur Ara a remonté lui-même une lampe dont l’abat-jour, restauré récemment, montre une vue qui évoque Constantinople. Un modèle à l’allure presque moderne serait l’une des premières lampes de chevet à huile. Le collectionneur a aussi donné plusieurs objets au musée Carnavalet, le musée d’histoire de Paris.\n\nAu fond de la boutique, l’atelier sert aux réparations et aux conversations avec les visiteurs. C’est tout le charme du lieu : on ne regarde pas seulement des vitrines, on rencontre celui qui les a réunies et qui sait faire revivre chaque mécanisme.\n\nL’entrée est gratuite. Le musée ouvre du mardi au vendredi de 14 h à 19 h, et le samedi de 11 h à 17 h. Comme la boutique est tenue par une seule personne, mieux vaut réserver avant de venir, et rester discret si Monsieur Ara est en pleine réparation.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg/960px-Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "titre": "Plaque Rue Flatters - Paris V (FR75) - 2021-07-27 - 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Gratuit. Du mardi au vendredi de 14 h à 19 h, le samedi de 11 h à 17 h. Réservation conseillée au 01 47 07 63 47.",
       "lien_officiel": "https://www.lumieredeloeil.com",
@@ -472,7 +483,18 @@
       "texte_court": "Dernier vestige d’une puissante abbaye fondée au VIe siècle, l’église a donné son nom au quartier. Son clocher, élevé vers l’an mil, compte parmi les plus anciens de France. Autour d’elle, les cafés littéraires ont fait la réputation de Saint-Germain-des-Prés.",
       "etape_voisine": "cour-du-commerce",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg/960px-Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "titre": "Paris Abbaye Saint-Germain-des-Prés 3",
+          "auteur": "Zairon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Entrée gratuite.",
       "lien_officiel": "https://www.eglise-saintgermaindespres.fr",

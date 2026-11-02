@@ -30,7 +30,18 @@
       "accroche": "Un passage pavé et fleuri, caché entre deux rues très passantes.",
       "texte_long": "Une porte cochère discrète, rue Saint-Martin, ouvre sur un étroit passage pavé. Façades basses, volets peints de couleurs vives, plantes en pots : le bruit de la ville s’efface en quelques pas.\n\nSon nom viendrait de l’enseigne d’une ancienne auberge. Longtemps occupé par des artisans, il a gardé une échelle presque villageoise. Le passage traverse un lieu habité : on le parcourt en silence.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+          "titre": "Paris passage de l ancre2",
+          "auteur": "Ralf.treinen",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Passage ouvert en journée, horaires variables",
       "lien_officiel": null,
@@ -59,7 +70,18 @@
       "accroche": "L’une des plus anciennes maisons de Paris, liée à un célèbre « alchimiste ».",
       "texte_long": "Construite en 1407, cette maison passe pour l’une des plus anciennes de Paris. Elle fut édifiée par Nicolas Flamel, écrivain public et libraire, qui y logeait des personnes pauvres. En échange, il leur demandait de prier pour les défunts.\n\nLevez les yeux : la façade porte encore une longue inscription gravée et des figures sculptées. Après sa mort, la légende a fait de Flamel un alchimiste qui aurait trouvé la pierre philosophale. Cette réputation a traversé les siècles, jusqu’aux romans d’aujourd’hui.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg/960px-Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "titre": "Maison de Nicolas Flamel après restauration, 51 rue de Montmorency",
+          "auteur": "Eugène Atget (Paris Musées, musée Carnavalet)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Façade visible depuis la rue ; restaurant au rez-de-chaussée",
       "lien_officiel": null,
@@ -88,7 +110,28 @@
       "accroche": "Une horloge géante où un guerrier affronte un dragon, un oiseau et un crabe.",
       "texte_long": "À deux pas du Centre Pompidou, un guerrier de laiton brandit son épée face à trois créatures : un dragon, un oiseau et un crabe. Elles figurent la terre, l’air et l’eau.\n\nCette horloge-automate, œuvre de Jacques Monestier, a été inaugurée en 1979. À chaque heure, le guerrier affrontait l’une des bêtes. Elle est à l’arrêt depuis 2003, faute d’entretien. Immobile, elle reste l’une des curiosités les plus étranges du quartier.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Horloge_Murale_Paris.jpg/960px-Horloge_Murale_Paris.jpg",
+          "titre": "Horloge Murale Paris",
+          "auteur": "Danielbaise",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horloge_Murale_Paris.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg/960px-Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "titre": "Quartier de lHorloge 10, Paris 30 July 2010",
+          "auteur": "zoetnet",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible depuis la rue, en accès libre",
       "lien_officiel": null,
@@ -117,7 +160,18 @@
       "accroche": "Deux façades à pans de bois, rescapées du Paris médiéval.",
       "texte_long": "Étroites et un peu penchées, ces deux maisons montrent leurs colombages, comme dans une ville de province. Ce sont des maisons à pans de bois d’origine médiévale, devenues très rares à Paris.\n\nÀ partir du XVIIe siècle, les règlements imposèrent de recouvrir le bois de plâtre pour limiter les incendies. Les colombages sont restés cachés jusqu’à la restauration des façades, en 1967.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg/960px-11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "titre": "11-13 rue François Miron, Paris 4e 2-1",
+          "auteur": "Polymagou",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Façades visibles depuis la rue",
       "lien_officiel": null,
@@ -146,7 +200,18 @@
       "accroche": "Le plus long morceau encore visible de la muraille médiévale de Paris.",
       "texte_long": "Le long d’un terrain de sport scolaire se dresse un haut mur de pierre, flanqué de tours rondes. C’est le plus long tronçon encore visible de l’enceinte de Philippe Auguste.\n\nLe roi la fit bâtir à partir de 1190, avant de partir en croisade, pour protéger Paris. Au fil des siècles, la muraille a été démolie ou absorbée dans les immeubles. D’autres fragments se cachent encore dans des cours, des caves et des parkings.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg/960px-P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "titre": "P1200049 Paris IV enceinte de Philippe-Auguste rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible depuis la rue, en accès libre",
       "lien_officiel": null,
@@ -175,7 +240,18 @@
       "accroche": "Une demeure médiévale qui garde un boulet de canon dans sa façade.",
       "texte_long": "Tourelles, toits pointus, porche gothique : l’hôtel de Sens est l’une des rares grandes demeures médiévales encore debout à Paris. Il a été bâti à la fin du XVe siècle pour les archevêques de Sens, dont dépendait alors l’évêché de Paris.\n\nCherchez sur la façade un boulet de canon incrusté dans la pierre, avec la date du 28 juillet 1830 : un souvenir des Trois Glorieuses. L’hôtel abrite aujourd’hui la bibliothèque Forney, consacrée aux arts décoratifs.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+          "titre": "Hotel-de-Sens-DSC 8075",
+          "auteur": "Pline",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Extérieur en accès libre ; jardin et bibliothèque aux heures d’ouverture",
       "lien_officiel": null,

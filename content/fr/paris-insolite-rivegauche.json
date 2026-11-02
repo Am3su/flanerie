@@ -30,7 +30,28 @@
       "accroche": "Un amphithéâtre romain caché derrière les immeubles.",
       "texte_long": "Derrière les façades de la rue Monge se cache un amphithéâtre gallo-romain. Construit vers la fin du Ier siècle, il accueillait combats et spectacles devant plusieurs milliers de personnes.\n\nEnfoui et oublié pendant des siècles, il est redécouvert en 1869, lors du percement de la rue Monge. Des personnalités, dont Victor Hugo, militent alors pour le sauver. Aujourd’hui, on y joue aux boules et les enfants courent sur la piste.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Square public, ouvert en journée, gratuit",
       "lien_officiel": null,
@@ -59,7 +80,18 @@
       "accroche": "Un arbre de plus de quatre siècles, soutenu par des béquilles.",
       "texte_long": "Appuyé sur des étais de béton, ce robinier tient debout depuis le début du XVIIe siècle. Il aurait été planté vers 1601 par Jean Robin, botaniste du roi, qui a donné son nom à l’espèce, venue d’Amérique du Nord.\n\nIl est considéré comme le plus vieil arbre de Paris et fleurit encore au printemps. Depuis le square, la vue sur Notre-Dame est l’une des plus belles de la rive gauche.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Square public, ouvert en journée",
       "lien_officiel": null,
@@ -88,7 +120,18 @@
       "accroche": "La rue la plus étroite de Paris : moins de deux mètres par endroits.",
       "texte_long": "Environ 1,80 mètre de large : c’est la rue la plus étroite de Paris. Elle relie la rue de la Huchette au quai Saint-Michel, à deux pas des foules du quartier Latin.\n\nSon nom viendrait d’une ancienne enseigne représentant un chat attrapant des poissons. Écartez les bras : vous toucherez presque les deux murs.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Rue piétonne, accès libre",
       "lien_officiel": null,
@@ -117,7 +160,18 @@
       "accroche": "Une règle de marbre posée en 1796 pour apprendre le mètre aux Parisiens.",
       "texte_long": "Sur un mur, face au jardin du Luxembourg, une plaque de marbre est gravée d’une règle d’un mètre. Elle fait partie des mètres étalons installés dans Paris en 1796 et 1797, pour habituer les habitants au nouveau système métrique.\n\nC’est l’un des deux encore visibles, et le seul resté à son emplacement d’origine. Vous pouvez y vérifier la longueur de votre pas.",
       "audio": null,
-      "photos": [],
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
       "statut_acces": "gratuit",
       "acces_detail": "Visible depuis la rue, en accès libre",
       "lien_officiel": null,
