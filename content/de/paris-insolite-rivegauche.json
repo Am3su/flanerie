@@ -1,0 +1,197 @@
+{
+  "parcours_id": "paris-insolite-rivegauche",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "de",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Rive gauche, von Lutetia bis zum Meter",
+  "zone": "5. und 6. Arrondissement",
+  "introduction": "Ein römisches Amphitheater, ein vierhundert Jahre alter Baum, eine winzige Gasse und ein Marmormaßstab: das linke Ufer in vier Überraschungen.",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.7,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8426,
+      "lng": 2.3522
+    }
+  },
+  "etapes": [
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Die Arènes de Lutèce",
+      "accroche": "Ein römisches Amphitheater, versteckt hinter den Wohnhäusern.",
+      "texte_long": "Hinter den Fassaden der Rue Monge verbirgt sich ein gallorömisches Amphitheater. Es wurde gegen Ende des 1. Jahrhunderts erbaut und bot Kämpfe und Vorführungen vor mehreren tausend Menschen.\n\nJahrhundertelang verschüttet und vergessen, wurde es 1869 beim Bau der Rue Monge wiederentdeckt. Persönlichkeiten, darunter Victor Hugo, setzten sich damals für seine Rettung ein. Heute spielt man hier Boule, und Kinder rennen über die Arena.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Öffentliche Grünanlage, tagsüber geöffnet, kostenlos",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "Der älteste Baum von Paris",
+      "accroche": "Ein mehr als vierhundert Jahre alter Baum, gestützt von Krücken.",
+      "texte_long": "Auf Betonstützen gelehnt, steht diese Robinie seit Anfang des 17. Jahrhunderts. Sie soll um 1601 von Jean Robin gepflanzt worden sein, dem Botaniker des Königs, der der aus Nordamerika stammenden Art ihren Namen gab.\n\nSie gilt als ältester Baum von Paris und blüht im Frühling noch immer. Von der Grünanlage aus bietet sich einer der schönsten Blicke des linken Ufers auf Notre-Dame.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Öffentliche Grünanlage, tagsüber geöffnet",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "Die Rue du Chat-qui-Pêche",
+      "accroche": "Die schmalste Straße von Paris: stellenweise weniger als zwei Meter.",
+      "texte_long": "Etwa 1,80 Meter breit: Es ist die schmalste Straße von Paris. Sie verbindet die Rue de la Huchette mit dem Quai Saint-Michel, nur ein paar Schritte von den Menschenmengen des Quartier Latin entfernt.\n\nIhr Name soll von einem alten Schild stammen, das eine Katze beim Fischen zeigte. Breiten Sie die Arme aus: Sie berühren fast beide Wände.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Fußgängerstraße, frei zugänglich",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "Das Urmeter der Rue de Vaugirard",
+      "accroche": "Ein Marmormaßstab von 1796, der den Parisern den Meter beibringen sollte.",
+      "texte_long": "An einer Mauer gegenüber dem Jardin du Luxembourg ist in eine Marmorplatte ein Maßstab von einem Meter eingraviert. Er gehört zu den Normalmetern, die 1796 und 1797 in Paris angebracht wurden, um die Einwohner an das neue metrische System zu gewöhnen.\n\nEr ist einer von zwei noch sichtbaren und der einzige, der an seinem ursprünglichen Standort geblieben ist. Hier können Sie die Länge Ihres Schritts überprüfen.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Von der Straße aus sichtbar, frei zugänglich",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}
