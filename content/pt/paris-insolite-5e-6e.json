@@ -1,0 +1,565 @@
+{
+  "parcours_id": "paris-insolite-5e-6e",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "pt",
+  "statut": "gratuit",
+  "titre": "Paris insólita, do Quartier Latin a Saint-Germain",
+  "zone": "5º e 6º arrondissements",
+  "introduction": "Sete lugares pelos quais passamos sem ver: uma loja que esconde um museu da luz, um anfiteatro romano, um café sob abóbadas góticas, uma passagem revolucionária, bancos em forma de livro, um pomar com mais de 600 variedades e colmeias. No caminho, os monumentos que você já conhece.",
+  "duree": {
+    "min": 210,
+    "max": 240
+  },
+  "distance_km": 5,
+  "mode": "pied",
+  "arrondissements": [
+    5,
+    6
+  ],
+  "depart": {
+    "nom": "Metrô Censier-Daubenton",
+    "coordonnees": {
+      "lat": 48.8403,
+      "lng": 2.3515
+    }
+  },
+  "etapes": [
+    {
+      "id": "eclairages-anciens",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "O museu da Iluminação antiga",
+      "accroche": "Atrás de uma vitrine azul, a loja de um restaurador esconde um museu da luz de antes da eletricidade.",
+      "texte_long": "Na rue Flatters, a dois passos do boulevard de Port-Royal, nada indica um museu. Vê-se uma pequena loja de fachada azul, Lumière de l’Œil, onde se consertam e vendem lâmpadas antigas. Mas basta empurrar a porta e pedir para ver a coleção para mudar de época.\n\nO lugar é cuidado por Ara Kebapçioğlu, que todos aqui chamam de Monsieur Ara. Nascido na Turquia, esse colecionador apaixonado se instalou na rue Flatters há mais de quarenta anos. Dedicou um livro à sua paixão, L’Autre siècle des lumières. A ideia dele: mostrar como as pessoas se iluminavam antes que a eletricidade chegasse a toda parte.\n\nNa pequena sala do museu, dezenas de lâmpadas contam essa história, do fim do século XVIII ao início do XX. Elas queimavam óleo, querosene, gás ou álcool. Observe os globos de opalina, as cúpulas bordadas com franjas de contas, os pés de metal ou de porcelana. Percebe-se o caminho percorrido, da simples chama a óleo até as lâmpadas a gás.\n\nAlgumas peças têm sua própria história. Monsieur Ara remontou ele mesmo uma lâmpada cuja cúpula, restaurada recentemente, mostra uma vista que lembra Constantinopla. Um modelo de aparência quase moderna seria uma das primeiras lâmpadas de cabeceira a óleo. O colecionador também doou vários objetos ao museu Carnavalet, o museu de história de Paris.\n\nNos fundos da loja, a oficina serve para os consertos e para as conversas com os visitantes. Esse é todo o charme do lugar: não se olha apenas para vitrines, conhece-se quem as reuniu e sabe dar vida nova a cada mecanismo.\n\nA entrada é gratuita. O museu abre de terça a sexta, das 14h às 19h, e aos sábados, das 11h às 17h. Como a loja é cuidada por uma única pessoa, é melhor reservar antes de vir e ser discreto se Monsieur Ara estiver no meio de um conserto.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg/960px-Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "titre": "Plaque Rue Flatters - Paris V (FR75) - 2021-07-27 - 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuito. De terça a sexta, das 14h às 19h; sábado, das 11h às 17h. Reserva recomendada pelo +33 1 47 07 63 47.",
+      "lien_officiel": "https://www.lumieredeloeil.com",
+      "adresse": "4 rue Flatters, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.8378,
+        "lng": 2.34658
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue Flatters"
+      },
+      "monument_proche": "pantheon",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Avez-vous déjà visité… le musée des Éclairages anciens ?",
+          "url": "https://www.paris.fr/pages/avez-vous-deja-visite-le-musee-des-eclairages-anciens-29044"
+        },
+        {
+          "titre": "Sortir à Paris — Le musée des éclairages anciens",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/338860-the-museum-of-old-lighting-a-hidden-gem-tucked-away-inside-a-boutique-workshop-in-the-heart-of-paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes-de-lutece",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "As Arenas de Lutécia",
+      "accroche": "Um anfiteatro romano, esquecido durante séculos, onde hoje se joga petanca.",
+      "texte_long": "Entre a rue Monge e a rue de Navarre, uma passagem discreta leva a um vasto oval de areia cercado por arquibancadas de pedra. Você está nas Arenas de Lutécia, o nome antigo de Paris.\n\nO anfiteatro data do século I da nossa era. Recebia combates e espetáculos diante de vários milhares de pessoas. Particularidade rara, ele também tinha um palco, o que permitia apresentar teatro [À VÉRIFIER]. Ao longo dos séculos, o edifício desapareceu sob a terra e as construções, a ponto de se esquecer até sua localização.\n\nSua redescoberta é um pequeno romance. Em 1869, durante a abertura da rue Monge desejada por Haussmann, os operários encontram uma parte do edifício. Napoleão III se recusa a financiar uma restauração, e as ruínas são cobertas de novo. Nos anos 1880, a Compagnie générale des omnibus quer construir um depósito de bondes no local e revela outros vestígios. Desta vez, personalidades, entre elas Victor Hugo, se mobilizam para salvá-los.\n\nA praça é aberta em 1892. A restauração continua até 1918 sob a direção de Louis Capitan, e o jardim vizinho leva seu nome desde 1931. Uma parte do que você vê é, portanto, reconstituída, mas a planta e as dimensões são de fato as do anfiteatro antigo.\n\nO mais surpreendente é o uso que os parisienses fazem dele. Na arena onde aconteciam os combates, hoje se joga petanca, as crianças correm e os moradores do bairro leem nas arquibancadas. Poucos visitantes chegam até aqui, embora o lugar tenha quase dois mil anos.\n\nSuba até o alto das arquibancadas para medir o tamanho do oval e depois desça até a arena: você caminha exatamente onde aconteciam os espetáculos de Lutécia. A praça abre todos os dias e a entrada é livre. No inverno, abre às 8h durante a semana e às 9h nos fins de semana, e fecha às 17h45. Os gramados descansam durante parte do inverno.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuito, praça pública. No inverno, aberta das 8h às 17h45 durante a semana e das 9h às 17h45 nos fins de semana.",
+      "lien_officiel": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760",
+      "adresse": "49 rue Monge ou rue des Arènes, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84506,
+        "lng": 2.35294
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": "jardin-des-plantes",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Square des Arènes de Lutèce et square Capitan",
+          "url": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "bernardins",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "Um café sob a nave gótica dos Bernardins",
+      "accroche": "Toma-se um café sob abóbadas do século XIII, num colégio onde bombeiros viveram durante cento e cinquenta anos.",
+      "texte_long": "No número 20 da rue de Poissy, uma fachada sóbria não deixa adivinhar nada. Atravesse a porta: uma nave de setenta metros de comprimento se abre diante de você, ritmada por colunas finas que desabrocham em abóbadas góticas. E, no meio desse cenário medieval, servem-se cafés.\n\nO Collège des Bernardins é fundado em 1245 por Estêvão de Lexington para o ensino dos monges cistercienses. As obras começam em 1248, num terreno comprado da vizinha abadia de Saint-Victor. Durante mais de cinco séculos, monges vêm estudar ali.\n\nA Revolução muda tudo. Confiscado em 1790, o colégio é parcialmente demolido para aproveitar suas pedras. Torna-se prisão, depois depósito, escola e internato da escola nacional de polícia. Em 1845, um quartel de bombeiros se instala ali e lá permanece até 1995. Durante um século e meio, a nave gótica viveu, portanto, ao som das sirenes [À VÉRIFIER].\n\nO edifício é depois restaurado por Hervé Baptiste, arquiteto-chefe dos monumentos históricos, enquanto Jean-Michel Wilmotte projeta os espaços de recepção. O colégio é inaugurado em 4 de setembro de 2008 e abre ao público em 15 de setembro do mesmo ano. Hoje recebe exposições, conferências e concertos.\n\nÉ aí que se esconde o contraste que dá todo o sabor ao lugar: a Table des Bernardins, um café-restaurante instalado na própria nave. Senta-se para um café ou um almoço simples, sob a abóbada ou no terraço. Poucos parisienses sabem que é possível tomar um café num dos edifícios medievais mais antigos da cidade.\n\nAntes de seguir, reserve um tempo para levantar os olhos. As colunas, alinhadas como as árvores de uma alameda, sustentam os arcos das abóbadas sem esforço aparente. Não é preciso pagar nada para aproveitar esse espetáculo.\n\nA nave e o jardim têm acesso livre, de segunda a sábado, das 10h às 18h. O café abre durante a semana. Visitas guiadas pagas, entre 4 e 8 euros, permitem saber mais sobre a história do colégio.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg/960px-Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+          "titre": "Paris - Collège des Bernardins - la nef - 011",
+          "auteur": "Thesupermat",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg/960px-Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg",
+          "titre": "Collège Bernardins voûtes vaults",
+          "auteur": "Jebulon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Nave e jardim gratuitos, de segunda a sábado, das 10h às 18h. Café pago, aberto de segunda a sexta. Fechado aos domingos.",
+      "lien_officiel": "https://www.collegedesbernardins.fr",
+      "adresse": "20 rue de Poissy, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84883,
+        "lng": 2.35198
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue de Poissy"
+      },
+      "monument_proche": "notre-dame",
+      "sources": [
+        {
+          "titre": "Sortir à Paris — Le Collège des Bernardins",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/10278-the-college-des-bernardins-one-of-paris-oldest-medieval-buildings-free-to-visit"
+        },
+        {
+          "titre": "Diocèse de Paris — Le Collège des Bernardins",
+          "url": "https://dioceseparis.fr/691-Le-College-des-Bernardins-un.html"
+        },
+        {
+          "titre": "Sortir à Paris — La Table des Bernardins",
+          "url": "https://www.sortiraparis.com/en/where-to-eat-in-paris/restaurant/articles/304398-la-table-des-bernardins-the-unusual-cafe-restaurant-nestled-in-the-nave-of-the-college-des-bernardins"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "cour-du-commerce",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "A cour du Commerce-Saint-André",
+      "accroche": "Uma passagem de paralelepípedos onde se encontram uma torre da muralha medieval, a gráfica de Marat e os fundos do Procope.",
+      "texte_long": "Entre o boulevard Saint-Germain e a rue Saint-André-des-Arts, uma passagem de paralelepípedos se esgueira entre velhas fachadas. Muitas vezes a atravessamos sem parar. No entanto, em poucas dezenas de metros, ela resume mais de oito séculos de história de Paris.\n\nComece pelo chão. A passagem segue o traçado dos fossos da muralha que Filipe Augusto mandou construir entre 1190 e 1215 para proteger a cidade. No número 4, um estabelecimento ainda abriga os restos de uma torre dessa muralha. Uma torre medieval no meio de uma casa de chá: esse é o espírito do lugar.\n\nNo século XVIII, uma quadra de jeu de paume se instala sobre os antigos fossos, e depois a passagem ganha sua forma atual; sua cobertura de vidro data do século XIX. Durante a Revolução, o pátio se torna um dos lugares mais agitados de Paris. No número 8, Jean-Paul Marat imprime seu jornal, L’Ami du peuple. Georges Danton mora na passagem; seu prédio desapareceu com a abertura do boulevard Saint-Germain, e sua estátua se ergue hoje bem perto, no boulevard.\n\nO pátio guarda também uma história mais sombria, relatada pela tradição. Foi aqui, dizem, que em 1792 o alemão Tobias Schmidt teria aperfeiçoado a máquina que seria chamada de guilhotina, testando-a primeiro em fardos de palha e depois em carneiros [À VÉRIFIER]. Os relatos divergem sobre o endereço exato da oficina, o que pede cautela.\n\nDepois, levante os olhos para os fundos do Procope. O café mais antigo de Paris, aberto em 1686, tem a entrada principal na rue de l’Ancienne-Comédie, mas também dá para o pátio. Voltaire, Rousseau, Diderot e Montesquieu, e mais tarde Danton, Marat e Robespierre, estão entre seus frequentadores célebres.\n\nA passagem é pública e pode ser percorrida livremente. Reserve um tempo para olhar as placas, os paralelepípedos irregulares e as vitrines: cada uma esconde um pedaço dessa história, das muralhas da Idade Média às gráficas da Revolução. Depois saia pelo lado do boulevard: a igreja de Saint-Germain-des-Prés fica a poucos minutos.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG/960px-P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "titre": "P1020083 Paris VI Cour du Commerce-Saint-André reductwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG/960px-P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "titre": "P1020086 Paris VI Cour Cour du Commerce-Saint-André reductwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuito, passagem pública aberta a qualquer hora.",
+      "lien_officiel": null,
+      "adresse": "Cour du Commerce-Saint-André, entre le 130 boulevard Saint-Germain et la rue Saint-André-des-Arts, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8527,
+        "lng": 2.33894
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Cour du Commerce-St-André"
+      },
+      "monument_proche": "saint-germain-des-pres",
+      "sources": [
+        {
+          "titre": "Paris Zigzag — La cour du Commerce-Saint-André",
+          "url": "https://www.pariszigzag.fr/insolite/lieux-insolites/cour-saint-andre-saint-germain-odeon/"
+        },
+        {
+          "titre": "Bonjour Paris — Streets and Stories: La Cour du Commerce-Saint-André",
+          "url": "https://bonjourparis.com/history/streets-and-stories-la-cour-du-commerce-saint-andre/"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "square-gabriel-pierne",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "A praça Gabriel-Pierné e seus bancos-livro",
+      "accroche": "Atrás do Institut de France, dois bancos de pedra em forma de livros abertos ficam frente a frente sob as cerejeiras.",
+      "texte_long": "No número 5 da rue de Seine, logo atrás da cúpula do Institut de France, uma pequena praça se abriga atrás de suas grades. A maioria dos passantes segue apressada para o cais sem notá-la. Quem entra descobre uma das piscadelas mais discretas de Saint-Germain-des-Prés.\n\nOlhe os bancos. Entre eles, dois bancos de pedra ficam frente a frente e têm a forma de livros abertos, apoiados em pés em forma de livros fechados. Senta-se literalmente sobre uma página, a poucos metros da Académie française, guardiã da língua. As fontes consultadas não dizem quem os esculpiu, nem quando [À VÉRIFIER].\n\nA praça foi criada em 1938. Desde 1968 leva o nome de Gabriel Pierné (1863-1937), organista, compositor e maestro.\n\nNo centro, uma fonte conta outra história, a de uma mudança. Ela foi desenhada em 1830 por Alexandre-Évariste Fragonard (1780-1850) para abastecer de água o mercado coberto dos Carmes, na place Maubert. Quando esse mercado foi demolido, em 1930, a fonte foi transportada para cá. No alto de seu pilar, dois rostos alegóricos representam o Comércio e a Abundância.\n\nUm pouco adiante, uma jovem de bronze parece observar você: é Carolina, esculpida em 1968 por Marcello Tommasi (1928-2008).\n\nVenha na primavera, se puder. Em abril, a fileira de cerejeiras japonesas se cobre de flores cor-de-rosa, cujas pétalas forram a praça e a rua vizinha. No resto do ano, é um refúgio tranquilo para ler algumas páginas, entre o pont des Arts e as vitrines da rue de Seine.\n\nO contraste está aí: num bairro aonde se vem pelas livrarias, galerias e cafés literários, a mais bela homenagem aos livros talvez seja esse banco de pedra que ninguém olha.\n\nA praça abre todos os dias e o acesso é gratuito. No inverno, abre às 8h durante a semana e às 9h nos fins de semana, e fecha às 17h.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg/960px-Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg",
+          "titre": "Book bench, Square Gabriel Pierné, Paris 11 February 2017",
+          "auteur": "Guilhem Vellut",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Square_Gabriel-Piern%C3%A9_(15050977809).jpg/960px-Square_Gabriel-Piern%C3%A9_(15050977809).jpg",
+          "titre": "Square Gabriel-Pierné (15050977809)",
+          "auteur": "Schezar",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Square_Gabriel-Piern%C3%A9_(15050977809).jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuito, praça pública. No inverno, abre às 8h durante a semana e às 9h nos fins de semana; fecha às 17h.",
+      "lien_officiel": "https://www.paris.fr/lieux/square-gabriel-pierne-2453",
+      "adresse": "5 rue de Seine, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85692,
+        "lng": 2.33681
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Seine"
+      },
+      "monument_proche": "institut-de-france",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Square Gabriel-Pierné",
+          "url": "https://www.paris.fr/lieux/square-gabriel-pierne-2453"
+        },
+        {
+          "titre": "Sortir à Paris — Les bancs-livres du square Gabriel-Pierné",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/343842-this-parisian-square-in-the-6th-arrondissement-hides-benches-shaped-like-books-beneath-cherry-trees"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "verger-du-luxembourg",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "O pomar-conservatório do Luxembourg",
+      "accroche": "Num canto do jardim mais frequentado de Paris, mais de 600 variedades de maçãs e peras podadas em formas surpreendentes.",
+      "texte_long": "Quem passeia pelo Luxembourg conhece o grande lago, as cadeiras verdes e o palácio do Senado. Poucos vão até o lado da rue Auguste-Comte. É ali que um pomar único em seu gênero perpetua uma história de mais de três séculos e meio.\n\nTudo começa por volta de 1650, quando um morador de Vitry, o frei Alexis, entra no convento dos Cartuxos, vizinho do palácio do Luxembourg. Os monges desenvolvem um viveiro famoso: em 1712, ele produz mais de 14.000 árvores frutíferas por ano. Em 1789, a nacionalização dos bens do clero põe fim a essa atividade. O ministro Jean Chaptal, porém, manda replantar a coleção no antigo terreno dos monges, e um viveiro nacional dos Cartuxos renasce por volta de 1801-1802. Em 1866, a abertura da rue Auguste-Comte dá ao jardim seus limites atuais.\n\nHoje, o pomar reúne pouco mais de 1.000 árvores em 2.100 m²: 379 variedades de maçãs e 247 variedades de peras, como a Doyenné du Comice. É uma verdadeira biblioteca viva das frutas de antigamente, conservada no coração de Paris.\n\nO mais surpreendente é a forma das árvores. Aqui, elas não crescem livremente. São conduzidas em espaldeira e podadas em U simples ou duplo, em tridente, em candelabro, em coluna, em taça ou em palmetas que levam o nome de seus inventores: Verrier, Legendre, Ferraguti. Olhe de perto: cada árvore é uma pequena escultura que exige anos de poda paciente.\n\nEsses gestos são transmitidos ali mesmo. O pomar serve às aulas da Escola de horticultura do jardim do Luxembourg, fundada em 1809, que recebe cerca de 250 alunos por ano. Quanto às frutas colhidas, vão para as exposições de pomologia de que o Senado participa e são doadas à Sopa popular do 6º arrondissement.\n\nNo outono, a exposição apresentada na Orangerie do jardim mostra a armação de uma palmeta histórica, a Louise Bonne d’Avranches.\n\nO pomar pode ser descoberto livremente pelas alamedas, no horário de funcionamento do jardim. Fique nos caminhos: as árvores são frágeis e servem ao ensino.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doyenn%C3%A9_du_comice_JdL.jpg/960px-Doyenn%C3%A9_du_comice_JdL.jpg",
+          "titre": "Doyenné du comice JdL",
+          "auteur": "Jebulon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Doyenn%C3%A9_du_comice_JdL.jpg",
+          "licence": "Domaine public",
+          "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuito, visível das alamedas no horário de funcionamento do jardim do Luxembourg.",
+      "lien_officiel": "https://jardin.senat.fr",
+      "adresse": "Jardin du Luxembourg, côté rue Auguste-Comte, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8446,
+        "lng": 2.3348
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue Auguste-Comte"
+      },
+      "monument_proche": "palais-du-luxembourg",
+      "sources": [
+        {
+          "titre": "Sénat — The Luxembourg Fruit Garden",
+          "url": "https://jardin.senat.fr/en/botany/the-luxembourg-fruit-garden.html"
+        }
+      ],
+      "verification": "a_verifier",
+      "note_coordonnees": "position estimée dans le jardin, à relever sur place"
+    },
+    {
+      "id": "rucher-du-luxembourg",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "O apiário-escola do Luxembourg",
+      "accroche": "Desde 1856, aprendizes de apicultor se iniciam em plena Paris, a poucos passos do Senado.",
+      "texte_long": "Preste atenção ao passar ao longo do pomar, do lado da rue d’Assas: talvez você ouça um zumbido. Entre as árvores frutíferas, colmeias de madeira cercam um pequeno pavilhão. Você está diante do apiário-escola do jardim do Luxembourg, em atividade desde 1856.\n\nNaquele ano, Henri Hamet, bibliotecário e professor apelidado de pai da apicultura francesa, cria uma sociedade de apicultores e instala colmeias no jardim [À VÉRIFIER]. Seu objetivo: ensinar os parisienses a criar abelhas. Em 1866, as grandes obras de Haussmann transformam esse canto do jardim; o apiário e o pomar são suprimidos e depois restabelecidos em 1872.\n\nO pavilhão vizinho, construído em 1867 por Gabriel Davioud, arquiteto de muitos equipamentos da Paris de Haussmann, era originalmente um café-restaurante, o Pépinière Buffet. Hoje recebe aulas gratuitas da Escola de horticultura e conferências da Société centrale d’apiculture.\n\nPorque o ensino continua. Alunos seguem um ciclo de aulas aos sábados de manhã, de meados de fevereiro a setembro, entre teoria no pavilhão e prática no meio das colmeias. No final, um exame lhes permite obter um diploma de apicultor [À VÉRIFIER].\n\nEm 2018, o apiário contava dezessete colmeias, ou seja, quase um milhão de abelhas [À VÉRIFIER]. Elas visitam as flores do Luxembourg e dos jardins vizinhos e produzem cerca de 200 quilos de mel por ano. Esse mel não é vendido em lojas: ele é vendido todo outono, durante a festa do mel organizada na Orangerie, no último fim de semana de setembro [À VÉRIFIER].\n\nFique nas alamedas: as colmeias são um local de trabalho, e as abelhas não gostam de ser incomodadas. Mas, se um apicultor de macacão abrir uma colmeia durante sua passagem, você vai assistir a uma cena que poucos parisienses imaginam possível no coração da cidade.\n\nÉ a última parada do percurso, e talvez a mais inesperada: depois de uma loja de lâmpadas, de uma arena romana e de uma passagem revolucionária, o passeio termina aqui, ao som do trabalho de quase um milhão de abelhas.\n\nO acesso ao jardim é gratuito, no horário de funcionamento. As aulas de apicultura são pagas e devem ser reservadas junto à Société centrale d’apiculture.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg/960px-Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg",
+          "titre": "Paris 6e Jardin du Luxembourg Rucher-École 293",
+          "auteur": "GFreihalter",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Parisd_75006_Rucher-%C3%89cole_du_Jardin_du_Luxembourg_20060730.jpg",
+          "titre": "Parisd 75006 Rucher-École du Jardin du Luxembourg 20060730",
+          "auteur": "O. Perrin (Wikipédia en français)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Parisd_75006_Rucher-%C3%89cole_du_Jardin_du_Luxembourg_20060730.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Gratuito, visível das alamedas no horário de funcionamento do jardim. Aulas de apicultura pagas.",
+      "lien_officiel": "https://jardin.senat.fr",
+      "adresse": "Jardin du Luxembourg, près du pavillon Davioud, côté rue d’Assas, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8449,
+        "lng": 2.3333
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue d’Assas"
+      },
+      "monument_proche": "palais-du-luxembourg",
+      "sources": [
+        {
+          "titre": "Messy Nessy — The Little Paris Beekeeping School (2018)",
+          "url": "https://www.messynessychic.com/2018/01/18/the-little-paris-beekeeping-school/"
+        },
+        {
+          "titre": "evous — Les ruches de Paris",
+          "url": "https://www.evous.fr/paris/Visiter/Les-ruches-de-Paris,1176309.html"
+        },
+        {
+          "titre": "Sénat — The Davioud pavilion",
+          "url": "https://jardin.senat.fr/en/history-heritage/heritage/the-davioud-pavilion.html"
+        }
+      ],
+      "verification": "a_verifier",
+      "note_coordonnees": "position estimée dans le jardin, à relever sur place"
+    },
+    {
+      "id": "pantheon",
+      "type": "standard",
+      "titre": "O Panteão",
+      "texte_court": "Luís XV manda construí-lo como uma igreja dedicada a santa Genoveva, segundo os planos de Soufflot. Em 1791, a Revolução o transforma em templo para os grandes homens da nação. Sua cripta abriga, entre outros, Voltaire, Rousseau, Victor Hugo, Émile Zola e Marie Curie.",
+      "etape_voisine": "eclairages-anciens",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg/960px-Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+          "titre": "Façade Panthéon Paris 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "payant",
+      "acces_detail": "Visita paga.",
+      "lien_officiel": "https://www.paris-pantheon.fr",
+      "adresse": "Place du Panthéon, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84619,
+        "lng": 2.34605
+      }
+    },
+    {
+      "id": "jardin-des-plantes",
+      "type": "standard",
+      "titre": "O Jardin des Plantes",
+      "texte_court": "Criado em 1635 como jardim real das plantas medicinais e aberto ao público em 1640, é hoje o coração do Museu Nacional de História Natural. Suas alamedas, suas grandes estufas e seu zoológico ficam a poucos minutos das Arenas de Lutécia.",
+      "etape_voisine": "arenes-de-lutece",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg/960px-Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg",
+          "titre": "Grande serre du Jardin des plantes, mai 2026, MNHN",
+          "auteur": "Gustave en résidence",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Jardim gratuito; estufas, galerias e zoológico pagos.",
+      "lien_officiel": "https://www.jardindesplantesdeparis.fr",
+      "adresse": "57 rue Cuvier, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84404,
+        "lng": 2.35973
+      }
+    },
+    {
+      "id": "notre-dame",
+      "type": "standard",
+      "titre": "Notre-Dame de Paris",
+      "texte_court": "Iniciada em 1163, a catedral é uma das obras-primas da arte gótica. Devastada por um incêndio em 15 de abril de 2019, reabriu em dezembro de 2024, após cinco anos de obras. Do cais, ao sair dos Bernardins, vê-se sua abside e seus arcobotantes.",
+      "etape_voisine": "bernardins",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg/960px-Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg",
+          "titre": "Cathédrale Notre Dame, Paris 30 September 2015",
+          "auteur": "Antonin Subtil",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Entrada gratuita.",
+      "lien_officiel": "https://www.notredamedeparis.fr",
+      "adresse": "6 parvis Notre-Dame – place Jean-Paul-II, 75004 Paris",
+      "coordonnees": {
+        "lat": 48.85294,
+        "lng": 2.35005
+      }
+    },
+    {
+      "id": "saint-germain-des-pres",
+      "type": "standard",
+      "titre": "A igreja de Saint-Germain-des-Prés",
+      "texte_court": "Último vestígio de uma poderosa abadia fundada no século VI, a igreja deu nome ao bairro. Seu campanário, erguido por volta do ano 1000, está entre os mais antigos da França. Ao seu redor, os cafés literários fizeram a fama de Saint-Germain-des-Prés.",
+      "etape_voisine": "cour-du-commerce",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg/960px-Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "titre": "Paris Abbaye Saint-Germain-des-Prés 3",
+          "auteur": "Zairon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Entrada gratuita.",
+      "lien_officiel": "https://www.eglise-saintgermaindespres.fr",
+      "adresse": "3 place Saint-Germain-des-Prés, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85397,
+        "lng": 2.33452
+      }
+    },
+    {
+      "id": "institut-de-france",
+      "type": "standard",
+      "titre": "O Institut de France e o pont des Arts",
+      "texte_court": "O palácio com cúpula nasceu do testamento de Mazarino, que funda em 1661 o colégio das Quatro Nações. Desde 1805, abriga o Institut de France e suas cinco academias, entre elas a Académie française. Em frente, o pont des Arts foi a primeira ponte de ferro de Paris.",
+      "etape_voisine": "square-gabriel-pierne",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg/960px-Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+          "titre": "Pont des Arts, 6e Arrondissement, Paris (HDR) 20140320 1",
+          "auteur": "DXR",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Áreas externas de acesso livre; visitas ao Institut pagas.",
+      "lien_officiel": "https://www.institutdefrance.fr",
+      "adresse": "23 quai de Conti, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85739,
+        "lng": 2.33784
+      }
+    },
+    {
+      "id": "palais-du-luxembourg",
+      "type": "standard",
+      "titre": "O palácio do Luxembourg",
+      "texte_court": "Maria de Médici manda construí-lo a partir de 1615, em lembrança do palácio Pitti de sua Florença natal. Hoje abriga o Senado. Seu jardim, um dos mais queridos de Paris, esconde no canto sudoeste o pomar e o apiário do percurso.",
+      "etape_voisine": "verger-du-luxembourg",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg,_South_View_140116_1.jpg/960px-Palais_du_Luxembourg,_South_View_140116_1.jpg",
+          "titre": "Palais du Luxembourg, South View 140116 1",
+          "auteur": "DXR",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Palais_du_Luxembourg,_South_View_140116_1.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Jardim gratuito; palácio visitável com reserva.",
+      "lien_officiel": "https://www.senat.fr",
+      "adresse": "15 rue de Vaugirard, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.84854,
+        "lng": 2.33778
+      }
+    }
+  ],
+  "trajets": []
+}

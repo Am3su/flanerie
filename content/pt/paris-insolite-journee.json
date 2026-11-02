@@ -1,0 +1,467 @@
+{
+  "parcours_id": "paris-insolite-journee",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "pt",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Um dia fora dos roteiros",
+  "zone": "3º, 4º, 5º e 6º arrondissements",
+  "introduction": "O Marais de manhã, a Rive Gauche à tarde, ligados pela linha 7 do metrô.",
+  "duree": {
+    "min": 360,
+    "max": 360
+  },
+  "distance_km": 4.8,
+  "mode": "pied_metro",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8663,
+      "lng": 2.3524
+    }
+  },
+  "etapes": [
+    {
+      "id": "ancre",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "A passage de l’Ancre",
+      "accroche": "Uma passagem de paralelepípedos e flores, escondida entre duas ruas movimentadas.",
+      "texte_long": "Um portão discreto, na rue Saint-Martin, abre para uma estreita passagem de paralelepípedos. Fachadas baixas, venezianas pintadas em cores vivas, plantas em vasos: o barulho da cidade desaparece em poucos passos.\n\nO nome viria da placa de uma antiga estalagem. Ocupada durante muito tempo por artesãos, ela manteve uma escala quase de vilarejo. A passagem atravessa um lugar habitado: percorra-a em silêncio.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+          "titre": "Paris passage de l ancre2",
+          "auteur": "Ralf.treinen",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Passagem aberta durante o dia, horários variáveis",
+      "lien_officiel": null,
+      "adresse": "223 rue Saint-Martin, 75003",
+      "coordonnees": {
+        "lat": 48.8648,
+        "lng": 2.3533
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Passage de l’Ancre"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "flamel",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "A casa de Nicolas Flamel",
+      "accroche": "Uma das casas mais antigas de Paris, ligada a um famoso “alquimista”.",
+      "texte_long": "Construída em 1407, esta casa é considerada uma das mais antigas de Paris. Foi erguida por Nicolas Flamel, escrivão público e livreiro, que abrigava ali pessoas pobres. Em troca, pedia que rezassem pelos mortos.\n\nLevante os olhos: a fachada ainda traz uma longa inscrição gravada e figuras esculpidas. Depois de sua morte, a lenda fez de Flamel um alquimista que teria encontrado a pedra filosofal. Essa fama atravessou os séculos, até os romances de hoje.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg/960px-Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "titre": "Maison de Nicolas Flamel après restauration, 51 rue de Montmorency",
+          "auteur": "Eugène Atget (Paris Musées, musée Carnavalet)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Fachada visível da rua; restaurante no térreo",
+      "lien_officiel": null,
+      "adresse": "51 rue de Montmorency, 75003",
+      "coordonnees": {
+        "lat": 48.8634,
+        "lng": 2.3545
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue de Montmorency"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "defenseur",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "O Defensor do Tempo",
+      "accroche": "Um relógio gigante em que um guerreiro enfrenta um dragão, um pássaro e um caranguejo.",
+      "texte_long": "A dois passos do Centre Pompidou, um guerreiro de latão empunha a espada diante de três criaturas: um dragão, um pássaro e um caranguejo. Elas representam a terra, o ar e a água.\n\nEste relógio-autômato, obra de Jacques Monestier, foi inaugurado em 1979. A cada hora, o guerreiro enfrentava um dos animais. Está parado desde 2003, por falta de manutenção. Imóvel, continua sendo uma das curiosidades mais estranhas do bairro.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Horloge_Murale_Paris.jpg/960px-Horloge_Murale_Paris.jpg",
+          "titre": "Horloge Murale Paris",
+          "auteur": "Danielbaise",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horloge_Murale_Paris.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg/960px-Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "titre": "Quartier de lHorloge 10, Paris 30 July 2010",
+          "auteur": "zoetnet",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visível da rua, acesso livre",
+      "lien_officiel": null,
+      "adresse": "Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",
+      "coordonnees": {
+        "lat": 48.8618,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue Bernard-de-Clairvaux"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; presse"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "miron",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "As casas enxaimel da rue François-Miron",
+      "accroche": "Duas fachadas de enxaimel, sobreviventes da Paris medieval.",
+      "texte_long": "Estreitas e um pouco inclinadas, essas duas casas mostram seu madeiramento aparente, como numa cidade do interior. São casas de estrutura de madeira de origem medieval, que se tornaram muito raras em Paris.\n\nA partir do século XVII, os regulamentos obrigaram a cobrir a madeira com gesso para limitar os incêndios. O madeiramento ficou escondido até a restauração das fachadas, em 1967.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg/960px-11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "titre": "11-13 rue François Miron, Paris 4e 2-1",
+          "auteur": "Polymagou",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Fachadas visíveis da rua",
+      "lien_officiel": null,
+      "adresse": "11 et 13 rue François-Miron, 75004",
+      "coordonnees": {
+        "lat": 48.8556,
+        "lng": 2.3572
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue François-Miron"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "enceinte",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "A muralha de Filipe Augusto",
+      "accroche": "O trecho mais longo ainda visível da muralha medieval de Paris.",
+      "texte_long": "Ao longo de uma quadra esportiva escolar ergue-se um alto muro de pedra, flanqueado por torres redondas. É o trecho mais longo ainda visível da muralha de Filipe Augusto.\n\nO rei mandou construí-la a partir de 1190, antes de partir para a cruzada, para proteger Paris. Ao longo dos séculos, a muralha foi demolida ou absorvida pelos prédios. Outros fragmentos ainda se escondem em pátios, porões e estacionamentos.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg/960px-P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "titre": "P1200049 Paris IV enceinte de Philippe-Auguste rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visível da rua, acesso livre",
+      "lien_officiel": null,
+      "adresse": "Rue des Jardins-Saint-Paul, 75004",
+      "coordonnees": {
+        "lat": 48.854,
+        "lng": 2.361
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue des Jardins-Saint-Paul"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "sens",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "O Hôtel de Sens e sua bala de canhão",
+      "accroche": "Uma residência medieval que guarda uma bala de canhão na fachada.",
+      "texte_long": "Torreões, telhados pontiagudos, pórtico gótico: o Hôtel de Sens é uma das raras grandes residências medievais ainda de pé em Paris. Foi construído no fim do século XV para os arcebispos de Sens, de quem dependia então o bispado de Paris.\n\nProcure na fachada uma bala de canhão incrustada na pedra, com a data de 28 de julho de 1830: uma lembrança das Três Gloriosas. Hoje o edifício abriga a biblioteca Forney, dedicada às artes decorativas.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+          "titre": "Hotel-de-Sens-DSC 8075",
+          "auteur": "Pline",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Exterior de acesso livre; jardim e biblioteca no horário de funcionamento",
+      "lien_officiel": null,
+      "adresse": "1 rue du Figuier, 75004",
+      "coordonnees": {
+        "lat": 48.8532,
+        "lng": 2.3592
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue du Figuier"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Bibliothèques de la Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "As Arenas de Lutécia",
+      "accroche": "Um anfiteatro romano escondido atrás dos prédios.",
+      "texte_long": "Atrás das fachadas da rue Monge esconde-se um anfiteatro galo-romano. Construído por volta do fim do século I, recebia combates e espetáculos diante de vários milhares de pessoas.\n\nEnterrado e esquecido durante séculos, foi redescoberto em 1869, durante a abertura da rue Monge. Personalidades, entre elas Victor Hugo, lutaram então para salvá-lo. Hoje, joga-se bocha ali e as crianças correm pela arena.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Praça pública, aberta durante o dia, gratuita",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 8,
+      "titre": "A árvore mais velha de Paris",
+      "accroche": "Uma árvore de mais de quatro séculos, apoiada em muletas.",
+      "texte_long": "Apoiada em escoras de concreto, esta robínia está de pé desde o início do século XVII. Teria sido plantada por volta de 1601 por Jean Robin, botânico do rei, que deu seu nome à espécie, vinda da América do Norte.\n\nÉ considerada a árvore mais velha de Paris e ainda floresce na primavera. Da praça, a vista de Notre-Dame é uma das mais belas da margem esquerda.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Praça pública, aberta durante o dia",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 9,
+      "titre": "A rue du Chat-qui-Pêche",
+      "accroche": "A rua mais estreita de Paris: menos de dois metros em alguns pontos.",
+      "texte_long": "Cerca de 1,80 metro de largura: é a rua mais estreita de Paris. Ela liga a rue de la Huchette ao quai Saint-Michel, a dois passos das multidões do Quartier Latin.\n\nO nome viria de uma antiga placa que mostrava um gato pescando. Abra os braços: você quase vai tocar as duas paredes.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Rua de pedestres, acesso livre",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 10,
+      "titre": "O metro-padrão da rue de Vaugirard",
+      "accroche": "Uma régua de mármore colocada em 1796 para ensinar o metro aos parisienses.",
+      "texte_long": "Num muro, em frente ao jardim do Luxembourg, uma placa de mármore traz gravada uma régua de um metro. Ela faz parte dos metros-padrão instalados em Paris em 1796 e 1797, para acostumar os moradores ao novo sistema métrico.\n\nÉ um dos dois ainda visíveis, e o único que permanece no local original. Você pode conferir ali o comprimento do seu passo.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visível da rua, acesso livre",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": [
+    {
+      "de": "sens",
+      "vers": "arenes",
+      "type": "metro",
+      "ligne": "7",
+      "arrets": 3,
+      "montee": {
+        "nom": "Pont Marie",
+        "lat": 48.8534,
+        "lng": 2.3573
+      },
+      "descente": {
+        "nom": "Place Monge",
+        "lat": 48.8426,
+        "lng": 2.3522
+      },
+      "direction": "Villejuif – Louis Aragon ou Mairie d’Ivry",
+      "texte": "Metrô linha 7, de Pont Marie a Place Monge (cerca de 10 min)"
+    }
+  ]
+}
