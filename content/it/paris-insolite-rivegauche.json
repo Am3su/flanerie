@@ -1,0 +1,197 @@
+{
+  "parcours_id": "paris-insolite-rivegauche",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "it",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Rive gauche, da Lutezia al metro",
+  "zone": "V e VI arrondissement",
+  "introduction": "Un anfiteatro romano, un albero di quattro secoli, una via minuscola e un regolo di marmo: la Rive gauche in quattro sorprese.",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.7,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8426,
+      "lng": 2.3522
+    }
+  },
+  "etapes": [
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Le Arene di Lutezia",
+      "accroche": "Un anfiteatro romano nascosto dietro i palazzi.",
+      "texte_long": "Dietro le facciate di rue Monge si nasconde un anfiteatro gallo-romano. Costruito verso la fine del I secolo, ospitava combattimenti e spettacoli davanti a diverse migliaia di persone.\n\nSepolto e dimenticato per secoli, viene riscoperto nel 1869, durante l’apertura di rue Monge. Alcune personalità, tra cui Victor Hugo, si battono allora per salvarlo. Oggi ci si gioca a bocce e i bambini corrono sulla pista.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Giardino pubblico, aperto di giorno, gratuito",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "L’albero più vecchio di Parigi",
+      "accroche": "Un albero di oltre quattro secoli, sorretto da stampelle.",
+      "texte_long": "Appoggiata a puntelli di cemento, questa robinia sta in piedi dall’inizio del Seicento. Sarebbe stata piantata verso il 1601 da Jean Robin, botanico del re, che ha dato il nome alla specie, venuta dal Nord America.\n\nÈ considerata l’albero più vecchio di Parigi e fiorisce ancora in primavera. Dal giardino, la vista su Notre-Dame è una delle più belle della Rive gauche.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Giardino pubblico, aperto di giorno",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "La rue du Chat-qui-Pêche",
+      "accroche": "La via più stretta di Parigi: meno di due metri in alcuni punti.",
+      "texte_long": "Circa 1,80 metri di larghezza: è la via più stretta di Parigi. Collega rue de la Huchette al quai Saint-Michel, a due passi dalla folla del Quartiere Latino.\n\nIl nome deriverebbe da un’antica insegna che raffigurava un gatto intento a pescare. Allargate le braccia: toccherete quasi entrambi i muri.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Via pedonale, accesso libero",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "Il metro campione di rue de Vaugirard",
+      "accroche": "Un regolo di marmo posato nel 1796 per insegnare il metro ai parigini.",
+      "texte_long": "Su un muro, di fronte al giardino del Luxembourg, una lastra di marmo porta incisa una riga di un metro. Fa parte dei metri campione installati a Parigi nel 1796 e nel 1797, per abituare gli abitanti al nuovo sistema metrico.\n\nÈ uno dei due ancora visibili, e l’unico rimasto nella sua posizione originale. Potete verificarvi la lunghezza del vostro passo.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visibile dalla strada, accesso libero",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}

@@ -1,0 +1,277 @@
+{
+  "parcours_id": "paris-insolite-marais",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "it",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "Il Marais prima di Haussmann",
+  "zone": "III e IV arrondissement",
+  "introduction": "Dai passaggi nascosti alle vestigia medievali, un percorso nel cuore del Marais, dal nord del III arrondissement fino ai lungosenna.",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.1,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8663,
+      "lng": 2.3524
+    }
+  },
+  "etapes": [
+    {
+      "id": "ancre",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "Il passage de l’Ancre",
+      "accroche": "Un passaggio lastricato e fiorito, nascosto tra due vie molto trafficate.",
+      "texte_long": "Un portone discreto, in rue Saint-Martin, si apre su uno stretto passaggio lastricato. Facciate basse, persiane dipinte di colori vivaci, piante in vaso: il rumore della città svanisce in pochi passi.\n\nIl nome deriverebbe dall’insegna di un’antica locanda. A lungo abitato da artigiani, ha conservato una dimensione quasi di paese. Il passaggio attraversa un luogo abitato: lo si percorre in silenzio.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paris_passage_de_l_ancre2.jpg/960px-Paris_passage_de_l_ancre2.jpg",
+          "titre": "Paris passage de l ancre2",
+          "auteur": "Ralf.treinen",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_de_l_ancre2.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Passaggio aperto di giorno, orari variabili",
+      "lien_officiel": null,
+      "adresse": "223 rue Saint-Martin, 75003",
+      "coordonnees": {
+        "lat": 48.8648,
+        "lng": 2.3533
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Passage de l’Ancre"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "flamel",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "La casa di Nicolas Flamel",
+      "accroche": "Una delle case più antiche di Parigi, legata a un celebre «alchimista».",
+      "texte_long": "Costruita nel 1407, questa casa è considerata una delle più antiche di Parigi. Fu edificata da Nicolas Flamel, scrivano pubblico e libraio, che vi ospitava persone povere. In cambio chiedeva loro di pregare per i defunti.\n\nAlzate gli occhi: la facciata porta ancora una lunga iscrizione incisa e figure scolpite. Dopo la sua morte, la leggenda ha fatto di Flamel un alchimista che avrebbe trovato la pietra filosofale. Questa fama ha attraversato i secoli, fino ai romanzi di oggi.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg/960px-Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "titre": "Maison de Nicolas Flamel après restauration, 51 rue de Montmorency",
+          "auteur": "Eugène Atget (Paris Musées, musée Carnavalet)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Maison_de_Nicolas_Flamel_apr%C3%A8s_restauration,_51,_rue_de_Montmorency,_3%C3%A8me_arrondissement,_Paris,_Maison_du_Grand_Pigno,_PH5488.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Facciata visibile dalla strada; ristorante al piano terra",
+      "lien_officiel": null,
+      "adresse": "51 rue de Montmorency, 75003",
+      "coordonnees": {
+        "lat": 48.8634,
+        "lng": 2.3545
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue de Montmorency"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "defenseur",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "Il Difensore del Tempo",
+      "accroche": "Un orologio gigante dove un guerriero affronta un drago, un uccello e un granchio.",
+      "texte_long": "A due passi dal Centre Pompidou, un guerriero di ottone brandisce la spada davanti a tre creature: un drago, un uccello e un granchio. Rappresentano la terra, l’aria e l’acqua.\n\nQuesto orologio-automa, opera di Jacques Monestier, è stato inaugurato nel 1979. A ogni ora il guerriero affrontava una delle bestie. È fermo dal 2003, per mancanza di manutenzione. Immobile, resta una delle curiosità più strane del quartiere.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Horloge_Murale_Paris.jpg/960px-Horloge_Murale_Paris.jpg",
+          "titre": "Horloge Murale Paris",
+          "auteur": "Danielbaise",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Horloge_Murale_Paris.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg/960px-Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "titre": "Quartier de lHorloge 10, Paris 30 July 2010",
+          "auteur": "zoetnet",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Quartier_de_lHorloge_10,_Paris_30_July_2010.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visibile dalla strada, accesso libero",
+      "lien_officiel": null,
+      "adresse": "Rue Bernard-de-Clairvaux, quartier de l’Horloge, 75003",
+      "coordonnees": {
+        "lat": 48.8618,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 3,
+        "rue": "Rue Bernard-de-Clairvaux"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; presse"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "miron",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "Le case a graticcio di rue François-Miron",
+      "accroche": "Due facciate a graticcio, sopravvissute alla Parigi medievale.",
+      "texte_long": "Strette e un po’ inclinate, queste due case mostrano il loro graticcio, come in una città di provincia. Sono case a struttura lignea di origine medievale, diventate rarissime a Parigi.\n\nDal Seicento i regolamenti imposero di ricoprire il legno di gesso per limitare gli incendi. Il graticcio è rimasto nascosto fino al restauro delle facciate, nel 1967.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg/960px-11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "titre": "11-13 rue François Miron, Paris 4e 2-1",
+          "auteur": "Polymagou",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:11-13_rue_Fran%C3%A7ois_Miron,_Paris_4e_2-1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Facciate visibili dalla strada",
+      "lien_officiel": null,
+      "adresse": "11 et 13 rue François-Miron, 75004",
+      "coordonnees": {
+        "lat": 48.8556,
+        "lng": 2.3572
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue François-Miron"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "enceinte",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "La cinta muraria di Filippo Augusto",
+      "accroche": "Il tratto più lungo ancora visibile delle mura medievali di Parigi.",
+      "texte_long": "Lungo un campo sportivo scolastico si erge un alto muro di pietra, fiancheggiato da torri rotonde. È il tratto più lungo ancora visibile della cinta di Filippo Augusto.\n\nIl re la fece costruire a partire dal 1190, prima di partire per la crociata, per proteggere Parigi. Nel corso dei secoli le mura sono state demolite o inglobate negli edifici. Altri frammenti si nascondono ancora in cortili, cantine e parcheggi.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg/960px-P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "titre": "P1200049 Paris IV enceinte de Philippe-Auguste rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1200049_Paris_IV_enceinte_de_Philippe-Auguste_rwk.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Visibile dalla strada, accesso libero",
+      "lien_officiel": null,
+      "adresse": "Rue des Jardins-Saint-Paul, 75004",
+      "coordonnees": {
+        "lat": 48.854,
+        "lng": 2.361
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue des Jardins-Saint-Paul"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "sens",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "L’Hôtel de Sens e la sua palla di cannone",
+      "accroche": "Una dimora medievale che conserva una palla di cannone nella facciata.",
+      "texte_long": "Torrette, tetti aguzzi, portale gotico: l’Hôtel de Sens è una delle rare grandi dimore medievali ancora in piedi a Parigi. Fu costruito alla fine del Quattrocento per gli arcivescovi di Sens, da cui allora dipendeva la diocesi di Parigi.\n\nCercate sulla facciata una palla di cannone incastonata nella pietra, con la data del 28 luglio 1830: un ricordo delle Tre Gloriose. Oggi l’edificio ospita la biblioteca Forney, dedicata alle arti decorative.",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Hotel-de-Sens-DSC_8075.jpg/960px-Hotel-de-Sens-DSC_8075.jpg",
+          "titre": "Hotel-de-Sens-DSC 8075",
+          "auteur": "Pline",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "Esterno ad accesso libero; giardino e biblioteca negli orari di apertura",
+      "lien_officiel": null,
+      "adresse": "1 rue du Figuier, 75004",
+      "coordonnees": {
+        "lat": 48.8532,
+        "lng": 2.3592
+      },
+      "plaque": {
+        "arrondissement": 4,
+        "rue": "Rue du Figuier"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Bibliothèques de la Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}
