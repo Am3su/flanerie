@@ -1730,6 +1730,7 @@ function render(o={}){
   if(state.screen==="mon")bindGallery(cur().byId[state.mon]);
   if(state.screen==="route"){saveOffline(cur());mountRouteMap(document.getElementById("route-map"),cur(),"route")}
   if(state.screen==="intro"){const w=document.getElementById("intro-map");mountWhenVisible(w,()=>mountRouteMap(w,featured(),"intro"))}
+  window.dispatchEvent(new Event("scroll"));
   if(state.screen==="place"&&state.autoplay){state.autoplay=false;
     if(state.voice&&(hasSpeech||stopAt(state.idx).audio))setTimeout(()=>{if(state.screen==="place"&&audio.status==="idle")togglePlay()},400)}
 }
