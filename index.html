@@ -486,11 +486,11 @@ svg{direction:ltr}
 .fl-pop.maplibregl-popup-anchor-bottom .maplibregl-popup-tip{border-top-color:var(--card)}
 .fl-pop.maplibregl-popup-anchor-top .maplibregl-popup-tip{border-bottom-color:var(--card)}
 .fl-pop .maplibregl-popup-close-button{width:28px;height:28px;font-size:18px;color:#fff;background:rgba(10,14,20,.45);border-radius:50%;top:6px;right:6px}
-.pop img{display:block;width:250px;height:120px;object-fit:cover;background:var(--paper-2)}
+.pop img{display:block;width:250px;height:96px;object-fit:cover;background:var(--paper-2)}
 .pop-b{padding:12px 14px 14px}
 .pop-k{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pop b{display:block;font-family:var(--display);font-size:20px;font-weight:500;line-height:1.15;margin-top:6px}
-.pop p{margin:6px 0 0;font-family:var(--serif);font-size:14px;line-height:1.45;color:var(--ink-2)}
+.pop p{margin:5px 0 0;font-family:var(--serif);font-size:13.5px;line-height:1.4;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .pop .btn{margin-top:10px;width:100%}
 .maplibregl-ctrl-group{border-radius:12px!important;overflow:hidden}
 .maplibregl-ctrl-attrib{font-family:var(--sans);font-size:10px}
@@ -1675,8 +1675,9 @@ async function mountRouteMap(wrap,r,kind){
   const entry=await createMap(wrap,{kind,points:pts,coop:kind==="route",interactive:kind==="route",padding:kind==="intro"?34:54});
   if(!entry)return;const {map,flavor}=entry,gl=window.maplibregl;
   try{addTrace(entry,r)}catch(e){}
-  r.std.forEach(m=>{const mk=new gl.Marker({element:mkMon()}).setLngLat([ll(m).lng,ll(m).lat]);if(kind==="route")mk.setPopup(popupFor(m,"mon"));mk.addTo(map)});
-  r.ins.forEach((p,i)=>{const mk=new gl.Marker({element:mkIns(i+1,flavor),anchor:flavor==="google"?"bottom":"center"}).setLngLat([ll(p).lng,ll(p).lat]);if(kind==="route")mk.setPopup(popupFor(p,"ins",i));mk.addTo(map)});
+  const pop=(mk,e,k,i)=>{const pp=popupFor(e,k,i);pp.on("open",()=>map.easeTo({center:mk.getLngLat(),offset:[0,Math.min(150,wrap.clientHeight*.32)],duration:450}));mk.setPopup(pp)};
+  r.std.forEach(m=>{const mk=new gl.Marker({element:mkMon()}).setLngLat([ll(m).lng,ll(m).lat]);if(kind==="route")pop(mk,m,"mon");mk.addTo(map)});
+  r.ins.forEach((p,i)=>{const mk=new gl.Marker({element:mkIns(i+1,flavor),anchor:flavor==="google"?"bottom":"center"}).setLngLat([ll(p).lng,ll(p).lat]);if(kind==="route")pop(mk,p,"ins",i);mk.addTo(map)});
   if(kind==="route"){map.addControl(new gl.NavigationControl({showCompass:true,visualizePitch:true}),"top-right");
     map.addControl(new gl.GeolocateControl({positionOptions:{enableHighAccuracy:true},trackUserLocation:true}),"top-right")}}
 function mountWhenVisible(wrap,fn){if(!wrap)return;if(!("IntersectionObserver" in window)){fn();return}
