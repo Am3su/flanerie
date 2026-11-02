@@ -1,10 +1,15 @@
 {
-  "version": 3,
+  "version": 4,
   "langue_reference": "fr",
   "langues_disponibles": [
     "fr",
     "en",
-    "es"
+    "es",
+    "it",
+    "de",
+    "pt",
+    "zh",
+    "ar"
   ],
   "langues_cibles": [
     "fr",
@@ -22,12 +27,22 @@
       "nom": {
         "fr": "Paris",
         "en": "Paris",
-        "es": "París"
+        "es": "París",
+        "it": "Parigi",
+        "de": "Paris",
+        "pt": "Paris",
+        "zh": "巴黎",
+        "ar": "باريس"
       },
       "pays": {
         "fr": "France",
         "en": "France",
-        "es": "Francia"
+        "es": "Francia",
+        "it": "Francia",
+        "de": "Frankreich",
+        "pt": "França",
+        "zh": "法国",
+        "ar": "فرنسا"
       },
       "statut": "actif",
       "photo": {
@@ -46,12 +61,22 @@
       "nom": {
         "fr": "Rome",
         "en": "Rome",
-        "es": "Roma"
+        "es": "Roma",
+        "it": "Roma",
+        "de": "Rom",
+        "pt": "Roma",
+        "zh": "罗马",
+        "ar": "روما"
       },
       "pays": {
         "fr": "Italie",
         "en": "Italy",
-        "es": "Italia"
+        "es": "Italia",
+        "it": "Italia",
+        "de": "Italien",
+        "pt": "Itália",
+        "zh": "意大利",
+        "ar": "إيطاليا"
       },
       "statut": "bientot",
       "photo": {
@@ -70,12 +95,22 @@
       "nom": {
         "fr": "Madrid",
         "en": "Madrid",
-        "es": "Madrid"
+        "es": "Madrid",
+        "it": "Madrid",
+        "de": "Madrid",
+        "pt": "Madri",
+        "zh": "马德里",
+        "ar": "مدريد"
       },
       "pays": {
         "fr": "Espagne",
         "en": "Spain",
-        "es": "España"
+        "es": "España",
+        "it": "Spagna",
+        "de": "Spanien",
+        "pt": "Espanha",
+        "zh": "西班牙",
+        "ar": "إسبانيا"
       },
       "statut": "bientot",
       "photo": {
@@ -94,12 +129,22 @@
       "nom": {
         "fr": "Londres",
         "en": "London",
-        "es": "Londres"
+        "es": "Londres",
+        "it": "Londra",
+        "de": "London",
+        "pt": "Londres",
+        "zh": "伦敦",
+        "ar": "لندن"
       },
       "pays": {
         "fr": "Royaume-Uni",
         "en": "United Kingdom",
-        "es": "Reino Unido"
+        "es": "Reino Unido",
+        "it": "Regno Unito",
+        "de": "Vereinigtes Königreich",
+        "pt": "Reino Unido",
+        "zh": "英国",
+        "ar": "المملكة المتحدة"
       },
       "statut": "bientot",
       "photo": {
@@ -120,12 +165,22 @@
       "nom": {
         "fr": "Paris insolite",
         "en": "Unusual Paris",
-        "es": "París insólito"
+        "es": "París insólito",
+        "it": "Parigi insolita",
+        "de": "Ungewöhnliches Paris",
+        "pt": "Paris insólita",
+        "zh": "不寻常的巴黎",
+        "ar": "باريس غير المألوفة"
       },
       "description": {
         "fr": "Lieux méconnus, détails cachés, histoires étonnantes.",
         "en": "Little-known places, hidden details, surprising stories.",
-        "es": "Lugares poco conocidos, detalles ocultos, historias sorprendentes."
+        "es": "Lugares poco conocidos, detalles ocultos, historias sorprendentes.",
+        "it": "Luoghi poco conosciuti, dettagli nascosti, storie sorprendenti.",
+        "de": "Wenig bekannte Orte, versteckte Details, überraschende Geschichten.",
+        "pt": "Lugares pouco conhecidos, detalhes escondidos, histórias surpreendentes.",
+        "zh": "鲜为人知的地方、隐藏的细节、令人惊讶的故事。",
+        "ar": "أماكن غير معروفة، وتفاصيل خفية، وحكايات مدهشة."
       },
       "statut": "actif"
     },
@@ -134,12 +189,22 @@
       "nom": {
         "fr": "Paris littéraire",
         "en": "Literary Paris",
-        "es": "París literario"
+        "es": "París literario",
+        "it": "Parigi letteraria",
+        "de": "Literarisches Paris",
+        "pt": "Paris literária",
+        "zh": "文学巴黎",
+        "ar": "باريس الأدبية"
       },
       "description": {
         "fr": "Sur les pas des écrivains.",
         "en": "In the footsteps of writers.",
-        "es": "Tras los pasos de los escritores."
+        "es": "Tras los pasos de los escritores.",
+        "it": "Sulle orme degli scrittori.",
+        "de": "Auf den Spuren der Schriftsteller.",
+        "pt": "Nos passos dos escritores.",
+        "zh": "追随作家的足迹。",
+        "ar": "على خطى الكتّاب."
       },
       "statut": "bientot"
     },
@@ -148,12 +213,22 @@
       "nom": {
         "fr": "Paris des femmes illustres",
         "en": "Paris of remarkable women",
-        "es": "París de mujeres ilustres"
+        "es": "París de mujeres ilustres",
+        "it": "Parigi delle donne illustri",
+        "de": "Paris der großen Frauen",
+        "pt": "Paris das mulheres ilustres",
+        "zh": "杰出女性的巴黎",
+        "ar": "باريس النساء الشهيرات"
       },
       "description": {
         "fr": "Leurs adresses, leurs combats.",
         "en": "Their addresses, their struggles.",
-        "es": "Sus direcciones, sus luchas."
+        "es": "Sus direcciones, sus luchas.",
+        "it": "I loro indirizzi, le loro battaglie.",
+        "de": "Ihre Adressen, ihre Kämpfe.",
+        "pt": "Seus endereços, suas lutas.",
+        "zh": "她们的住所，她们的抗争。",
+        "ar": "عناوينهن ونضالاتهن."
       },
       "statut": "bientot"
     }
@@ -169,7 +244,12 @@
       "langues": [
         "fr",
         "en",
-        "es"
+        "es",
+        "it",
+        "de",
+        "pt",
+        "zh",
+        "ar"
       ],
       "fichier": "content/{langue}/paris-insolite-5e-6e.json",
       "couverture": {
@@ -193,7 +273,12 @@
       "langues": [
         "fr",
         "en",
-        "es"
+        "es",
+        "it",
+        "de",
+        "pt",
+        "zh",
+        "ar"
       ],
       "fichier": "content/{langue}/paris-insolite-marais.json",
       "couverture": {
@@ -217,7 +302,12 @@
       "langues": [
         "fr",
         "en",
-        "es"
+        "es",
+        "it",
+        "de",
+        "pt",
+        "zh",
+        "ar"
       ],
       "fichier": "content/{langue}/paris-insolite-rivegauche.json",
       "couverture": {
@@ -241,7 +331,12 @@
       "langues": [
         "fr",
         "en",
-        "es"
+        "es",
+        "it",
+        "de",
+        "pt",
+        "zh",
+        "ar"
       ],
       "fichier": "content/{langue}/paris-insolite-journee.json",
       "couverture": {
