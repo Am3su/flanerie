@@ -1,0 +1,565 @@
+{
+  "parcours_id": "paris-insolite-5e-6e",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "zh",
+  "statut": "gratuit",
+  "titre": "不寻常的巴黎：从拉丁区到圣日耳曼",
+  "zone": "第5区和第6区",
+  "introduction": "七个我们常常擦肩而过却视而不见的地方：一家藏着灯光博物馆的小店、一座罗马圆形剧场、一间开在哥特式拱顶下的咖啡馆、一条大革命时期的老街廊、书本形状的长椅、一座拥有600多个品种的果园，还有一片蜂箱。沿途还会经过您早已熟悉的名胜古迹。",
+  "duree": {
+    "min": 210,
+    "max": 240
+  },
+  "distance_km": 5,
+  "mode": "pied",
+  "arrondissements": [
+    5,
+    6
+  ],
+  "depart": {
+    "nom": "地铁 Censier-Daubenton 站",
+    "coordonnees": {
+      "lat": 48.8403,
+      "lng": 2.3515
+    }
+  },
+  "etapes": [
+    {
+      "id": "eclairages-anciens",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "古灯博物馆",
+      "accroche": "一扇蓝色橱窗后面，一家修灯小店里藏着一座电灯时代之前的灯光博物馆。",
+      "texte_long": "在 rue Flatters 街，距离 Port-Royal 大道只有几步之遥，没有任何标志提示这里有一座博物馆。您只会看到一家蓝色门面的小店 Lumière de l’Œil，店里修理和出售古董灯具。但只要推门进去，请主人带您看看收藏，就仿佛穿越到了另一个时代。\n\n这家店由 Ara Kebapçioğlu 经营，街坊们都叫他“阿拉先生”。这位热忱的收藏家出生于土耳其，四十多年前在 rue Flatters 街安顿下来。他为自己的爱好写过一本书，名为《L’Autre siècle des lumières》（另一个光明的世纪）。他的心愿是：让人们看到，在电力普及之前，人们是如何照明的。\n\n在博物馆小小的展厅里，几十盏灯讲述着这段历史，时间跨度从18世纪末到20世纪初。它们燃烧的是油、煤油、煤气或酒精。请留意那些乳白玻璃灯罩、缀着珠串流苏的灯伞，以及金属或瓷质的灯座。从简单的油灯火苗到煤气灯，您能感受到照明技术走过的漫长道路。\n\n有些藏品有着自己的故事。阿拉先生亲手重新组装了一盏灯，它刚修复的灯罩上描绘着一幅令人联想到君士坦丁堡的风景。还有一盏样式几乎很现代的灯，据说是最早的床头油灯之一。这位收藏家还向巴黎历史博物馆卡纳瓦雷博物馆捐赠了多件藏品。\n\n店铺深处是工作间，用来修理灯具，也用来和访客聊天。这正是这里的魅力所在：您看到的不只是橱窗，还会遇见把这些藏品汇聚起来、能让每个机关重新运转的那个人。\n\n参观免费。博物馆周二至周五14:00–19:00开放，周六11:00–17:00开放。由于小店只有主人一人打理，最好提前预约；如果阿拉先生正在专心修理，请保持安静。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg/960px-Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "titre": "Plaque Rue Flatters - Paris V (FR75) - 2021-07-27 - 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Rue_Flatters_-_Paris_V_(FR75)_-_2021-07-27_-_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费。周二至周五14:00–19:00，周六11:00–17:00。建议致电 +33 1 47 07 63 47 预约。",
+      "lien_officiel": "https://www.lumieredeloeil.com",
+      "adresse": "4 rue Flatters, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.8378,
+        "lng": 2.34658
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue Flatters"
+      },
+      "monument_proche": "pantheon",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Avez-vous déjà visité… le musée des Éclairages anciens ?",
+          "url": "https://www.paris.fr/pages/avez-vous-deja-visite-le-musee-des-eclairages-anciens-29044"
+        },
+        {
+          "titre": "Sortir à Paris — Le musée des éclairages anciens",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/338860-the-museum-of-old-lighting-a-hidden-gem-tucked-away-inside-a-boutique-workshop-in-the-heart-of-paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "arenes-de-lutece",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "卢泰西亚竞技场",
+      "accroche": "一座被遗忘了几个世纪的罗马圆形剧场，如今人们在这里玩滚球。",
+      "texte_long": "在 rue Monge 街和 rue de Navarre 街之间，一条不起眼的通道通向一片宽阔的椭圆形沙地，四周环绕着石砌看台。您正站在卢泰西亚竞技场里——卢泰西亚是巴黎的古称。\n\n这座圆形剧场建于公元1世纪，曾在数千名观众面前上演角斗和表演。它还有一个罕见的特点：设有舞台，也可以演出戏剧 [À VÉRIFIER]。几个世纪过去，建筑渐渐被泥土和房屋掩埋，人们甚至忘记了它的位置。\n\n它的重新发现就像一部小说。1869年，奥斯曼主持开辟 rue Monge 街时，工人们挖到了建筑的一部分。拿破仑三世拒绝出资修复，遗迹又被重新掩埋。19世纪80年代，公共马车总公司想在这里修建有轨电车车库，又挖出了更多遗迹。这一次，包括维克多·雨果在内的社会名流纷纷出面，呼吁保护它。\n\n广场公园于1892年开放。在 Louis Capitan 的主持下，修复工作一直持续到1918年；旁边的花园自1931年起以他的名字命名。因此，您看到的部分是重建的，但平面布局和规模确实是古代圆形剧场的原貌。\n\n最令人惊讶的是巴黎人如今对它的用法。在昔日角斗的场地上，人们玩滚球，孩子们奔跑嬉戏，附近居民坐在看台上读书。尽管这里已有近两千年历史，却很少有游客走到这里。\n\n登上看台顶端，感受一下椭圆场地的规模，然后再走下场地：您脚下正是当年卢泰西亚上演表演的地方。公园每天开放，免费入场。冬季工作日8:00开门，周末9:00开门，17:45关门。冬季部分时间草坪会封闭养护。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费，公共广场公园。冬季工作日8:00–17:45、周末9:00–17:45开放。",
+      "lien_officiel": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760",
+      "adresse": "49 rue Monge ou rue des Arènes, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84506,
+        "lng": 2.35294
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": "jardin-des-plantes",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Square des Arènes de Lutèce et square Capitan",
+          "url": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "bernardins",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "在伯尔纳定会学院的哥特式大厅里喝咖啡",
+      "accroche": "在13世纪的拱顶下喝一杯咖啡——这座学院里曾经住过消防员，长达一百五十年。",
+      "texte_long": "rue de Poissy 街20号，朴素的外立面看不出任何端倪。走进大门，一座长达七十米的大厅在您面前展开，纤细的立柱一根根排开，在头顶舒展成哥特式拱顶。而就在这中世纪的场景中央，有人在端上咖啡。\n\n伯尔纳定会学院（Collège des Bernardins）由莱克星顿的斯蒂芬于1245年创立，用于培养熙笃会修士。工程于1248年开工，土地购自邻近的圣维克多修道院。五个多世纪里，修士们一直来这里求学。\n\n法国大革命改变了一切。学院于1790年被没收，部分建筑被拆除以回收石料。它先后成为监狱、仓库、学校以及国家警察学校的寄宿处。1845年，一个消防队进驻这里，一直待到1995年。也就是说，这座哥特式大厅在一个半世纪里伴着警笛声度过 [À VÉRIFIER]。\n\n此后，建筑由历史古迹总建筑师 Hervé Baptiste 主持修复，Jean-Michel Wilmotte 则设计了接待空间。学院于2008年9月4日落成，并于同月15日向公众开放。如今这里举办展览、讲座和音乐会。\n\n这里最妙的反差就藏在这里：大厅里开着一家咖啡餐厅 La Table des Bernardins。您可以坐下来喝杯咖啡或吃一顿简餐，坐在拱顶下或露台上都可以。很少有巴黎人知道，可以在城里最古老的中世纪建筑之一里喝咖啡。\n\n离开之前，请抬头看一看。立柱像林荫道上的树木一样整齐排列，仿佛毫不费力地托起拱顶的拱肋。欣赏这一景象无需花一分钱。\n\n大厅和花园免费开放，周一至周六10:00–18:00。咖啡馆工作日营业。另有收费导览（4至8欧元），可以深入了解学院的历史。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg/960px-Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+          "titre": "Paris - Collège des Bernardins - la nef - 011",
+          "auteur": "Thesupermat",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_-_Coll%C3%A8ge_des_Bernardins_-_la_nef_-_011.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg/960px-Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg",
+          "titre": "Collège Bernardins voûtes vaults",
+          "auteur": "Jebulon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Coll%C3%A8ge_Bernardins_vo%C3%BBtes_vaults.jpg",
+          "licence": "CC0",
+          "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "大厅和花园免费，周一至周六10:00–18:00。咖啡馆收费，周一至周五营业。周日闭馆。",
+      "lien_officiel": "https://www.collegedesbernardins.fr",
+      "adresse": "20 rue de Poissy, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84883,
+        "lng": 2.35198
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue de Poissy"
+      },
+      "monument_proche": "notre-dame",
+      "sources": [
+        {
+          "titre": "Sortir à Paris — Le Collège des Bernardins",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/10278-the-college-des-bernardins-one-of-paris-oldest-medieval-buildings-free-to-visit"
+        },
+        {
+          "titre": "Diocèse de Paris — Le Collège des Bernardins",
+          "url": "https://dioceseparis.fr/691-Le-College-des-Bernardins-un.html"
+        },
+        {
+          "titre": "Sortir à Paris — La Table des Bernardins",
+          "url": "https://www.sortiraparis.com/en/where-to-eat-in-paris/restaurant/articles/304398-la-table-des-bernardins-the-unusual-cafe-restaurant-nestled-in-the-nave-of-the-college-des-bernardins"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "cour-du-commerce",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "圣安德烈商业廊",
+      "accroche": "一条石板小巷，这里有中世纪城墙的塔楼、马拉的印刷所，还有普罗科普咖啡馆的后门。",
+      "texte_long": "在圣日耳曼大道和 rue Saint-André-des-Arts 街之间，一条石板小巷在老房子之间蜿蜒穿过。人们常常匆匆走过，并不停留。然而在短短几十米之内，它浓缩了巴黎八百多年的历史。\n\n先看看脚下。小巷沿着腓力二世（奥古斯都）在1190年至1215年间为保卫城市而修建的城墙护城河走向延伸。4号的一家店里，至今还保留着这道城墙一座塔楼的遗迹。茶室里藏着一座中世纪塔楼——这正是这里的气质。\n\n18世纪，一座网球场（jeu de paume）建在旧护城河上，随后小巷形成了今天的模样；它的玻璃顶棚建于19世纪。法国大革命期间，这里成了巴黎最动荡的地方之一。在8号，让-保罗·马拉印刷他的报纸《人民之友》。乔治·丹东就住在这条巷子里；他的住宅在修建圣日耳曼大道时被拆除，如今他的雕像就矗立在附近的大道上。\n\n这里还流传着一段更阴暗的故事。据说，1792年，德国人托比亚斯·施密特就在这里改进了后来被称为“断头台”的机器，先拿草捆、再拿绵羊做试验 [À VÉRIFIER]。关于作坊的确切地址，说法不一，因此需要谨慎看待。\n\n接着，请抬头看看普罗科普咖啡馆（Le Procope）的背面。这家巴黎最古老的咖啡馆开业于1686年，正门在 rue de l’Ancienne-Comédie 街，但也有一面朝向这条小巷。伏尔泰、卢梭、狄德罗和孟德斯鸠，以及后来的丹东、马拉和罗伯斯庇尔，都是这里著名的常客。\n\n小巷是公共通道，可以自由穿行。花点时间看看招牌、高低不平的石板路和橱窗：每一处都藏着这段历史的一角，从中世纪的城墙到大革命的印刷所。然后从大道一侧出去：圣日耳曼德佩教堂只有几分钟路程。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG/960px-P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "titre": "P1020083 Paris VI Cour du Commerce-Saint-André reductwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1020083_Paris_VI_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG/960px-P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "titre": "P1020086 Paris VI Cour Cour du Commerce-Saint-André reductwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1020086_Paris_VI_Cour_Cour_du_Commerce-Saint-Andr%C3%A9_reductwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费，公共通道，全天开放。",
+      "lien_officiel": null,
+      "adresse": "Cour du Commerce-Saint-André, entre le 130 boulevard Saint-Germain et la rue Saint-André-des-Arts, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8527,
+        "lng": 2.33894
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Cour du Commerce-St-André"
+      },
+      "monument_proche": "saint-germain-des-pres",
+      "sources": [
+        {
+          "titre": "Paris Zigzag — La cour du Commerce-Saint-André",
+          "url": "https://www.pariszigzag.fr/insolite/lieux-insolites/cour-saint-andre-saint-germain-odeon/"
+        },
+        {
+          "titre": "Bonjour Paris — Streets and Stories: La Cour du Commerce-Saint-André",
+          "url": "https://bonjourparis.com/history/streets-and-stories-la-cour-du-commerce-saint-andre/"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "square-gabriel-pierne",
+      "type": "insolite",
+      "ordre": 5,
+      "titre": "加布里埃尔·皮埃尔内广场和书本长椅",
+      "accroche": "在法兰西学院后面的樱花树下，两张打开的书本形状的石椅相对而立。",
+      "texte_long": "rue de Seine 街5号，就在法兰西学院圆顶的正后方，一座小广场静静地藏在铁栅栏后面。大多数路人匆匆走向塞纳河畔，根本没有注意到它。走进去的人，会发现圣日耳曼德佩最含蓄的一个小彩蛋。\n\n看看那些长椅。其中有两张石椅相对而立，形状是打开的书本，下面的椅脚则是合上的书。您真的是坐在一页书上，而几米之外就是守护法语的法兰西学术院。查阅的资料并没有说明它们由谁雕刻、何时制作 [À VÉRIFIER]。\n\n广场本身建于1938年，自1968年起以加布里埃尔·皮埃尔内（1863–1937）命名，他是一位管风琴家、作曲家和指挥家。\n\n广场中央的喷泉讲述着另一个故事——一次搬家。它由 Alexandre-Évariste Fragonard（1780–1850）于1830年设计，原本为莫贝尔广场的加尔默罗室内市场供水。1930年市场被拆除后，喷泉被搬到了这里。柱顶的两张寓意面孔分别代表“商业”与“丰饶”。\n\n再往前走几步，一位青铜少女仿佛正注视着您：她是 Carolina，由 Marcello Tommasi（1928–2008）于1968年创作。\n\n如果可以，春天来吧。四月，一排日本樱花开满粉色的花朵，花瓣铺满广场和旁边的街道。一年中的其他时候，这里是读几页书的安静角落，位于艺术桥和 rue de Seine 街的橱窗之间。\n\n反差正在于此：在一个人们为书店、画廊和文学咖啡馆而来的街区，对书本最美的致敬，或许就是这张无人留意的石椅。\n\n广场每天开放，免费进入。冬季工作日8:00开门，周末9:00开门，17:00关门。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg/960px-Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg",
+          "titre": "Book bench, Square Gabriel Pierné, Paris 11 February 2017",
+          "auteur": "Guilhem Vellut",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Book_bench,_Square_Gabriel_Piern%C3%A9,_Paris_11_February_2017.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Square_Gabriel-Piern%C3%A9_(15050977809).jpg/960px-Square_Gabriel-Piern%C3%A9_(15050977809).jpg",
+          "titre": "Square Gabriel-Pierné (15050977809)",
+          "auteur": "Schezar",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Square_Gabriel-Piern%C3%A9_(15050977809).jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费，公共广场。冬季工作日8:00、周末9:00开门，17:00关门。",
+      "lien_officiel": "https://www.paris.fr/lieux/square-gabriel-pierne-2453",
+      "adresse": "5 rue de Seine, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85692,
+        "lng": 2.33681
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Seine"
+      },
+      "monument_proche": "institut-de-france",
+      "sources": [
+        {
+          "titre": "Ville de Paris — Square Gabriel-Pierné",
+          "url": "https://www.paris.fr/lieux/square-gabriel-pierne-2453"
+        },
+        {
+          "titre": "Sortir à Paris — Les bancs-livres du square Gabriel-Pierné",
+          "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/history-heritage/articles/343842-this-parisian-square-in-the-6th-arrondissement-hides-benches-shaped-like-books-beneath-cherry-trees"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "verger-du-luxembourg",
+      "type": "insolite",
+      "ordre": 6,
+      "titre": "卢森堡公园的果树品种园",
+      "accroche": "在巴黎游人最多的公园一角，600多个品种的苹果树和梨树被修剪成令人惊叹的造型。",
+      "texte_long": "在卢森堡公园散步的人都知道大水池、绿色椅子和参议院所在的宫殿，却很少有人走到 rue Auguste-Comte 街那一侧。就在那里，一座独一无二的果园延续着三个半世纪以上的历史。\n\n一切始于1650年前后：一位来自维特里的居民——阿列克西修士——进入了卢森堡宫旁的加尔都西会修道院。修士们建起了一座颇有名气的苗圃：1712年，它每年培育出一万四千多棵果树。1789年，教会财产被收归国有，苗圃也随之停办。不过，部长让·沙普塔尔下令在修士们的旧址上重新种植这批藏品，1801–1802年前后，国立加尔都西苗圃得以重生。1866年，rue Auguste-Comte 街的修建确定了公园今天的边界。\n\n如今，果园在2100平方米的土地上种着一千多棵树：379个苹果品种和247个梨品种，例如“考密斯梨”（Doyenné du Comice）。这是一座保存在巴黎市中心的、关于古老水果的活图书馆。\n\n最令人惊讶的是这些树的形状。这里的树不会任其自由生长。它们被绑在支架上，修剪成单U或双U形、三叉戟形、烛台形、柱形、杯形，或以发明者命名的扇形：Verrier、Legendre、Ferraguti。凑近看看：每一棵树都是一件小雕塑，需要多年耐心修剪。\n\n这些技艺就在这里代代相传。果园是卢森堡公园园艺学校的教学场地，学校创办于1809年，每年招收约250名学员。至于收获的果实，会送到参议院参与的果树学展览上展出，并捐赠给第6区的慈善食堂。\n\n秋天，在公园橘园举办的展览会展出一株历史悠久的扇形果树“阿夫朗什好路易丝”（Louise Bonne d’Avranches）的骨架。\n\n在公园开放时间内，可以沿着步道自由参观果园。请勿离开步道：这些树很脆弱，而且用于教学。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Doyenn%C3%A9_du_comice_JdL.jpg/960px-Doyenn%C3%A9_du_comice_JdL.jpg",
+          "titre": "Doyenné du comice JdL",
+          "auteur": "Jebulon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Doyenn%C3%A9_du_comice_JdL.jpg",
+          "licence": "Domaine public",
+          "licence_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费，在卢森堡公园开放时间内可从步道上观赏。",
+      "lien_officiel": "https://jardin.senat.fr",
+      "adresse": "Jardin du Luxembourg, côté rue Auguste-Comte, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8446,
+        "lng": 2.3348
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue Auguste-Comte"
+      },
+      "monument_proche": "palais-du-luxembourg",
+      "sources": [
+        {
+          "titre": "Sénat — The Luxembourg Fruit Garden",
+          "url": "https://jardin.senat.fr/en/botany/the-luxembourg-fruit-garden.html"
+        }
+      ],
+      "verification": "a_verifier",
+      "note_coordonnees": "position estimée dans le jardin, à relever sur place"
+    },
+    {
+      "id": "rucher-du-luxembourg",
+      "type": "insolite",
+      "ordre": 7,
+      "titre": "卢森堡公园养蜂学校",
+      "accroche": "自1856年起，学徒养蜂人就在巴黎市中心、离参议院几步之遥的地方学习养蜂。",
+      "texte_long": "沿着果园朝 rue d’Assas 街方向走时，请竖起耳朵：您也许会听到嗡嗡声。在果树之间，一个个木制蜂箱围绕着一座小亭子。您眼前就是卢森堡公园的养蜂学校，自1856年起一直在运作。\n\n那一年，被誉为“法国养蜂之父”的图书管理员兼教师亨利·阿梅创立了一个养蜂协会，并在公园里放置了蜂箱 [À VÉRIFIER]。他的目标是：教巴黎人养蜜蜂。1866年，奥斯曼的大规模改造打乱了公园的这个角落；蜂场和果园被撤除，后于1872年恢复。\n\n旁边的亭子由加布里埃尔·达维乌于1867年建造，他设计了奥斯曼时期巴黎的许多公共设施。这里最初是一家咖啡餐厅，名为 Pépinière Buffet，如今用于园艺学校的免费课程和中央养蜂协会的讲座。\n\n因为教学仍在继续。学员们从二月中旬到九月，每周六上午上课，在亭子里学理论，在蜂箱之间做实践。课程结束时，通过考试可以获得养蜂人证书 [À VÉRIFIER]。\n\n2018年，蜂场共有十七个蜂箱，也就是近一百万只蜜蜂 [À VÉRIFIER]。它们在卢森堡公园和附近的花园里采蜜，每年产蜜约200公斤。这种蜂蜜在商店里买不到：每年秋天，九月的最后一个周末，在橘园举办的蜂蜜节上出售 [À VÉRIFIER]。\n\n请留在步道上：蜂箱是工作场所，蜜蜂不喜欢被打扰。但如果您经过时，正好有身穿防护服的养蜂人打开蜂箱，您将看到很少有巴黎人想象得到会出现在市中心的一幕。\n\n这是本路线的最后一站，也许是最出人意料的一站：在一家灯具店、一座罗马竞技场和一条大革命小巷之后，漫步在这里结束，伴着近一百万只蜜蜂劳作的嗡嗡声。\n\n公园开放时间内免费进入。养蜂课程收费，需向中央养蜂协会预约。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg/960px-Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg",
+          "titre": "Paris 6e Jardin du Luxembourg Rucher-École 293",
+          "auteur": "GFreihalter",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_6e_Jardin_du_Luxembourg_Rucher-%C3%89cole_293.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Parisd_75006_Rucher-%C3%89cole_du_Jardin_du_Luxembourg_20060730.jpg",
+          "titre": "Parisd 75006 Rucher-École du Jardin du Luxembourg 20060730",
+          "auteur": "O. Perrin (Wikipédia en français)",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Parisd_75006_Rucher-%C3%89cole_du_Jardin_du_Luxembourg_20060730.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费，在公园开放时间内可从步道上观赏。养蜂课程收费。",
+      "lien_officiel": "https://jardin.senat.fr",
+      "adresse": "Jardin du Luxembourg, près du pavillon Davioud, côté rue d’Assas, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.8449,
+        "lng": 2.3333
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue d’Assas"
+      },
+      "monument_proche": "palais-du-luxembourg",
+      "sources": [
+        {
+          "titre": "Messy Nessy — The Little Paris Beekeeping School (2018)",
+          "url": "https://www.messynessychic.com/2018/01/18/the-little-paris-beekeeping-school/"
+        },
+        {
+          "titre": "evous — Les ruches de Paris",
+          "url": "https://www.evous.fr/paris/Visiter/Les-ruches-de-Paris,1176309.html"
+        },
+        {
+          "titre": "Sénat — The Davioud pavilion",
+          "url": "https://jardin.senat.fr/en/history-heritage/heritage/the-davioud-pavilion.html"
+        }
+      ],
+      "verification": "a_verifier",
+      "note_coordonnees": "position estimée dans le jardin, à relever sur place"
+    },
+    {
+      "id": "pantheon",
+      "type": "standard",
+      "titre": "先贤祠",
+      "texte_court": "路易十五下令按照苏夫洛的设计，将它建为献给圣女日南斐法的教堂。1791年，法国大革命把它改为供奉国家伟人的殿堂。地下墓室里安葬着伏尔泰、卢梭、维克多·雨果、埃米尔·左拉和玛丽·居里等人。",
+      "etape_voisine": "eclairages-anciens",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg/960px-Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+          "titre": "Façade Panthéon Paris 1",
+          "auteur": "Chabe01",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "payant",
+      "acces_detail": "参观收费。",
+      "lien_officiel": "https://www.paris-pantheon.fr",
+      "adresse": "Place du Panthéon, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84619,
+        "lng": 2.34605
+      }
+    },
+    {
+      "id": "jardin-des-plantes",
+      "type": "standard",
+      "titre": "巴黎植物园",
+      "texte_court": "它创建于1635年，最初是皇家药用植物园，1640年向公众开放，如今是国家自然历史博物馆的核心。园中的林荫道、大温室和动物园距卢泰西亚竞技场仅几分钟路程。",
+      "etape_voisine": "arenes-de-lutece",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg/960px-Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg",
+          "titre": "Grande serre du Jardin des plantes, mai 2026, MNHN",
+          "auteur": "Gustave en résidence",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grande_serre_du_Jardin_des_plantes,_mai_2026,_MNHN.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "花园免费；温室、展馆和动物园收费。",
+      "lien_officiel": "https://www.jardindesplantesdeparis.fr",
+      "adresse": "57 rue Cuvier, 75005 Paris",
+      "coordonnees": {
+        "lat": 48.84404,
+        "lng": 2.35973
+      }
+    },
+    {
+      "id": "notre-dame",
+      "type": "standard",
+      "titre": "巴黎圣母院",
+      "texte_court": "大教堂始建于1163年，是哥特式艺术的杰作之一。2019年4月15日遭大火重创，经过五年修复，于2024年12月重新开放。从伯尔纳定会学院出来，在塞纳河畔就能看到它的后殿和飞扶壁。",
+      "etape_voisine": "bernardins",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg/960px-Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg",
+          "titre": "Cathédrale Notre Dame, Paris 30 September 2015",
+          "auteur": "Antonin Subtil",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费入场。",
+      "lien_officiel": "https://www.notredamedeparis.fr",
+      "adresse": "6 parvis Notre-Dame – place Jean-Paul-II, 75004 Paris",
+      "coordonnees": {
+        "lat": 48.85294,
+        "lng": 2.35005
+      }
+    },
+    {
+      "id": "saint-germain-des-pres",
+      "type": "standard",
+      "titre": "圣日耳曼德佩教堂",
+      "texte_court": "它是一座创建于6世纪的显赫修道院留下的最后遗迹，这个街区也因它而得名。钟楼建于公元1000年前后，是法国最古老的钟楼之一。教堂周围的文学咖啡馆，成就了圣日耳曼德佩的盛名。",
+      "etape_voisine": "cour-du-commerce",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg/960px-Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "titre": "Paris Abbaye Saint-Germain-des-Prés 3",
+          "auteur": "Zairon",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Abbaye_Saint-Germain-des-Pr%C3%A9s_3.jpg",
+          "licence": "CC BY-SA 4.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "免费入场。",
+      "lien_officiel": "https://www.eglise-saintgermaindespres.fr",
+      "adresse": "3 place Saint-Germain-des-Prés, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85397,
+        "lng": 2.33452
+      }
+    },
+    {
+      "id": "institut-de-france",
+      "type": "standard",
+      "titre": "法兰西学院和艺术桥",
+      "texte_court": "这座带圆顶的宫殿源于马扎然的遗嘱，他于1661年创立了四国学院。自1805年起，这里是法兰西学院及其下属五个学术院（包括法兰西学术院）的所在地。对面的艺术桥是巴黎第一座铁桥。",
+      "etape_voisine": "square-gabriel-pierne",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg/960px-Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+          "titre": "Pont des Arts, 6e Arrondissement, Paris (HDR) 20140320 1",
+          "auteur": "DXR",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_6e_Arrondissement,_Paris_(HDR)_20140320_1.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "外部可自由参观；学院内部导览收费。",
+      "lien_officiel": "https://www.institutdefrance.fr",
+      "adresse": "23 quai de Conti, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.85739,
+        "lng": 2.33784
+      }
+    },
+    {
+      "id": "palais-du-luxembourg",
+      "type": "standard",
+      "titre": "卢森堡宫",
+      "texte_court": "玛丽·德·美第奇从1615年开始建造这座宫殿，以纪念她家乡佛罗伦萨的皮蒂宫。如今这里是法国参议院所在地。它的花园是巴黎最受喜爱的公园之一，西南角就藏着本路线的果园和蜂场。",
+      "etape_voisine": "verger-du-luxembourg",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Palais_du_Luxembourg,_South_View_140116_1.jpg/960px-Palais_du_Luxembourg,_South_View_140116_1.jpg",
+          "titre": "Palais du Luxembourg, South View 140116 1",
+          "auteur": "DXR",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Palais_du_Luxembourg,_South_View_140116_1.jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "花园免费；宫殿需预约参观。",
+      "lien_officiel": "https://www.senat.fr",
+      "adresse": "15 rue de Vaugirard, 75006 Paris",
+      "coordonnees": {
+        "lat": 48.84854,
+        "lng": 2.33778
+      }
+    }
+  ],
+  "trajets": []
+}

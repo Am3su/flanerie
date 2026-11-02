@@ -1,0 +1,197 @@
+{
+  "parcours_id": "paris-insolite-rivegauche",
+  "ville": "paris",
+  "thematique": "insolite",
+  "langue": "zh",
+  "statut": "gratuit",
+  "exemple": true,
+  "titre": "左岸：从卢泰西亚到“米”",
+  "zone": "第5区和第6区",
+  "introduction": "一座罗马圆形剧场、一棵四百岁的老树、一条极窄的小街和一把大理石标尺：四个惊喜，带您认识左岸。",
+  "duree": {
+    "min": 120,
+    "max": 120
+  },
+  "distance_km": 2.7,
+  "mode": "pied",
+  "depart": {
+    "nom": null,
+    "coordonnees": {
+      "lat": 48.8426,
+      "lng": 2.3522
+    }
+  },
+  "etapes": [
+    {
+      "id": "arenes",
+      "type": "insolite",
+      "ordre": 1,
+      "titre": "卢泰西亚竞技场",
+      "accroche": "一座藏在楼房后面的罗马圆形剧场。",
+      "texte_long": "在 rue Monge 街的楼房后面，藏着一座高卢—罗马时期的圆形剧场。它建于1世纪末前后，曾在数千名观众面前上演角斗和表演。\n\n它被掩埋、遗忘了几个世纪，直到1869年修建 rue Monge 街时才被重新发现。当时，包括维克多·雨果在内的名流积极奔走，呼吁保护它。如今，人们在这里玩滚球，孩子们在场地上奔跑。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "titre": "Arènes de Lutèce (vue actuelle)",
+          "auteur": "Brodigny",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce_(vue_actuelle).jpg",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        },
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg/960px-Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "titre": "Arènes de Lutèce, Paris April 2011",
+          "auteur": "Chris Waits",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Lut%C3%A8ce,_Paris_April_2011.jpg",
+          "licence": "CC BY 2.0",
+          "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "公共广场，白天开放，免费",
+      "lien_officiel": null,
+      "adresse": "49 rue Monge, 75005",
+      "coordonnees": {
+        "lat": 48.8452,
+        "lng": 2.3527
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue des Arènes"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Base Mérimée ; Ville de Paris"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "viviani",
+      "type": "insolite",
+      "ordre": 2,
+      "titre": "巴黎最古老的树",
+      "accroche": "一棵四百多岁的老树，靠“拐杖”支撑着。",
+      "texte_long": "这棵刺槐靠着混凝土支柱，从17世纪初一直屹立至今。据说它是国王的植物学家让·罗宾在1601年前后种下的，这个原产北美的树种也因他而得名。\n\n它被认为是巴黎最古老的树，春天仍会开花。从广场上眺望巴黎圣母院，是左岸最美的景色之一。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG/960px-P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "titre": "P1130176 Paris V robinier du square René-Viviani rwk",
+          "auteur": "Mbzt",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:P1130176_Paris_V_robinier_du_square_Ren%C3%A9-Viviani_rwk.JPG",
+          "licence": "CC BY 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "公共广场，白天开放",
+      "lien_officiel": null,
+      "adresse": "Square René-Viviani, 75005",
+      "coordonnees": {
+        "lat": 48.8521,
+        "lng": 2.3474
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Square René-Viviani"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris ; Wikipédia"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "chat",
+      "type": "insolite",
+      "ordre": 3,
+      "titre": "钓鱼猫街",
+      "accroche": "巴黎最窄的街道：有些地方宽不到两米。",
+      "texte_long": "宽约1.8米：这是巴黎最窄的街道。它连接 rue de la Huchette 街和圣米歇尔河岸，离拉丁区熙熙攘攘的人群只有几步之遥。\n\n它的名字据说来自一块老招牌，上面画着一只正在抓鱼的猫。张开双臂：您几乎可以同时摸到两边的墙。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rue_du_Chat-qui-Peche.JPG/960px-Rue_du_Chat-qui-Peche.JPG",
+          "titre": "Rue du Chat-qui-Peche",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Chat-qui-Peche.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "步行街，免费",
+      "lien_officiel": null,
+      "adresse": "Entre la rue de la Huchette et le quai Saint-Michel, 75005",
+      "coordonnees": {
+        "lat": 48.8531,
+        "lng": 2.3463
+      },
+      "plaque": {
+        "arrondissement": 5,
+        "rue": "Rue du Chat-qui-Pêche"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Ville de Paris, nomenclature des voies"
+        }
+      ],
+      "verification": "a_verifier"
+    },
+    {
+      "id": "metre",
+      "type": "insolite",
+      "ordre": 4,
+      "titre": "rue de Vaugirard 街的标准米尺",
+      "accroche": "一把1796年安放的大理石标尺，用来让巴黎人认识“米”。",
+      "texte_long": "在卢森堡公园对面的一面墙上，一块大理石板上刻着一米长的标尺。它属于1796年和1797年在巴黎各处安放的标准米尺，目的是让居民熟悉新的公制。\n\n这是至今仍能看到的两把之一，也是唯一一把还留在原位的。您可以在这里量一量自己一步有多长。",
+      "audio": null,
+      "photos": [
+        {
+          "fichier": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/M%C3%A8tre-%C3%A9talon_Paris.JPG/960px-M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "titre": "Mètre-étalon Paris",
+          "auteur": "LPLT",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%A8tre-%C3%A9talon_Paris.JPG",
+          "licence": "CC BY-SA 3.0",
+          "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "statut_validation": "candidate"
+        }
+      ],
+      "statut_acces": "gratuit",
+      "acces_detail": "可在街上观看，免费",
+      "lien_officiel": null,
+      "adresse": "36 rue de Vaugirard, 75006",
+      "coordonnees": {
+        "lat": 48.8488,
+        "lng": 2.3332
+      },
+      "plaque": {
+        "arrondissement": 6,
+        "rue": "Rue de Vaugirard"
+      },
+      "monument_proche": null,
+      "sources": [
+        {
+          "titre": "Wikipédia ; Sénat"
+        }
+      ],
+      "verification": "a_verifier"
+    }
+  ],
+  "trajets": []
+}
