@@ -116,7 +116,7 @@ em.g{font-style:italic;color:var(--gold)}
 .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;color:#F6F2EA;background:#0E131B;overflow:hidden}
 .hero-img{position:absolute;inset:0;background-size:cover;background-position:center 40%;transform:scale(1.06);animation:heroZoom 18s ease-out forwards}
 @keyframes heroZoom{to{transform:scale(1)}}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,20,.55) 0%,rgba(10,14,20,.05) 26%,rgba(10,14,20,.25) 52%,rgba(10,14,20,.92) 100%)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,20,.6) 0%,rgba(10,14,20,.3) 24%,rgba(10,14,20,.5) 50%,rgba(10,14,20,.94) 100%)}
 .hero .top-in{position:relative;z-index:2;width:100%;padding-top:env(safe-area-inset-top,0px);height:auto;min-height:64px;grid-template-columns:1fr auto}
 .hero .mark{font-size:14px;letter-spacing:.38em;font-weight:500;text-transform:uppercase}
 .hero-body{position:relative;z-index:2;margin-top:auto;max-width:640px;width:100%;margin-left:auto;margin-right:auto;padding:0 var(--gut) calc(26px + env(safe-area-inset-bottom,0px))}
@@ -159,7 +159,7 @@ em.g{font-style:italic;color:var(--gold)}
 .rule-card h3{font-size:22px;margin:10px 0 6px}
 .rule-card p{margin:0;font-size:14px;line-height:1.5;color:var(--ink-2)}
 .feature{margin-top:26px;background:var(--card);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}
-.feature-img{position:relative;aspect-ratio:16/11;background:var(--paper-2) center/cover no-repeat}
+.feature-img{position:relative;aspect-ratio:16/11;max-height:440px;background:var(--paper-2) center/cover no-repeat}
 .feature-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(10,14,20,.75))}
 .feature-img .over{position:absolute;left:18px;right:18px;bottom:16px;z-index:2;color:#F6F2EA}
 .feature-img .over h3{font-size:30px;line-height:1.05}
@@ -422,6 +422,16 @@ mark.verif{background:color-mix(in srgb,#E0A100 22%,transparent);color:inherit;f
   .wrap.wide{max-width:980px}
   .land-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
   .cover{min-height:56vh}
+}
+@media (min-width:900px){
+  .hero .top-in{max-width:1080px;margin:0 auto;padding-left:var(--gut);padding-right:var(--gut)}
+  .hero::after{background:linear-gradient(90deg,rgba(10,14,20,.88) 0%,rgba(10,14,20,.6) 42%,rgba(10,14,20,.25) 100%),linear-gradient(180deg,rgba(10,14,20,.45),transparent 30%,transparent 65%,rgba(10,14,20,.85))}
+  .hero-body{max-width:1080px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);column-gap:56px;align-items:end;padding-bottom:40px}
+  .hero-body .kicker,.hero-body h1,.hero-body .hero-text,.hero-body .perks{grid-column:1}
+  .hero h1{font-size:clamp(52px,5.6vw,76px)}
+  .picker{grid-column:2;grid-row:1/span 4;align-self:end;margin:0;width:100%}
+  .hero .credit-line{max-width:1080px}
+  .feature-img{aspect-ratio:21/9}
 }
 </style>
 </head>
@@ -722,7 +732,7 @@ const paras=s=>String(s||"").split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean);
 /* Photos (Wikimedia Commons, ligne TASL obligatoire) */
 const phURL=(p,w)=>!p?"":(w&&/\/960px-/.test(p.fichier)?p.fichier.replace("/960px-",`/${w}px-`):p.fichier);
 const firstPhoto=e=>e&&e.photos&&e.photos.length?e.photos[0]:null;
-const coverOf=r=>{for(const e of r.ins){const p=firstPhoto(e);if(p)return p}return null};
+const coverOf=r=>{const c=DB.catalog&&DB.catalog.parcours.find(p=>p.parcours_id===r.parcours_id);if(c&&c.couverture)return c.couverture;for(const e of r.ins){const p=firstPhoto(e);if(p)return p}return null};
 const tasl=p=>!p?"":`${esc(p.titre)} — ${esc(p.auteur)} — <a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.source)}</a> — ${p.licence_url?`<a href="${esc(p.licence_url)}" target="_blank" rel="noopener">${esc(p.licence)}</a>`:esc(p.licence)}`;
 const bg=(p,w)=>p?` style="background-image:url('${phURL(p,w).replace(/'/g,"%27")}')"`:"";
 const imgTag=(p,w,alt,cls="")=>p?`<img${cls?` class="${cls}"`:""} src="${esc(phURL(p,w))}" alt="${esc(alt||p.titre)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`:`<span class="ph${cls?" "+cls:""}"></span>`;
@@ -823,12 +833,12 @@ function galleryHTML(e){
   if(!ps.length)return `<div class="gallery"><div class="no-photo">${t("noPhoto")}</div></div>`;
   return `<div class="gallery"><div class="track" id="track">${ps.map(p=>`<figure><img src="${esc(phURL(p,960))}" alt="${esc(p.titre)}" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').classList.add('broken')"></figure>`).join("")}</div>
     ${ps.length>1?`<div class="gdots" id="gdots">${ps.map((_,k)=>`<i class="${k?"":"on"}"></i>`).join("")}</div>`:""}</div>
-    <p class="tasl" id="tasl">${t("credit")} : ${tasl(ps[0])}${ps[0].statut_validation==="candidate"?` · <span class="cand">${t("photoCandidate")}</span>`:""}</p>`}
+    <p class="tasl" id="tasl">${t("credit")}${colon()}${tasl(ps[0])}${ps[0].statut_validation==="candidate"?` · <span class="cand">${t("photoCandidate")}</span>`:""}</p>`}
 function bindGallery(e){
   const tr=document.getElementById("track");if(!tr||!e.photos||e.photos.length<2)return;
   let k0=0;tr.addEventListener("scroll",()=>{const k=Math.round(tr.scrollLeft/tr.clientWidth);if(k===k0)return;k0=k;
     document.querySelectorAll("#gdots i").forEach((d,j)=>d.classList.toggle("on",j===k));
-    const p=e.photos[k];if(p)document.getElementById("tasl").innerHTML=`${t("credit")} : ${tasl(p)}${p.statut_validation==="candidate"?` · <span class="cand">${t("photoCandidate")}</span>`:""}`},{passive:true})}
+    const p=e.photos[k];if(p)document.getElementById("tasl").innerHTML=`${t("credit")}${colon()}${tasl(p)}${p.statut_validation==="candidate"?` · <span class="cand">${t("photoCandidate")}</span>`:""}`},{passive:true})}
 const panelHTML=e=>`<section class="panel"><h3>${t("practical")}</h3>
    <div class="acc">${badge(e.statut_acces)}<p>${esc(e.acces_detail||"")}</p></div>
    <p class="addr"><span>${t("address")}</span>${esc(e.adresse)}</p>
@@ -861,7 +871,7 @@ const SCREENS={
       </div>
       <ul class="perks">${t("perks").map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
     </div>
-    <p class="credit-line">${t("photo")} : ${tasl(hero)}</p>
+    <p class="credit-line">${t("photo")}${colon()}${tasl(hero)}</p>
    </section>
    <div class="wrap wide">
     <section class="sect" id="decouvrir"><div class="land-grid">
@@ -896,7 +906,7 @@ const SCREENS={
         <span class="in"><span><span class="name">${esc(L(v.nom))}</span><span class="meta">${esc(L(v.pays))} · ${t("toursN",routesOf(v.id).length)}</span></span><span class="go">${I.arrowR}</span></span></button>`).join("")}
        <p class="facet">${t("soonTitle")}</p>
        <div class="city-soon">${soon.map(v=>`<div${bg(v.photo,330)} aria-label="${esc(L(v.nom))} — ${esc(t("soon"))}"><span>${esc(L(v.nom))}<small>${t("soon")}</small></span></div>`).join("")}</div>
-       <p class="small" style="margin-top:12px">${t("photo")} : ${soon.map(v=>v.photo?`${esc(L(v.nom))} — ${esc(v.photo.auteur)}, <a href="${esc(v.photo.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${esc(v.photo.licence)}`:"").filter(Boolean).join(" · ")}</p></div>`;
+       <p class="small" style="margin-top:12px">${t("photo")}${colon()}${soon.map(v=>v.photo?`${esc(L(v.nom))} — ${esc(v.photo.auteur)}, <a href="${esc(v.photo.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>, ${esc(v.photo.licence)}`:"").filter(Boolean).join(" · ")}</p></div>`;
    }else if(st===2){
      const dev=deviceLang(),avail=DB.catalog.langues_disponibles||ACTIVE_LANGS,devOff=!avail.includes(dev)&&LANGS.some(l=>l[0]===dev)&&dev!=="fr";
      body=`<div class="q"><h1>${t("langQ")}</h1><p class="lede">${t("langText")}</p></div>
@@ -934,7 +944,7 @@ const SCREENS={
      ${topBar("choose",{floating:true})}
      <div class="wrap"><p class="kicker">${r.exemple?t("sample"):t("signature")} · ${esc(L(themeById(r.thematique)?.nom))}</p>
        <h1 style="margin-top:10px">${esc(r.titre)}</h1><p class="zone">${esc(r.zone)} ${badge(r.statut)}</p></div>
-     ${cv?`<p class="credit">${t("photo")} : ${esc(cv.auteur)} · ${esc(cv.licence)}</p>`:""}
+     ${cv?`<p class="credit">${t("photo")}${colon()}${esc(cv.auteur)} · ${esc(cv.licence)}</p>`:""}
    </section>
    <div class="wrap">
     <div class="facts">
@@ -970,7 +980,7 @@ const SCREENS={
     ${hasVerif?`<p class="small">${t("verifNote")}</p>`:""}
     ${panelHTML(p)}
     ${mon?`<button class="near" data-action="mon" data-id="${mon.id}">${imgTag(firstPhoto(mon),330,mon.titre)}<span><span class="k"><span class="dot" aria-hidden="true"></span>${t("nearby")}</span><span class="t">${esc(mon.titre)}</span></span>${I.chev}</button>`:""}
-    ${p.sources&&p.sources.length?`<p class="sources">${t("sources")} : ${p.sources.map(s=>s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titre)}</a>`:esc(s.titre)).join(" ; ")}</p>`:""}
+    ${p.sources&&p.sources.length?`<p class="sources">${t("sources")}${colon()}${p.sources.map(s=>s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titre)}</a>`:esc(s.titre)).join(" ; ")}</p>`:""}
     <div class="pager">
       <button class="btn ghost" data-action="step" data-d="-1"${i===0?" disabled":""} aria-label="${esc(t("prev"))}">${I.back}</button>
       <button class="btn primary" data-action="step" data-d="1">${nextLabel} ${I.arrowR}</button>
@@ -1033,6 +1043,8 @@ function langList(action){
 
 function sub(c,n){const loc=(LANG_IN[state.lang]||LANG_IN.fr)[c]||"";return loc&&loc.toLowerCase()!==n.toLowerCase()?`<span class="s">${esc(loc)}</span>`:""}
 const durShort=r=>r.duree.min===r.duree.max?fmtH(r.duree.min,state.lang):`${fmtH(r.duree.min,state.lang)}–${fmtH(r.duree.max,state.lang)}`;
+
+const colon=()=>state.lang==="fr"?"\u00a0: ":": ";
 /* ---------- Voix (synthèse vocale de l’appareil : coût nul, hors ligne) ---------- */
 const hasSpeech="speechSynthesis" in window;
 function voiceFor(lang){if(!hasSpeech)return null;const vs=speechSynthesis.getVoices()||[],norm=s=>(s||"").toLowerCase().replace("_","-"),want=norm(LOCALES[lang]);
